@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Graduate Scheme Radar</title>
+<meta name="description" content="Every open UK graduate scheme in banking, finance and consulting for the 2027 intake, re-checked every day. Closed schemes drop off automatically.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a fixed filter rail on top, a dense ledger of schemes below. Built for a daily 60-second scan. */
+:root {
+  --bg: #f3f5f8;
+  --surface: #ffffff;
+  --surface-2: #e9edf3;
+  --fg: #12203a;
+  --muted: #5a6a82;
+  --line: #d5dce7;
+  --accent: #0f5c8c;
+  --accent-ink: #ffffff;
+  --open: #157a4f;
+  --open-bg: #dff3e8;
+  --soon: #b45309;
+  --soon-bg: #fdecd2;
+  --closed: #a32424;
+  --closed-bg: #fbe1e1;
+  --unknown: #5a6a82;
+  --unknown-bg: #e6eaf0;
+  --new: #6d28d9;
+  --new-bg: #ede7fb;
+  --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
+  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --radius: 6px;
+  --shadow: 0 1px 2px rgba(18, 32, 58, .06), 0 4px 14px rgba(18, 32, 58, .05);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1623; --surface: #172032; --surface-2: #1f2a3f; --fg: #e8edf5; --muted: #9aa8bf; --line: #2b3850;
+    --accent: #5fb0e8; --accent-ink: #0f1623;
+    --open: #5fd39a; --open-bg: #143726; --soon: #f4b35a; --soon-bg: #3d2a10; --closed: #f48a8a; --closed-bg: #3f1c1c;
+    --unknown: #9aa8bf; --unknown-bg: #232f44; --new: #c4b0ff; --new-bg: #2b2250;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.35);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1623; --surface: #172032; --surface-2: #1f2a3f; --fg: #e8edf5; --muted: #9aa8bf; --line: #2b3850;
+  --accent: #5fb0e8; --accent-ink: #0f1623;
+  --open: #5fd39a; --open-bg: #143726; --soon: #f4b35a; --soon-bg: #3d2a10; --closed: #f48a8a; --closed-bg: #3f1c1c;
+  --unknown: #9aa8bf; --unknown-bg: #232f44; --new: #c4b0ff; --new-bg: #2b2250;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 4px 14px rgba(0,0,0,.35);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.5;
+  padding-inline: 16px; padding-block: 0 48px;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 1180px; margin-inline: auto; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+.mono { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+.eyebrow { font-family: var(--font-mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+/* Header */
+.top { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px; padding-block: 28px 18px; }
+.top h1 { font-size: clamp(24px, 3.4vw, 34px); font-weight: 700; letter-spacing: -.01em; }
+.top .sub { color: var(--muted); max-width: 62ch; margin-top: 4px; }
+.refresh { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; }
+.refresh .stamp { font-family: var(--font-mono); font-size: 13px; }
+.btn { border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 7px 12px; cursor: pointer; font-weight: 500; font-size: 14px; }
+.btn:hover { border-color: var(--accent); }
+.btn:focus-visible, .chip:focus-visible, input:focus-visible, select:focus-visible, .icon-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.btn.primary { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+
+/* Summary tiles */
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; margin-block: 6px 18px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; cursor: pointer; text-align: left; }
+.tile:hover { border-color: var(--accent); }
+.tile.active { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.tile .n { font-family: var(--font-display); font-size: 28px; font-weight: 600; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.tile .l { color: var(--muted); font-size: 13px; margin-top: 2px; }
+.tile.open .n { color: var(--open); }
+.tile.soon .n { color: var(--soon); }
+.tile.new .n { color: var(--new); }
+
+/* Filter rail */
+.rail { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); padding-block: 8px 10px; border-bottom: 1px solid var(--line); margin-bottom: 14px; }
+.rail-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.rail-row + .rail-row { margin-top: 8px; }
+.search { flex: 1 1 240px; min-width: 0; display: flex; align-items: center; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 0 10px; }
+.search input { flex: 1; min-width: 0; border: 0; background: transparent; padding: 8px 0; font: inherit; color: inherit; }
+.search input::placeholder { color: var(--muted); }
+select { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px; font: inherit; color: inherit; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; white-space: nowrap; }
+.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.chip .cnt { color: inherit; opacity: .6; font-family: var(--font-mono); font-size: 11px; margin-left: 4px; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--accent); }
+.count { color: var(--muted); font-size: 13px; margin-left: auto; font-variant-numeric: tabular-nums; }
+
+/* Ledger */
+.ledger { display: grid; gap: 8px; }
+.row { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); display: grid; grid-template-columns: 6px 1fr; overflow: hidden; }
+.row .stripe { background: var(--unknown); }
+.row[data-status="open"] .stripe { background: var(--open); }
+.row[data-status="opens-soon"] .stripe { background: var(--soon); }
+.row[data-status="closed"] .stripe { background: var(--closed); }
+.row .body { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; padding: 12px 14px; min-width: 0; }
+.row .main { min-width: 0; }
+.row .side { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; text-align: right; }
+.row .employer { font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+.row .prog { color: var(--fg); }
+.row .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; color: var(--muted); font-size: 13px; margin-top: 4px; }
+.row .meta span { white-space: nowrap; }
+.row .notes { color: var(--muted); font-size: 13px; margin-top: 6px; max-width: 90ch; }
+.row .evidence { font-size: 12px; color: var(--muted); margin-top: 6px; font-style: italic; }
+.row.applied { opacity: .6; }
+.pill { display: inline-block; border-radius: 999px; padding: 2px 9px; font-size: 12px; font-weight: 600; letter-spacing: .01em; white-space: nowrap; }
+.pill.open { background: var(--open-bg); color: var(--open); }
+.pill.opens-soon { background: var(--soon-bg); color: var(--soon); }
+.pill.closed { background: var(--closed-bg); color: var(--closed); }
+.pill.unknown { background: var(--unknown-bg); color: var(--unknown); }
+.pill.new { background: var(--new-bg); color: var(--new); }
+.pill.sector { background: var(--surface-2); color: var(--muted); font-weight: 500; }
+.deadline { font-family: var(--font-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.deadline.urgent { color: var(--closed); font-weight: 500; }
+.deadline.soon { color: var(--soon); font-weight: 500; }
+.actions { display: flex; gap: 6px; align-items: center; margin-top: 4px; }
+.icon-btn { border: 1px solid var(--line); background: var(--surface); border-radius: var(--radius); padding: 4px 8px; font-size: 12px; cursor: pointer; color: var(--muted); }
+.icon-btn[aria-pressed="true"] { color: var(--fg); border-color: var(--fg); }
+.apply { display: inline-block; background: var(--accent); color: var(--accent-ink); text-decoration: none; border-radius: var(--radius); padding: 6px 12px; font-weight: 600; font-size: 13px; }
+.apply:hover { filter: brightness(1.08); }
+.empty { text-align: center; color: var(--muted); padding: 48px 16px; border: 1px dashed var(--line); border-radius: var(--radius); }
+.loading { color: var(--muted); padding: 32px 0; }
+footer { color: var(--muted); font-size: 13px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--line); max-width: 80ch; }
+footer p { margin: 6px 0; }
+@media (max-width: 640px) {
+  .row .body { grid-template-columns: 1fr; }
+  .row .side { flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: flex-start; text-align: left; }
+  .refresh { align-items: flex-start; text-align: left; }
+  .count { margin-left: 0; width: 100%; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .row { transition: box-shadow .15s ease; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div>
+      <div class="eyebrow">2027 intake · UK · banking, finance, consulting</div>
+      <h1>Graduate Scheme Radar</h1>
+      <p class="sub">Every graduate scheme we can find, re-checked every morning against the employer's own page. Closed schemes disappear from the default view the day they close.</p>
+    </div>
+    <div class="refresh">
+      <div class="eyebrow">Last checked</div>
+      <div class="stamp" id="stamp">…</div>
+      <button class="btn" id="reload" type="button">Refresh list</button>
+    </div>
+  </header>
+
+  <section class="tiles" id="tiles" aria-label="Summary">
+    <button class="tile open" type="button" data-quick="open"><div class="n" id="t-open">–</div><div class="l">open right now</div></button>
+    <button class="tile" type="button" data-quick="week"><div class="n" id="t-week">–</div><div class="l">close within 7 days</div></button>
+    <button class="tile new" type="button" data-quick="new"><div class="n" id="t-new">–</div><div class="l">added this week</div></button>
+    <button class="tile soon" type="button" data-quick="opens-soon"><div class="n" id="t-soon">–</div><div class="l">opening soon</div></button>
+    <button class="tile" type="button" data-quick="saved"><div class="n" id="t-saved">–</div><div class="l">saved by you</div></button>
+  </section>
+
+  <div class="rail" id="rail">
+    <div class="rail-row">
+      <label class="search"><span aria-hidden="true">⌕</span><input id="q" type="search" placeholder="Search employer, programme, stream, city…" autocomplete="off"></label>
+      <select id="loc" aria-label="Location">
+        <option value="">Anywhere in the UK</option>
+        <option value="london">London</option>
+        <option value="wales">Cardiff &amp; Wales</option>
+        <option value="southwest">Bristol &amp; South West</option>
+        <option value="other">Other UK cities</option>
+      </select>
+      <select id="sort" aria-label="Sort">
+        <option value="deadline">Deadline soonest</option>
+        <option value="added">Newest added</option>
+        <option value="employer">Employer A–Z</option>
+        <option value="salary">Salary highest</option>
+      </select>
+    </div>
+    <div class="rail-row">
+      <div class="chips" id="sectors"></div>
+    </div>
+    <div class="rail-row">
+      <label class="toggle"><input type="checkbox" id="show-soon" checked> Opening soon</label>
+      <label class="toggle"><input type="checkbox" id="show-unknown" checked> Status unclear</label>
+      <label class="toggle"><input type="checkbox" id="show-closed"> Show closed</label>
+      <label class="toggle"><input type="checkbox" id="hide-applied"> Hide ones I've applied to</label>
+      <span class="count" id="count"></span>
+    </div>
+  </div>
+
+  <main class="ledger" id="ledger" aria-live="polite">
+    <div class="loading">Loading the latest list…</div>
+  </main>
+
+  <footer>
+    <p><strong>How it stays fresh.</strong> A script runs every morning, opens every employer page in this list, and reads whether applications are still open. Anything marked closed, expired or removed drops out of the default view. A separate search pass looks for new schemes and adds them with a purple "new" tag.</p>
+    <p><strong>Trust, but verify.</strong> Some employer pages are built so that a script cannot read them. Those keep their last known status and show as "status unclear" until a person checks. Always confirm the deadline on the employer's page before you plan around it.</p>
+    <p>Saved and applied marks live only in this browser.</p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  const SECTOR_LABELS = {
+    "investment-banking": "Investment banking",
+    "markets-trading": "Markets & trading",
+    "retail-commercial-banking": "Retail & commercial banking",
+    "asset-management": "Asset management",
+    "private-equity-vc": "Private equity & VC",
+    "wealth-management": "Wealth management",
+    "strategy-consulting": "Strategy consulting",
+    "management-tech-consulting": "Management & tech consulting",
+    "big4-professional-services": "Big 4",
+    "economics-consulting": "Economics consulting",
+    "accounting-audit-tax": "Accounting, audit & tax",
+    "insurance-actuarial": "Insurance & actuarial",
+    "fintech-payments": "Fintech & payments",
+    "central-bank-regulator-public": "Central bank, regulators & public",
+    "exchanges-data-ratings": "Exchanges, data & ratings"
+  };
+  const WALES = /cardiff|swansea|newport|wales|welsh|wrexham|bangor|caerphilly|bridgend|llan/i;
+  const SOUTHWEST = /bristol|bath|exeter|plymouth|cheltenham|gloucester|swindon|taunton|truro|south west/i;
+  const DAY = 86400000;
+
+  const state = {
+    all: [], meta: null,
+    q: "", loc: "", sort: "deadline", sectors: new Set(), quick: "",
+    showSoon: true, showUnknown: true, showClosed: false, hideApplied: false,
+    marks: loadMarks()
+  };
+
+  function loadMarks() { try { return JSON.parse(localStorage.getItem("gsr-marks") || "{}"); } catch (e) { return {}; } }
+  function saveMarks() { try { localStorage.setItem("gsr-marks", JSON.stringify(state.marks)); } catch (e) {} }
+  function loadPrefs() {
+    try {
+      const p = JSON.parse(localStorage.getItem("gsr-prefs") || "{}");
+      if (p.loc !== undefined) state.loc = p.loc;
+      if (p.sort) state.sort = p.sort;
+      if (Array.isArray(p.sectors)) state.sectors = new Set(p.sectors);
+      if (typeof p.showSoon === "boolean") state.showSoon = p.showSoon;
+      if (typeof p.showUnknown === "boolean") state.showUnknown = p.showUnknown;
+      if (typeof p.hideApplied === "boolean") state.hideApplied = p.hideApplied;
+    } catch (e) {}
+  }
+  function savePrefs() {
+    try { localStorage.setItem("gsr-prefs", JSON.stringify({ loc: state.loc, sort: state.sort, sectors: [...state.sectors], showSoon: state.showSoon, showUnknown: state.showUnknown, hideApplied: state.hideApplied })); } catch (e) {}
+  }
+
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  function today() { const d = new Date(); return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+  function parseDate(s) { if (!s || !/^\d{4}-\d{2}-\d{2}/.test(s)) return null; const d = new Date(s.slice(0, 10) + "T00:00:00"); return isNaN(d) ? null : d; }
+  function daysUntil(s) { const d = parseDate(s); return d ? Math.round((d - today()) / DAY) : null; }
+  function fmtDate(s) { const d = parseDate(s); return d ? d.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" }) : s; }
+  function effectiveStatus(r) {
+    const dl = daysUntil(r.deadline);
+    if (r.status === "open" && dl !== null && dl < 0) return "closed";
+    if (r.status === "opens-soon") { const o = daysUntil(r.opens); if (o !== null && o <= 0 && r.status_source !== "verified") return "unknown"; }
+    return r.status || "unknown";
+  }
+  function isNew(r) { const d = daysUntil(r.added_at); return d !== null && d >= -7; }
+  function salaryNum(r) { const m = String(r.salary || "").replace(/,/g, "").match(/(\d{2,3})(?:\.\d+)?k|(\d{4,6})/i); if (!m) return 0; return m[1] ? +m[1] * 1000 : +m[2]; }
+  function locBucket(r) {
+    const locs = (r.locations || []).join(" ");
+    return { london: /london/i.test(locs) || /multiple uk|nationwide|various/i.test(locs), wales: WALES.test(locs) || /multiple uk|nationwide|various/i.test(locs), southwest: SOUTHWEST.test(locs) || /multiple uk|nationwide|various/i.test(locs), other: !/london/i.test(locs) || /multiple uk|nationwide|various/i.test(locs) };
+  }
+
+  function matches(r) {
+    const st = effectiveStatus(r);
+    const mk = state.marks[r.id] || {};
+    if (state.quick === "saved") { if (!mk.saved) return false; }
+    else {
+      if (st === "closed" && !state.showClosed && state.quick !== "closed") return false;
+      if (st === "opens-soon" && !state.showSoon && state.quick !== "opens-soon") return false;
+      if (st === "unknown" && !state.showUnknown) return false;
+      if (state.quick === "open" && st !== "open") return false;
+      if (state.quick === "opens-soon" && st !== "opens-soon") return false;
+      if (state.quick === "week") { const d = daysUntil(r.deadline); if (st !== "open" || d === null || d > 7) return false; }
+      if (state.quick === "new" && !isNew(r)) return false;
+    }
+    if (state.hideApplied && mk.applied) return false;
+    if (state.sectors.size && !state.sectors.has(r.sector)) return false;
+    if (state.loc) { const b = locBucket(r); if (!b[state.loc]) return false; }
+    if (state.q) {
+      const hay = [r.employer, r.programme, r.stream, r.sector, SECTOR_LABELS[r.sector], (r.locations || []).join(" "), r.notes, r.degree_req].join(" ").toLowerCase();
+      if (!state.q.split(/\s+/).every((w) => hay.includes(w))) return false;
+    }
+    return true;
+  }
+
+  function sortRows(rows) {
+    const big = 1e9;
+    const dl = (r) => { const d = daysUntil(r.deadline); return d === null ? (r.deadline === "rolling" ? big - 1 : big) : d; };
+    const order = { open: 0, "opens-soon": 1, unknown: 2, closed: 3 };
+    rows.sort((a, b) => {
+      if (state.sort === "employer") return a.employer.localeCompare(b.employer) || a.programme.localeCompare(b.programme);
+      if (state.sort === "added") return (b.added_at || "").localeCompare(a.added_at || "") || a.employer.localeCompare(b.employer);
+      if (state.sort === "salary") return salaryNum(b) - salaryNum(a) || a.employer.localeCompare(b.employer);
+      const sa = order[effectiveStatus(a)], sb = order[effectiveStatus(b)];
+      return sa - sb || dl(a) - dl(b) || a.employer.localeCompare(b.employer);
+    });
+    return rows;
+  }
+
+  function deadlineText(r, st) {
+    if (st === "opens-soon") { const o = daysUntil(r.opens); return r.opens ? (o !== null ? (o > 0 ? `opens ${fmtDate(r.opens)} · in ${o} day${o === 1 ? "" : "s"}` : `expected to open ${fmtDate(r.opens)}`) : `opens ${esc(r.opens)}`) : "opening date not published"; }
+    if (st === "closed") return r.deadline && parseDate(r.deadline) ? `closed ${fmtDate(r.deadline)}` : "closed";
+    if (!r.deadline) return "deadline not published";
+    if (r.deadline === "rolling") return "rolling · apply early";
+    const d = daysUntil(r.deadline);
+    if (d === null) return esc(r.deadline);
+    if (d === 0) return `closes today · ${fmtDate(r.deadline)}`;
+    if (d < 0) return `closed ${fmtDate(r.deadline)}`;
+    return `closes ${fmtDate(r.deadline)} · ${d} day${d === 1 ? "" : "s"} left`;
+  }
+  function deadlineClass(r, st) { if (st !== "open") return ""; const d = daysUntil(r.deadline); if (d === null) return ""; if (d <= 3) return "urgent"; if (d <= 14) return "soon"; return ""; }
+
+  function render() {
+    const rows = sortRows(state.all.filter(matches));
+    const led = $("ledger");
+    if (!rows.length) {
+      led.innerHTML = `<div class="empty">Nothing matches these filters. Clear a filter, or tick "Show closed" to see everything we know about.</div>`;
+    } else {
+      led.innerHTML = rows.map((r) => {
+        const st = effectiveStatus(r);
+        const mk = state.marks[r.id] || {};
+        const label = { open: "Open", "opens-soon": "Opens soon", closed: "Closed", unknown: "Status unclear" }[st];
+        const ev = r.status_evidence ? `<div class="evidence">${esc(r.status_evidence)}${r.checked_at ? ` (checked ${fmtDate(r.checked_at)})` : ""}</div>` : "";
+        return `<article class="row${mk.applied ? " applied" : ""}" data-status="${st}" data-id="${esc(r.id)}">
+          <div class="stripe" aria-hidden="true"></div>
+          <div class="body">
+            <div class="main">
+              <div class="employer">${esc(r.employer)} ${isNew(r) ? '<span class="pill new">new</span>' : ""}</div>
+              <div class="prog">${esc(r.programme)}${r.stream && r.stream !== "Various" ? ` · <span style="color:var(--muted)">${esc(r.stream)}</span>` : ""}</div>
+              <div class="meta">
+                <span class="pill sector">${esc(SECTOR_LABELS[r.sector] || r.sector)}</span>
+                <span>${esc((r.locations || []).join(", ") || "UK")}</span>
+                ${r.degree_req ? `<span>${esc(r.degree_req)}</span>` : ""}
+                ${r.salary ? `<span class="mono">${esc(r.salary)}</span>` : ""}
+                ${r.start ? `<span>starts ${esc(r.start)}</span>` : ""}
+              </div>
+              ${r.notes ? `<div class="notes">${esc(r.notes)}</div>` : ""}
+              ${ev}
+            </div>
+            <div class="side">
+              <span class="pill ${st}">${label}</span>
+              <span class="deadline ${deadlineClass(r, st)}">${deadlineText(r, st)}</span>
+              <a class="apply" href="${esc(r.apply_url || r.url)}" target="_blank" rel="noopener">${st === "open" ? "Apply" : "Employer page"} ↗</a>
+              <div class="actions">
+                <button class="icon-btn" type="button" data-mark="saved" aria-pressed="${!!mk.saved}">${mk.saved ? "★ Saved" : "☆ Save"}</button>
+                <button class="icon-btn" type="button" data-mark="applied" aria-pressed="${!!mk.applied}">${mk.applied ? "✓ Applied" : "Mark applied"}</button>
+              </div>
+            </div>
+          </div>
+        </article>`;
+      }).join("");
+    }
+    $("count").textContent = `${rows.length} of ${state.all.length} schemes shown`;
+    renderTiles();
+    renderSectorChips();
+    document.querySelectorAll(".tile").forEach((t) => t.classList.toggle("active", t.dataset.quick === state.quick));
+  }
+
+  function renderTiles() {
+    const all = state.all;
+    const st = all.map(effectiveStatus);
+    const open = st.filter((s) => s === "open").length;
+    const week = all.filter((r, i) => { const d = daysUntil(r.deadline); return st[i] === "open" && d !== null && d >= 0 && d <= 7; }).length;
+    const soon = st.filter((s) => s === "opens-soon").length;
+    const nw = all.filter((r) => isNew(r) && effectiveStatus(r) !== "closed").length;
+    const saved = all.filter((r) => (state.marks[r.id] || {}).saved).length;
+    $("t-open").textContent = open; $("t-week").textContent = week; $("t-soon").textContent = soon; $("t-new").textContent = nw; $("t-saved").textContent = saved;
+  }
+
+  function renderSectorChips() {
+    const counts = {};
+    state.all.forEach((r) => { if (effectiveStatus(r) !== "closed") counts[r.sector] = (counts[r.sector] || 0) + 1; });
+    const keys = Object.keys(SECTOR_LABELS).filter((k) => counts[k]).concat(Object.keys(counts).filter((k) => !SECTOR_LABELS[k]));
+    const box = $("sectors");
+    const html = keys.map((k) => `<button class="chip" type="button" data-sector="${esc(k)}" aria-pressed="${state.sectors.has(k)}">${esc(SECTOR_LABELS[k] || k)}<span class="cnt">${counts[k]}</span></button>`).join("");
+    if (box.innerHTML !== html) box.innerHTML = html;
+    if (state.sectors.size) { const clear = document.createElement("button"); clear.className = "chip"; clear.type = "button"; clear.dataset.clear = "1"; clear.textContent = "Clear sectors"; box.appendChild(clear); }
+  }
+
+  function syncControls() {
+    $("loc").value = state.loc; $("sort").value = state.sort;
+    $("show-soon").checked = state.showSoon; $("show-unknown").checked = state.showUnknown; $("show-closed").checked = state.showClosed; $("hide-applied").checked = state.hideApplied;
+  }
+
+  async function load() {
+    $("stamp").textContent = "checking…";
+    try {
+      const bust = Date.now();
+      const [schemes, meta] = await Promise.all([
+        fetch(`data/schemes.json?v=${bust}`, { cache: "no-store" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch(`data/meta.json?v=${bust}`, { cache: "no-store" }).then((r) => (r.ok ? r.json() : null)).catch(() => null)
+      ]);
+      state.all = (Array.isArray(schemes) ? schemes : schemes.schemes || []).filter((r) => r && r.id && r.employer);
+      state.meta = meta;
+      const when = meta && meta.last_run ? new Date(meta.last_run) : null;
+      $("stamp").textContent = when ? when.toLocaleString("en-GB", { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" }) : "unknown";
+      if (meta && meta.last_run && (Date.now() - new Date(meta.last_run)) > 2.5 * DAY) $("stamp").textContent += " · stale, check the refresh job";
+      render();
+    } catch (e) {
+      $("ledger").innerHTML = `<div class="empty">Could not load the list (${esc(e.message)}). Try again in a minute.</div>`;
+      $("stamp").textContent = "failed to load";
+    }
+  }
+
+  // Events
+  $("q").addEventListener("input", (e) => { state.q = e.target.value.trim().toLowerCase(); render(); });
+  $("loc").addEventListener("change", (e) => { state.loc = e.target.value; savePrefs(); render(); });
+  $("sort").addEventListener("change", (e) => { state.sort = e.target.value; savePrefs(); render(); });
+  $("show-soon").addEventListener("change", (e) => { state.showSoon = e.target.checked; savePrefs(); render(); });
+  $("show-unknown").addEventListener("change", (e) => { state.showUnknown = e.target.checked; savePrefs(); render(); });
+  $("show-closed").addEventListener("change", (e) => { state.showClosed = e.target.checked; render(); });
+  $("hide-applied").addEventListener("change", (e) => { state.hideApplied = e.target.checked; savePrefs(); render(); });
+  $("reload").addEventListener("click", load);
+  $("sectors").addEventListener("click", (e) => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.clear) state.sectors.clear();
+    else if (state.sectors.has(b.dataset.sector)) state.sectors.delete(b.dataset.sector); else state.sectors.add(b.dataset.sector);
+    savePrefs(); render();
+  });
+  $("tiles").addEventListener("click", (e) => {
+    const t = e.target.closest(".tile"); if (!t) return;
+    state.quick = state.quick === t.dataset.quick ? "" : t.dataset.quick; render();
+  });
+  $("ledger").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-mark]"); if (!b) return;
+    const id = b.closest(".row").dataset.id; const m = state.marks[id] || (state.marks[id] = {});
+    m[b.dataset.mark] = !m[b.dataset.mark]; saveMarks(); render();
+  });
+
+  loadPrefs(); syncControls(); load();
+})();
+</script>
+</body>
+</html>
