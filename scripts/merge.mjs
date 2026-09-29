@@ -10,7 +10,8 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const STATUSES = new Set(["open", "closed", "opens-soon", "unknown"]);
 
 export function slug(s) { return String(s || "").toLowerCase().normalize("NFKD").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 60); }
-export function norm(s) { return String(s || "").toLowerCase().replace(/\b(the|ltd|plc|llp|uk|limited|group|20\d\d|programme|program|scheme|graduate)\b/g, " ").replace(/[^a-z0-9]+/g, " ").trim(); }
+const CITY = /\b(london|glasgow|edinburgh|manchester|birmingham|leeds|bristol|cardiff|dublin|belfast|newcastle|nottingham|reading|chester|bournemouth|sheffield|liverpool|milton keynes|multiple|nationwide|various|september|sept|autumn|intake|full time|fulltime)\b/g;
+export function norm(s) { return String(s || "").toLowerCase().replace(/\([^)]*\)/g, " ").replace(/\b(the|ltd|plc|llp|uk|limited|group|20\d\d|programme|program|scheme|graduate|and|&)\b/g, " ").replace(CITY, " ").replace(/[^a-z0-9]+/g, " ").trim(); }
 function normUrl(u) { try { const x = new URL(u); x.hash = ""; x.search = ""; return (x.host + x.pathname).replace(/\/$/, "").toLowerCase(); } catch { return String(u || "").toLowerCase(); } }
 
 export function clean(r) {
@@ -46,14 +47,18 @@ function isJunk(r) {
 }
 
 export function mergeInto(existing, incoming) {
+  // URL matching only counts when the URL is unique to one programme; hub pages shared by several programmes never match.
   const byKey = new Map(); const byUrl = new Map();
-  for (const e of existing) { byKey.set(`${norm(e.employer)}|${norm(e.programme)}|${norm(e.stream)}`, e); byUrl.set(normUrl(e.apply_url || e.url), e); byUrl.set(normUrl(e.url), e); }
+  const noteUrl = (u, e) => { const k = normUrl(u); if (!k) return; byUrl.set(k, byUrl.has(k) && byUrl.get(k) !== e ? "SHARED" : e); };
+  for (const e of existing) { byKey.set(`${norm(e.employer)}|${norm(e.programme)}`, e); noteUrl(e.url, e); if (e.apply_url) noteUrl(e.apply_url, e); }
   let added = 0, updated = 0, skipped = 0;
   for (const raw of incoming) {
     const r = clean(raw);
     if (isJunk(r)) { skipped++; continue; }
-    const key = `${norm(r.employer)}|${norm(r.programme)}|${norm(r.stream)}`;
-    const hit = byKey.get(key) || byUrl.get(normUrl(r.url));
+    const key = `${norm(r.employer)}|${norm(r.programme)}`;
+    const urlHit = byUrl.get(normUrl(r.apply_url || r.url));
+    // A URL match only counts as the same programme when employer and programme name agree (so shared apply portals never collapse different streams).
+    const hit = byKey.get(key) || (urlHit && urlHit !== "SHARED" && norm(urlHit.employer) === norm(r.employer) && norm(urlHit.programme) === norm(r.programme) ? urlHit : null);
     if (hit) {
       // Fill gaps, take a newer deadline/status if the research is more recent than the last verification.
       for (const f of ["deadline", "opens", "degree_req", "salary", "apply_url"]) if (!hit[f] && r[f]) hit[f] = r[f];
@@ -65,7 +70,7 @@ export function mergeInto(existing, incoming) {
       let id = `${slug(r.employer)}--${slug(r.programme)}`; let n = 2; const ids = new Set(existing.map((e) => e.id));
       while (ids.has(id)) id = `${slug(r.employer)}--${slug(r.programme)}-${n++}`;
       const e = { id, ...r, added_at: TODAY };
-      existing.push(e); byKey.set(key, e); byUrl.set(normUrl(e.url), e); added++;
+      existing.push(e); byKey.set(key, e); noteUrl(e.url, e); if (e.apply_url) noteUrl(e.apply_url, e); added++;
     }
   }
   return { added, updated, skipped };
