@@ -24,7 +24,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2601,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "accenture--strategy-graduate-programme-2027-uk",
@@ -52,7 +61,16 @@
       "https://higherin.com/jobs/42807/accenture/register-your-interest-consulting-graduate-programme-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2158,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "alixpartners--business-analyst-accelerated-consulting-programme-london",
@@ -66,8 +84,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "AlixPartners' students page (via search, 2026-09-29) says 2025 applications are closed and gives no 2027 dates; Intervyo lists 2027 as TBC.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"to footer AlixPartners.com Get in touch Accessibility tools Apply now Careers Top place to work Students and recent graduates Exp\"",
     "url": "https://www.alixpartners.com/careers/students-and-recent-graduates/",
     "apply_url": "https://features.alixpartners.com/business-analyst-programme/",
     "degree_req": "Master's degree in finance, economics, business, maths, engineering, statistics or computer science",
@@ -78,7 +96,16 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6217
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "alma-economics--economist-analyst-cardiff-and-london",
@@ -104,7 +131,16 @@
       "https://almaeconomics.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5235,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "alpha-fmc--insurance-consulting-graduate-2027",
@@ -129,7 +165,16 @@
       "https://alphafmc.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 30141,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "alpha-fmc--insurance-consulting-graduate-2027-2",
@@ -155,7 +200,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/alpha-fmc/asset-and-wealth-technology-consulting-graduate-analyst-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6158,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "alpha-fmc--strategy-deals-graduate-associate-2027",
@@ -180,7 +234,16 @@
       "https://job-boards.greenhouse.io/alphafmcrolesearlycareers/jobs/8789041002"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7544,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "alvarez-marsal--analyst-august-2027-start-financial-operational-restructurin",
@@ -206,7 +269,14 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/alvarez-marsal/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "analysis-group--analyst-full-time-2027-london",
@@ -232,7 +302,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/why-analysis-group/analyst-generalist-london-2025"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6668,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "arthur-d-little--business-analyst-london-graduate-entry",
@@ -257,7 +336,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/arthur-d-little/business-analyst-intern"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10951,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "aurora-energy-research--analyst-graduate-analyst-oxford",
@@ -271,8 +359,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official Aurora careers page read 2026-09-29 lists several open Analyst roles in Oxford (Advisory, Research) but the only '2027 Graduate Analyst Program' posting is for Austin, Texas.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"updates on job openings, graduate opportunities, and more! Register Your Interest Aurora Energy Research Privacy Policy Cookies Powered by\"",
     "url": "https://auroraer.com/careers/",
     "apply_url": "https://careers.auroraer.com/",
     "degree_req": null,
@@ -282,7 +370,16 @@
       "https://auroraer.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2454
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "aviva-investors--graduate-programme-2027",
@@ -296,8 +393,8 @@
     "start": "2027",
     "opens": "2026-10-01",
     "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Aviva Investors graduates page (search snippet, 2026-09-29) says applications open in October; the page returned 403 to the research tool. Intervyo tracker lists it as TBC.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"ainable returns. Our application process Graduate Programme Applications open in October, with roles starting the following September. Tr\"",
     "url": "https://careers.avivainvestors.com/our-roles/graduates-and-trainees/",
     "apply_url": null,
     "degree_req": "All degree subjects welcome",
@@ -308,7 +405,16 @@
       "https://www.fe.training/free-resources/careers-in-finance/asset-management-graduate-schemes-2026/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6268
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "baillie-gifford--investment-research-programme-2027",
@@ -334,7 +440,15 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4125
+    },
+    "status_source": "verified"
   },
   {
     "id": "bain-company--associate-consultant-2027-london",
@@ -360,7 +474,15 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/bain-company/associate-consultant-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10234
+    },
+    "status_source": "verified"
   },
   {
     "id": "bank-of-america--emea-investment-banking-global-markets-2027-full-time-analys",
@@ -386,7 +508,16 @@
       "https://careers.bankofamerica.com/en-us/students/job-detail/14592/investment-banking-2027-off-cycle-analyst-uk-ireland-investment-banking-emea-corporate-broking-london-london-united-kingdom"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 14155,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "bank-of-america--financial-management-full-time-2027-analyst-chester",
@@ -411,7 +542,15 @@
       "https://bankcampuscareers.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/14664-Financial-Management-Full-Time-2027-Analyst-Chester/en-GB"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10372
+    },
+    "status_source": "verified"
   },
   {
     "id": "bank-of-england--graduate-development-programme-2027",
@@ -439,7 +578,16 @@
       "https://www.bankofengland.co.uk/careers/how-to-apply"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6077,
+      "note": "closed:\"Applications are closed\" open:\"register your interest\""
+    },
+    "status_source": "ambiguous"
   },
   {
     "id": "barclays--2027-risk-analyst-graduate-programme-london-glasgow",
@@ -466,7 +614,15 @@
       "https://search.jobs.barclays/search-jobs?k=2027&l=United+Kingdom"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 44809
+    },
+    "status_source": "verified"
   },
   {
     "id": "barclays--banking-graduate-programme-2027-london",
@@ -493,7 +649,16 @@
       "https://search.jobs.barclays/search-jobs?k=graduate%20programme%202027&l=United%20Kingdom"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45014,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barclays--capital-markets-graduate-programme-2027-london",
@@ -518,7 +683,16 @@
       "https://search.jobs.barclays/job/london/capital-markets-graduate-programme-2027-london/13015/99885319584"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 44815,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barclays--global-transaction-banking-graduate-programme-2027-london",
@@ -543,7 +717,16 @@
       "https://search.jobs.barclays/job/london/global-transaction-banking-graduate-programme-2027-london/13015/100032500192"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 47229,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barclays--quantitative-analytics-associate-graduate-programme-2027-lon",
@@ -570,7 +753,16 @@
       "https://search.jobs.barclays/job/london/quantitative-analytics-associate-graduate-programme-2027-london/13015/100174975856"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45746,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barclays--sales-trading-and-structuring-graduate-programme-2027-london",
@@ -595,7 +787,16 @@
       "https://search.jobs.barclays/job/london/sales-trading-and-structuring-graduate-programme-2027-london/13015/100425237424"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45051,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barclays--uk-corporate-banking-graduate-programme-2027",
@@ -624,7 +825,16 @@
       "https://search.jobs.barclays/search-jobs?k=graduate%20programme%202027&l=United%20Kingdom"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 21739,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "baringa--graduate-analyst-2027",
@@ -650,7 +860,16 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 15745,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "barnett-waddingham-howden--investment-analyst-graduate-2027",
@@ -682,7 +901,12 @@
       "https://www.barnett-waddingham.co.uk/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "failures": 1,
+      "last_error": "fetch failed"
+    }
   },
   {
     "id": "berenberg--investment-bank-graduate-programme-london-2027-intake",
@@ -708,7 +932,16 @@
       "https://careers.berenberg.com/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3074,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "berkeley-research-group--associate-early-careers-london",
@@ -733,7 +966,16 @@
       "https://www.thinkbrg.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "blackrock--2027-full-time-analyst-program-emea",
@@ -760,7 +1002,15 @@
       "https://targetjobs.co.uk/jobs/2027-full-time-analyst-program-emea-233665"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 12240
+    },
+    "status_source": "verified"
   },
   {
     "id": "blackstone--2027-blackstone-strategic-partners-analyst-london",
@@ -786,7 +1036,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "bmo-capital-markets--new-graduate-programmes-2027-bmo-capital-markets-london",
@@ -811,7 +1070,16 @@
       "https://jobs.bmo.com/global/en/new-grad"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 401,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "bnp-paribas-cib--uk-graduate-programme-2027-global-markets-global-banking",
@@ -837,7 +1105,14 @@
       "https://careers.cib.bnpparibas/jobs/london-2027-summer-internship-global-markets/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "bny--2027-bny-analyst-program-client-service-client-coverage-deli",
@@ -864,7 +1139,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "boston-consulting-group--associate-2027-full-time-london",
@@ -890,7 +1174,16 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3588,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "brevan-howard--2027-graduate-programme-risk-treasury-london",
@@ -916,7 +1209,16 @@
       "https://careers.brevanhoward.com/gb/en/job/BHABHAGBJR101584EXTERNALENGB/2027-Summer-Internship-Program-Trading-London"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 268,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "british-business-bank--graduate-programme-2027",
@@ -942,7 +1244,16 @@
       "https://targetjobs.co.uk/organisations/british-business-bank"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5301,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "cambridge-associates--2027-graduate-programme-investment-associate-london",
@@ -968,7 +1279,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "cambridge-econometrics--economist-graduate-cambridge",
@@ -994,7 +1314,16 @@
       "https://www.linkedin.com/jobs/view/economist-graduate-at-cambridge-econometrics-3375525349"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 13470,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "candesic--analyst-graduate-entry-london",
@@ -1008,8 +1337,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Candesic careers page read 2026-09-29 says 'For graduates, we offer an attractive analyst career path' with a general Apply Now link but no dated 2027 vacancy.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"vidual retirement fund Cycle to work scheme Ready to apply? Apply Now Legal Notices Subscribe to news © Candesic 2026 Subscribe t\"",
     "url": "https://www.candesic.com/careers",
     "apply_url": null,
     "degree_req": "Outstanding academic record in medicine, STEM or business",
@@ -1019,7 +1348,16 @@
       "https://www.candesic.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6738
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "capco--associate-talent-program-atp-uk",
@@ -1033,8 +1371,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official Capco UK ATP page read 2026-09-29 describes the programme but gives no open/closed status or dates; the job search portal is JavaScript-only.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"FOUND {{job.Title}} {{job.Country}} | Job ID {{job.JobId}} Apply now LOAD MORE Follow us on linked-in Follow us on instagram Fol\"",
     "url": "https://www.capco.com/careers/germany/berufseinsteigerinnen/uk-atp",
     "apply_url": "https://www.capco.com/Careers/Job-Search",
     "degree_req": "Minimum 2:1 in any subject (quantitative preferred)",
@@ -1044,7 +1382,16 @@
       "https://www.capco.com/careers/germany/berufseinsteigerinnen/uk-atp"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1929
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "capital-economics--graduate-training-scheme-assistant-economist-september-2027",
@@ -1069,7 +1416,16 @@
       "https://www.capitaleconomics.com/graduate-recruitment"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 75,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "capital-group--cap-associate-europe-2027",
@@ -1095,7 +1451,15 @@
       "https://www.capitalgroup.com/about-us/cap.html"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 15565
+    },
+    "status_source": "verified"
   },
   {
     "id": "capula-investment-management--capula-analyst-programme-cap-2027",
@@ -1121,7 +1485,16 @@
       "https://careers.capulaglobal.com/graduates/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3130,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "cavendish--analyst-m-a-direct-entry-no-formal-2027-graduate-scheme-list",
@@ -1147,7 +1520,16 @@
       "https://www.cavendish.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1682,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "cebr-centre-for-economics-and-business-research--economist-graduate-entry-london",
@@ -1161,8 +1543,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Cebr careers page returned HTTP 403 on 2026-09-29.",
+    "status": "closed",
+    "status_evidence": "Employer page returns 404 (removed).",
     "url": "https://cebr.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -1172,7 +1554,13 @@
       "https://cebr.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 404,
+      "failures": 0
+    },
+    "status_source": "http"
   },
   {
     "id": "centerview-partners--2027-london-analyst-programme",
@@ -1197,7 +1585,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "charles-river-associates--analyst-2027-european-competition-practice-london",
@@ -1223,7 +1618,16 @@
       "https://ecp.crai.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9504,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "citadel--quantitative-research-analyst-university-graduate-europe",
@@ -1249,7 +1653,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "citadel-securities--quantitative-trader-university-graduate-europe-2027",
@@ -1275,7 +1686,14 @@
       "https://app.the-trackr.com/company/citadel"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "citi--banking-investment-banking-corporate-banking-full-time-analy",
@@ -1290,7 +1708,7 @@
     "opens": null,
     "deadline": null,
     "status": "closed",
-    "status_evidence": "Official posting titles read 2026-09-29 state the 2027 London Investment Banking and Corporate Banking Full Time Analyst roles are 'applicable for 2026 London Summer interns only', so they are not open to external graduates.",
+    "status_evidence": "Employer page returns 404 (removed).",
     "url": "https://jobs.citi.com/job/london/banking-corporate-banking-full-time-analyst-london-united-kingdom-2027-applicable-for-2026-london-s/287/100133501264",
     "apply_url": null,
     "degree_req": null,
@@ -1300,7 +1718,13 @@
       "https://jobs.citi.com/job/london/banking-corporate-banking-full-time-analyst-london-united-kingdom-2027-applicable-for-2026-london-s/287/100133501264"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 404,
+      "failures": 0
+    },
+    "status_source": "http"
   },
   {
     "id": "citi--markets-sales-and-trading-full-time-analyst-london-2027",
@@ -1326,7 +1750,15 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10098
+    },
+    "status_source": "verified"
   },
   {
     "id": "civil-service-fast-stream--government-economic-service-fast-stream-2027",
@@ -1353,7 +1785,16 @@
       "https://www.studentbeans.com/blog/uk/graduate-scheme-deadlines"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10884,
+      "note": "closed:\"Applications are now closed\" open:\"Register your interest\""
+    },
+    "status_source": "ambiguous"
   },
   {
     "id": "close-brothers--early-careers-graduate-programmes-2027",
@@ -1378,7 +1819,16 @@
       "https://www.closebrothers.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 67,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "columbia-threadneedle-investments--graduate-programme-2027-24-month-rotational-global-research",
@@ -1404,7 +1854,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "compass-lexecon--analyst-2027-london-emea",
@@ -1430,7 +1889,16 @@
       "https://fticonsulting.wd108.myworkdayjobs.com/en-US/CompassLexeconCareers/job/Analyst_JR261049"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "competition-and-markets-authority--delivery-graduate-scheme-2027",
@@ -1460,7 +1928,16 @@
       "https://www.gov.uk/government/organisations/competition-and-markets-authority/about/recruitment"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 411,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "cornerstone-research--analyst-2027-united-kingdom",
@@ -1486,7 +1963,14 @@
       "https://www.cornerstone.com/careers/analyst/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 405,
+      "failures": 0,
+      "note": "HTTP 405",
+      "http_failures": 1
+    }
   },
   {
     "id": "cornwall-insight--graduate-analyst-programme-16-months",
@@ -1500,8 +1984,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official careers page read 2026-09-29 describes the 16-month graduate programme with an 'Apply Here' link to cornwallinsight.pinpointhq.com but gives no dates or open/closed status.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"worry if you don't see any roles you want to apply for now. Register your interest to allow us to contact you when a suitable role meeting you\"",
     "url": "https://www.cornwall-insight.com/careers/",
     "apply_url": "https://cornwallinsight.pinpointhq.com/",
     "degree_req": "Any degree (a history graduate is featured)",
@@ -1511,7 +1995,16 @@
       "https://www.cornwall-insight.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1200
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "dc-advisory--2027-graduate-programme-london",
@@ -1536,7 +2029,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 14,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "deloitte--consulting-graduate-programme-2027-incl-monitor-deloitte-str",
@@ -1550,8 +2052,8 @@
     "start": "2027",
     "opens": "2026-10-05",
     "deadline": "2026-10-23",
-    "status": "unknown",
-    "status_evidence": "Deloitte's UK early-careers portal (read 2026-09-29) showed 169 vacancies but only Actuarial/Audit/Assurance on the first page and no Consulting graduate vacancy; a search snippet from Deloitte says Consulting applications open 5 October, while the Intervyo tracker lists Deloitte as 28 September to 23 October 2026.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"r Vacation Scheme Location: Edinburgh Start Date: June-2027 Apply now Share this Programme: Share Share with LinkedIn this job:'A\"",
     "url": "https://www.deloitte.com/uk/en/careers/early-careers/early-careers-programmes.html",
     "apply_url": "https://apply.deloitte.co.uk/UKEarlyCareers",
     "degree_req": "Predicted or achieved 2:1 in any discipline; graduated by September 2027",
@@ -1563,7 +2065,16 @@
       "https://higherin.com/jobs/43729/deloitte/register-your-interest-consulting-graduate-programme-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "deutsche-bank--graduate-programme-2027-investment-banking-capital-markets-o",
@@ -1577,8 +2088,8 @@
     "start": "2027",
     "opens": "2026-09-07",
     "deadline": "2026-10-11",
-    "status": "opens-soon",
-    "status_evidence": "Deutsche Bank's official 'Your application' page read 2026-09-29 gives the UK London window for DB Management Consulting, Private Bank, Chief Risk Office and Group Audit as '5 October - 18 October 2026'.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"You are here: Home Students and Graduates Search Programmes Apply now X LinkedIn Facebook XING Imprint Legal Resources Data Priva\"",
     "url": "https://careers.db.com/students-graduates/graduate-programme/",
     "apply_url": "https://careers.db.com/students-graduates/Search-Programmes/",
     "degree_req": "On track for a 2:1 or First (or equivalent); complete studies between 1 Jan 2026 and 31 Jul 2027; no more than 12 months relevant full-time work experience",
@@ -1590,7 +2101,16 @@
       "https://www.gradcracker.com/hub/403/deutsche-bank/graduate-job/82897/deutsche-bank-graduate-programme-investment-banking-and-capital-markets-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1462
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "economic-insight--analyst-london",
@@ -1615,7 +2135,16 @@
       "https://www.economic-insight.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1723,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "efficio--consultant-graduate-entry-london",
@@ -1629,8 +2158,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Efficio's explore-roles page read 2026-09-29 showed no London graduate/analyst consulting vacancy (only a Data Enablement Officer role in London); the firm's main graduate route appears to be the summer internship for penultimate-year students.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"globe. Ready to apply? View our latest vacancies and apply. Apply now Search Contact Careers Explore roles We seek out the best p\"",
     "url": "https://www.efficioconsulting.com/en-gb/careers/explore-roles/",
     "apply_url": null,
     "degree_req": null,
@@ -1640,7 +2169,16 @@
       "https://www.efficioconsulting.com/en-gb/careers/explore-roles/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4218
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "elixirr--2027-graduate-analyst-consulting-analyst",
@@ -1665,7 +2203,15 @@
       "https://www.elixirr.com/en-gb/job-openings/2027-graduate-analyst/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 16346
+    },
+    "status_source": "verified"
   },
   {
     "id": "europe-economics--analyst-london",
@@ -1680,7 +2226,7 @@
     "opens": null,
     "deadline": null,
     "status": "closed",
-    "status_evidence": "Official Analyst page read 2026-09-29: 'While we are not currently recruiting for Analyst or Research Officer roles, we welcome prospective CVs'.",
+    "status_evidence": "Employer page says: \"distinctive experience is welcomed but not required. While we are not currently recruiting for Analyst or Research Officer roles, we welcome prospecti\"",
     "url": "https://www.europe-economics.com/analyst",
     "apply_url": null,
     "degree_req": "Postgraduate degree in economics",
@@ -1690,7 +2236,15 @@
       "https://www.europe-economics.com/analyst"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 11503
+    },
+    "status_source": "verified"
   },
   {
     "id": "evelyn-partners--investment-management-financial-planning-graduate-programmes",
@@ -1716,7 +2270,16 @@
       "https://careers.smartrecruiters.com/EvelynPartners/early-careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 618,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "evercore--2027-graduate-programme-restructuring-london",
@@ -1742,7 +2305,16 @@
       "https://www.intervyo.co.uk/firms/evercore"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3746,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "ey--consulting-graduate-programme-2027",
@@ -1756,8 +2328,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Official EY UK graduates page read 2026-09-29: 'we are only currently open for some programmes. Consulting and EY-Parthenon opportunities ... will open shortly'.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"> Audit Graduate Programme &#8211; April 2027 intake London Apply now Shape trust and confidence in global businesses Programme o\"",
     "url": "https://www.ey.com/en_uk/careers/students/graduates",
     "apply_url": "https://ukstudents.ey.com/",
     "degree_req": "Any degree; EY uses strengths-based assessment",
@@ -1767,7 +2339,16 @@
       "https://ukstudents.ey.com/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45175
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "ey-parthenon--ey-parthenon-strategy-graduate-programme-2027",
@@ -1782,8 +2363,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Official EY UK student site read 2026-09-29: '2027 applications are now open' for some programmes but 'Consulting and EY-Parthenon opportunities ... will open shortly so please keep checking back'.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"> Audit Graduate Programme &#8211; April 2027 intake London Apply now Shape trust and confidence in global businesses Programme o\"",
     "url": "https://www.ey.com/en_uk/careers/parthenon/earlycareers",
     "apply_url": "https://go.ey.com/ec-careers-site-apply",
     "degree_req": "Any degree discipline",
@@ -1794,7 +2375,16 @@
       "https://www.ey.com/en_uk/careers/students/graduates/sat-graduate-programme-options"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45175
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "fidelity-international--2027-graduate-programmes-equity-research-fixed-income-multi-",
@@ -1822,7 +2412,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3227,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "fideres--junior-economist-analyst-london",
@@ -1848,7 +2447,16 @@
       "https://job-boards.greenhouse.io/fideres"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 709,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "financial-conduct-authority--fca-graduate-programme-2027",
@@ -1875,7 +2483,16 @@
       "https://www.fca.org.uk/careers/early-careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "franklin-templeton--futures-associate-2027-investment-management-london",
@@ -1890,7 +2507,7 @@
     "opens": null,
     "deadline": "2026-09-20",
     "status": "closed",
-    "status_evidence": "targetjobs listing read 2026-09-29 shows the deadline as 20 September 2026 and the role as expired.",
+    "status_evidence": "Employer page says: \"Rotational Graduate Program - Investment Management Expired Applications closed: 20/09/2026 Graduate scheme Similar jobs you might be inter\"",
     "url": "https://targetjobs.co.uk/jobs/futures-rotational-graduate-program-investment-management-239001",
     "apply_url": null,
     "degree_req": "Bachelor's by September 2027 in Finance, Economics, Business or related; internship experience; UK work authorisation (no visa sponsorship)",
@@ -1901,7 +2518,15 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/franklin-templeton/futures-associate-edinburgh-2027-alf6"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 15571
+    },
+    "status_source": "verified"
   },
   {
     "id": "frontier-economics--graduate-economic-analyst-2027-london",
@@ -1927,7 +2552,16 @@
       "https://www.frontier-economics.com/uk/en/careers/vacancies-and-apply/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "fti-consulting--economic-financial-consulting-graduate-scheme-2027-london",
@@ -1953,7 +2587,16 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1892,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "goldman-sachs--new-analyst-programme-2027-emea",
@@ -1982,7 +2625,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 29,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "government-economic-service--assistant-economist-graduate-scheme-next-intake",
@@ -1996,8 +2648,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Official gov.uk guidance read 2026-09-29 says the scheme 'is now closed for applications' with a 'notify me when applications open' option; last cycle ran February to March.",
+    "status": "unknown",
+    "status_evidence": "Page shows both open and closed wording: \"duate scheme is now closed for applications. NOTIFY ME WHEN APPLICATIONS OPEN What does an Assistant Economist do? The Government Economi\"",
     "url": "https://www.gov.uk/guidance/assistant-economist-recruitment",
     "apply_url": null,
     "degree_req": "First or 2:1 in economics (both micro and macro studied) or postgraduate economics qualification",
@@ -2007,7 +2659,17 @@
       "https://www.gov.uk/guidance/assistant-economist-recruitment"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9576,
+      "note": "closed:\"Applications are now closed\" open:\"APPLICATIONS OPEN\""
+    },
+    "status_source": "ambiguous",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "guggenheim-securities--2027-investment-banking-analyst-london",
@@ -2021,8 +2683,8 @@
     "start": "2027",
     "opens": null,
     "deadline": "2026-07-29",
-    "status": "unknown",
-    "status_evidence": "Guggenheim's careers page read 2026-09-29 only links out to job boards; Intervyo's tracker records the 2027 programme as closed on 29 Jul 2026.",
+    "status": "closed",
+    "status_evidence": "Deadline 2026-07-29 has passed.",
     "url": "https://www.guggenheimpartners.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -2033,7 +2695,12 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "failures": 0
+    },
+    "status_source": "deadline"
   },
   {
     "id": "harris-williams--investment-banking-1st-year-analyst-london-summer-2027",
@@ -2058,7 +2725,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "hm-treasury--graduate-policy-programme-2027",
@@ -2085,7 +2761,16 @@
       "https://hmtreasurycareers.co.uk/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9473,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "houlihan-lokey--2027-graduate-financial-analyst-london",
@@ -2110,7 +2795,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "hsbc--uk-graduate-programmes-2027-corporate-institutional-banking-",
@@ -2141,7 +2835,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/hsbc/finance-graduate-programme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3174,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "hsbc-uk--international-wealth-and-premier-banking-graduate-programme-",
@@ -2155,8 +2858,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Not listed on HSBC's official UK programme finder on 2026-09-29; Group Infrastructure named as a graduate business area.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"– and they could take you in directions you never imagined. Apply now Who you are If you're in your final year of study or have r\"",
     "url": "https://www.hsbc.com/careers/students-and-graduates/graduate-programmes",
     "apply_url": null,
     "degree_req": null,
@@ -2166,7 +2869,16 @@
       "https://www.hsbc.com/careers/students-and-graduates/graduate-programmes"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10035
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "hudson-river-trading--new-grad-roles-london-quantitative-trader-algorithm-develope",
@@ -2193,7 +2905,14 @@
       "https://www.flowtraders.com/careers/graduates"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "hymans-robertson--graduate-programme-2027-investment-actuarial",
@@ -2221,7 +2940,16 @@
       "https://www.hymans.co.uk/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 537,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "icg-intermediate-capital-group--graduate-programme-investment-and-client-relations",
@@ -2235,8 +2963,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Official early-careers page read 2026-09-29 states the graduate programme is closed for applications and directs candidates to ICG's LinkedIn/Instagram for future openings.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"al career pathways If you’re interested in applying, please submit your application for ICG internships directly through our partner websites.\"",
     "url": "https://www.icgam.com/people-and-careers/careers/early-careers/",
     "apply_url": null,
     "degree_req": null,
@@ -2246,7 +2974,16 @@
       "https://www.icgam.com/people-and-careers/careers/early-careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 12311
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "ing--wholesale-banking-international-talent-programme-2027",
@@ -2272,7 +3009,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 13070,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "insight-investment--2027-uk-graduate-programme-investment-team",
@@ -2287,8 +3033,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official careers pages returned 404 to the research tool on 2026-09-29; the 2026 programme opened August 2025 for a July 2026 start, so 2027 may already be open. Intervyo tracker lists 2027 as TBC.",
+    "status": "closed",
+    "status_evidence": "Employer page returns 404 (removed).",
     "url": "https://www.insightinvestment.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -2299,7 +3045,13 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 404,
+      "failures": 0
+    },
+    "status_source": "http"
   },
   {
     "id": "institute-for-fiscal-studies--research-economist-graduate-recruitment",
@@ -2324,7 +3076,14 @@
       "https://ifs.org.uk/jobs"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "invesco--investment20-20-trainee-programme-2027-henley-on-thames",
@@ -2350,7 +3109,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "investec--uk-graduate-programmes-2027",
@@ -2375,7 +3141,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "ippr--researcher-entry-level",
@@ -2400,7 +3173,16 @@
       "https://www.ippr.org/about/jobs"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2280,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "isio--investment-advisory-graduate-scheme-2027",
@@ -2425,7 +3207,16 @@
       "https://www.isio.com/careers/early-careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4990,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "j-p-morgan--investment-banking-full-time-analyst-program-2027",
@@ -2452,7 +3243,16 @@
       "https://www.canarywharfian.co.uk/jobs/jp-morgan/2027-data-ai-full-time-analyst-london-glasgow/3fc585e9-8988-481b-8c45-c10b247db4f8"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 30,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "j-p-morgan--markets-full-time-analyst-program-2027",
@@ -2478,7 +3278,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 30,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "j-p-morgan-asset-management--2027-asset-management-investments-analyst-training-program-l",
@@ -2504,7 +3313,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "jane-street--quantitative-trader-london-new-graduate-2027-start",
@@ -2530,7 +3346,16 @@
       "https://app.the-trackr.com/company/jane-street"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 95565,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "janus-henderson-investors--research-associate-investment-graduate-programme-2027",
@@ -2555,7 +3380,15 @@
       "https://jobs.janushenderson.com/job/London-Research-Associate-Investment-Graduate-Programme-2027-EC2M-3AE/1432364300/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9088
+    },
+    "status_source": "verified"
   },
   {
     "id": "jefferies--2027-investment-banking-analyst-programme-london",
@@ -2582,7 +3415,16 @@
       "https://app.the-trackr.com/company/jefferies"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 350,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "jupiter-asset-management--investment-20-20-trainee-programme-2027",
@@ -2607,7 +3449,16 @@
       "https://www.jupiteram.com/global/en/corporate/working-at-jupiter/current-opportunities/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "kearney--business-analyst-2027-london",
@@ -2633,7 +3484,16 @@
       "https://kearney.recsolu.com/jobs/iBnQEb8j5d7Hj4jYL1uP5g?job_board_id=EPd41qlA4_03IncZMnWyRQ"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3480,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "kpmg--consulting-graduate-programmes-2027",
@@ -2659,7 +3519,16 @@
       "https://www.kpmgcareers.co.uk/graduate/consulting/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10468,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "l-e-k-consulting--associate-entry-level-generalist-2027-london",
@@ -2685,7 +3554,16 @@
       "https://www.lek.com/join-lek/apply"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 350,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "lazard--2027-london-financial-advisory-full-time-analyst-programme",
@@ -2711,7 +3589,16 @@
       "https://www.lazard.com/about-lazard/locations/united-kingdom/careers-in-the-united-kingdom/2026-lazard-london-recruitment-process-faqs/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 14,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "lcp-lane-clark-peacock--graduate-programme-2027-investment-actuarial",
@@ -2726,8 +3613,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official careers page read 2026-09-29 refers to internship and graduate programmes and points to careers.lcp.com/early-careers, but no 2027 details were readable.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"Graduate programme and summer internship applications 2027 Applications open on Monday 5 October 2026 and close on Friday 23 October 202\"",
     "url": "https://www.lcp.com/en/careers",
     "apply_url": "https://careers.lcp.com/early-careers",
     "degree_req": null,
@@ -2737,7 +3624,16 @@
       "https://www.lcp.com/en/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7296
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "lear--economist-junior",
@@ -2762,7 +3658,16 @@
       "https://www.learlab.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3525,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "legal-general-lgim--graduate-scheme-2027-investment-asset-management",
@@ -2778,8 +3683,8 @@
     "start": "2027",
     "opens": "2026-10-01",
     "deadline": "rolling",
-    "status": "opens-soon",
-    "status_evidence": "Official graduate-scheme page read 2026-09-29: most graduate roles open in October, assessment centres in December/January, no deadlines - rolling recruitment; no live listings were showing on the day.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"8e97b16f-4bfd-4da2-ab02-e8bfa8177628 Expiry Date 01/01/0001 Apply now Add to shortlist Apply now Add to shortlist PRT - Transitio\"",
     "url": "https://careers.legalandgeneral.com/graduate-scheme",
     "apply_url": "https://careers.legalandgeneral.com/jobs",
     "degree_req": "2:1 in any subject (Investment scheme also asks for a B in A-level Maths)",
@@ -2790,7 +3695,16 @@
       "https://careers.legalandgeneral.com/job/graduate-investment-asset-management-london-2026-in-london-jid-6068"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9232
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "lloyds-banking-group--business-and-commercial-banking-graduate-scheme-2027",
@@ -2821,7 +3735,16 @@
       "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/business-and-commercial-banking-graduate-scheme/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "lloyds-banking-group--commercial-and-wealth-relationship-management-graduate-schem",
@@ -2835,8 +3758,8 @@
     "start": "2027",
     "opens": "2026-09-10",
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Listed on the official Lloyds graduate hub on 2026-09-29 but the scheme page returned 404, so open/closed status could not be confirmed; other Lloyds schemes opened 10 September 2026.",
+    "status": "opens-soon",
+    "status_evidence": "Employer page says: \"used by millions. Drive the next era of banking innovation. Coming soon... Commercial and Wealth Relationship Management Graduate S\"",
     "url": "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/",
     "apply_url": null,
     "degree_req": null,
@@ -2847,7 +3770,16 @@
       "https://uk.prosple.com/graduate-employers/lloyds-banking-group-uk/jobs-internships/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4718
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "lloyds-banking-group--corporate-banking-and-markets-graduate-scheme-2027",
@@ -2876,7 +3808,16 @@
       "https://financepathway.co.uk/lloyds-graduate-scheme-application-process/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "lloyds-banking-group--data-science-and-ai-graduate-scheme-2027",
@@ -2905,7 +3846,15 @@
       "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/data-science-and-ai-graduate-scheme/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9450
+    },
+    "status_source": "verified"
   },
   {
     "id": "lloyds-banking-group--product-and-partnerships-graduate-scheme-2027",
@@ -2936,7 +3885,15 @@
       "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/product-and-partnerships-graduate-scheme/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7081
+    },
+    "status_source": "verified"
   },
   {
     "id": "lloyds-banking-group--risk-graduate-scheme-2027",
@@ -2965,7 +3922,16 @@
       "https://www.lloydsbankinggrouptalent.com/our-opportunities/graduates/risk-graduate-scheme/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "london-economics--economic-analyst-london",
@@ -2990,7 +3956,16 @@
       "https://londoneconomics.co.uk/recruitment/current-vacancies/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2870,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "london-stock-exchange-group-lseg--business-graduate-programme-2027",
@@ -3016,7 +3991,16 @@
       "https://lseg.wd3.myworkdayjobs.com/en-US/Graduate_Careers/job/GBR-London-5-Canada-Square/Business-Analyst-Graduate-Programme-_R0123408-2"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "longspur-capital--2027-graduate-analyst-corporate-finance",
@@ -3043,7 +4027,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 11078,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "m-g-plc--graduate-programme-2027-investment-distribution-actuarial-li",
@@ -3059,8 +4052,8 @@
     "start": "2027",
     "opens": "2026-10-01",
     "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Official vacancies page read 2026-09-29 states applications for the 2027 graduate intake open in October 2026.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"ons for our 2027 Graduate intake will open in October 2026. Apply now For an insight into our application process &ndash; have a\"",
     "url": "https://group.mandg.com/careers/routes-into-mandg/graduate-opportunities/vacancies",
     "apply_url": null,
     "degree_req": "Any degree discipline",
@@ -3071,7 +4064,16 @@
       "https://group.mandg.com/careers/routes-into-mandg/graduate-opportunities"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5446
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "macquarie--2027-commodities-and-global-markets-graduate-programme-londo",
@@ -3097,7 +4099,16 @@
       "https://recruitment.macquarie.com/en_US/careers/SearchJobs/2027?listFilterMode=1"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1010,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "macquarie--2027-financial-management-people-engagement-graduate-program",
@@ -3122,7 +4133,15 @@
       "https://recruitment.macquarie.com/en_US/careers/JobDetail/2027-Financial-Management-People-Engagement-Graduate-Programme/23926"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5263
+    },
+    "status_source": "verified"
   },
   {
     "id": "macquarie--2027-macquarie-asset-management-graduate-programme-client-so",
@@ -3147,7 +4166,16 @@
       "https://recruitment.macquarie.com/en_US/careers/JobDetail/2027-Macquarie-Asset-Management-Graduate-Programme-Client-Solutions-Group/23882"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1052,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "macquarie--2027-risk-management-group-graduate-programme-london-dublin",
@@ -3174,7 +4202,16 @@
       "https://recruitment.macquarie.com/en_US/careers/JobDetail/2027-Financial-Management-People-Engagement-Graduate-Programme/23926"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 992,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "man-group--graduate-programmes-2027-solutions-ahl-idi-ahl-quant-researc",
@@ -3200,7 +4237,16 @@
       "https://job-boards.eu.greenhouse.io/mangroup"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4313,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "marex--graduate-programme-2027-london",
@@ -3225,7 +4271,16 @@
       "https://www.marex.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2990,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "marshall-wace--business-operations-graduate-2027",
@@ -3252,7 +4307,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/marshall-wace/business-operations-graduate-2027"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7728,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "marshall-wace--quant-research-quant-associate-programme-2027",
@@ -3278,7 +4342,16 @@
       "https://job-boards.greenhouse.io/mw-tech-grad"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8195,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "mckinsey-company--business-analyst-2027-uk",
@@ -3304,7 +4377,12 @@
       "https://managementconsulted.com/mbb-application-deadlines/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "failures": 1,
+      "last_error": "This operation was aborted"
+    }
   },
   {
     "id": "metro-dynamics--analyst-graduate-entry",
@@ -3330,7 +4408,16 @@
       "http://www.metrodynamics.co.uk/join-us"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2542,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "miller-research--researcher-abergavenny-wales",
@@ -3355,7 +4442,14 @@
       "https://www.miller-research.co.uk/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "mizuho--mizuho-emea-graduate-programme-2027-london",
@@ -3382,7 +4476,16 @@
       "https://www.extern.com/post/mizuho-internship-guide"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3279,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "moelis-company--2027-graduate-full-time-analyst-programme-london",
@@ -3407,7 +4510,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "monzo--graduate-credit-analyst-september-2027-start",
@@ -3433,7 +4545,16 @@
       "https://job-boards.greenhouse.io/monzo/jobs/8173733"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3891,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "moody-s--ratings-early-careers-sales-rotation-program-2027",
@@ -3458,7 +4579,16 @@
       "https://careers.moodys.com/early-careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 37177,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "morgan-stanley--2027-full-time-analyst-programmes-london",
@@ -3485,7 +4615,16 @@
       "https://jobs.anitab.org/companies/morgan-stanley/jobs/81183810-2027-investment-banking-full-time-analyst-programme-paris"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9630,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "mufg--2027-analyst-programme-london-global-corporate-investment-ba",
@@ -3511,7 +4650,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/mufg/analyst-programme-london"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7685,
+      "note": "closed:\"Applications are now closed\" open:\"Apply Now\""
+    },
+    "status_source": "ambiguous"
   },
   {
     "id": "national-audit-office--graduate-accountancy-aca-training-scheme-2027",
@@ -3526,8 +4674,8 @@
     "start": "2027-09",
     "opens": "2026-10-15",
     "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Official NAO scheme site read 2026-09-29: 2026 applications 'are now closed', 2027 graduate applications open mid-October 2026 (apprentice route mid-December).",
+    "status": "open",
+    "status_evidence": "Employer page says: \"ancy you are interested in . You will receive an email once applications are open. NAO Accountancy Training Scheme The portal for the NAO acc\"",
     "url": "https://naoaccountancyscheme.co.uk/apply-here/",
     "apply_url": null,
     "degree_req": "2:1 in any subject (reported); Civil Service nationality rules apply",
@@ -3539,7 +4687,16 @@
       "https://targetjobs.co.uk/careers-advice/cvs-applications-and-tests/national-audit-office-graduate-scheme-seven-application-and-interview-top-tips"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2847
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "nationwide-building-society-incl-virgin-money--graduate-development-programmes-2027-risk-governance-finance",
@@ -3570,7 +4727,16 @@
       "https://www.nationwide.co.uk/news-and-stories/bringing-nationwide-and-virgin-money-together"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 18,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "natwest-group--commercial-banking-relationship-management-graduate-programm",
@@ -3601,7 +4767,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--corporate-institutional-banking-graduate-programme-2027",
@@ -3627,7 +4800,14 @@
       "https://jobs.natwestgroup.com/jobs/18280464-graduate-trainee-corporate-and-institutional-banking"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--data-science-graduate-programme-2027",
@@ -3653,7 +4833,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--finance-graduate-programme-2027",
@@ -3679,7 +4866,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--natwest-markets-graduate-programme-2027-front-office-quantit",
@@ -3705,7 +4899,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--private-banking-and-wealth-management-graduate-programme-202",
@@ -3730,7 +4931,14 @@
       "https://jobs.natwestgroup.com/pages/private-banking-wealth-management-graduate-programmes"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group--risk-graduate-programme-2027",
@@ -3755,7 +4963,14 @@
       "https://jobs.natwestgroup.com/pages/risk-graduate-programmes"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "natwest-group-natwest-markets--2027-graduate-programmes-commercial-institutional-natwest-ma",
@@ -3783,7 +4998,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "nera-economic-consulting--research-associate-analyst-2027-graduates-london",
@@ -3809,7 +5031,16 @@
       "https://www.nera.com/open-roles/recruiting-events--europe.html"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 6702,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "newton--graduate-consultant-programme-2027-operations-consultant-dig",
@@ -3835,7 +5066,15 @@
       "https://app.the-trackr.com/company/newton"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 17665
+    },
+    "status_source": "verified"
   },
   {
     "id": "niesr--research-assistant-economist-entry-level",
@@ -3860,7 +5099,16 @@
       "https://niesr.ac.uk/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3040,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "nomura--investment-banking-graduate-programme-2027-london",
@@ -3886,7 +5134,16 @@
       "https://www.nomura.com/careers/early-careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 350,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "oc-c-strategy-consultants--associate-consultant-2027-28-analytics-london",
@@ -3911,7 +5168,16 @@
       "https://careers.occstrategy.com/vacancies/389/associate-consultant-2027-28--analytics-london-office.html"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 13232,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "oc-c-strategy-consultants--associate-consultant-2027-28-strategy-london",
@@ -3937,7 +5203,16 @@
       "https://www.occstrategy.com/en/applications-now-open-join-our-2026-27-intern-and-graduate-intake/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 12854,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "octopus-investments-octopus-capital--investment-graduate-scheme",
@@ -3962,7 +5237,16 @@
       "https://octopus-capital.com/graduate-scheme/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 18966,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "ofcom--graduate-programme-2027-policy-enforcement-research-and-othe",
@@ -3992,7 +5276,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/ofcom/policy-enforcement-research-graduate-2026"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3871,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "office-for-national-statistics--ons-graduate-schemes-2027-statistician-economist-data-scienc",
@@ -4019,7 +5312,16 @@
       "https://www.ons.gov.uk/aboutus/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7271,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "ofgem--graduate-development-programme-2027",
@@ -4047,7 +5349,16 @@
       "https://www.gradcracker.com/hub/567/ofgem"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 411,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "ofwat--graduate-development-programme-economics-stream",
@@ -4074,7 +5385,14 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/ofwat/economics-professional-placement-programme-2026"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "oliver-wyman--entry-level-consultant-2027-london",
@@ -4100,7 +5418,16 @@
       "https://www.myconsultingcoach.com/consulting-application-deadlines"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "oxera--graduate-analyst-2027-competition-finance-valuation-analytic",
@@ -4127,7 +5454,16 @@
       "https://app.the-trackr.com/company/oxera"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5276,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "oxford-economics--2027-uk-graduate-programme-london-belfast",
@@ -4153,7 +5489,15 @@
       "https://careers.oxfordeconomics.com/postings/abfbea50-2119-443b-8b0d-3d5696270143"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1962
+    },
+    "status_source": "verified"
   },
   {
     "id": "pa-consulting--consulting-graduate-programme-2027-18-month-rotational",
@@ -4179,7 +5523,16 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3750,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "panmure-liberum--graduate-scheme-2027-london",
@@ -4193,8 +5546,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Panmure Liberum's careers page read 2026-09-29 says 'Our Summer Internship Programme is the primary route to our Graduate Scheme' and 'applications for summer 2026 are now closed'; no direct graduate application is offered.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"ease note that applications for summer 2026 are now closed. Register your interest Experienced professionals We hire experienced professionals\"",
     "url": "https://www.panmureliberum.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -4204,7 +5557,16 @@
       "https://www.panmureliberum.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5673
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "partners-group--2027-financial-analyst-program-fa-program",
@@ -4229,7 +5591,16 @@
       "https://www.partnersgroup.com/en/careers/financial-analyst-program"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5275,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "perella-weinberg-partners--intern-graduate-recruitment-2027-london-analyst",
@@ -4255,7 +5626,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2347,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "pjt-partners--2027-full-time-analyst-rotational-programme-london",
@@ -4280,7 +5660,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "point72--point72-academy-investment-analyst-program-for-upcoming-grad",
@@ -4306,7 +5695,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "pwc--consulting-graduate-programme-2027",
@@ -4331,7 +5729,14 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "quilter--early-careers-graduate-programme-2027",
@@ -4357,7 +5762,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 406,
+      "failures": 0,
+      "note": "HTTP 406",
+      "http_failures": 1
+    }
   },
   {
     "id": "rand-europe--analyst-entry-level-research",
@@ -4371,8 +5783,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "RAND Europe careers page returned HTTP 403 on 2026-09-29.",
+    "status": "closed",
+    "status_evidence": "Employer page returns 404 (removed).",
     "url": "https://www.rand.org/randeurope/about/careers.html",
     "apply_url": null,
     "degree_req": null,
@@ -4382,7 +5794,13 @@
       "https://www.rand.org/randeurope/about/careers.html"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 404,
+      "failures": 0
+    },
+    "status_source": "http"
   },
   {
     "id": "rbb-economics--associate-entry-level-london",
@@ -4408,7 +5826,16 @@
       "https://targetjobs.co.uk/organisations/rbb-economics-llp"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 28209,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "rbc-capital-markets--2027-full-time-analyst-programme-london-global-investment-ba",
@@ -4435,7 +5862,16 @@
       "https://www.intervyo.co.uk/firms/rbc-capital-markets"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2177,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "roland-berger--junior-consultant-2027-london",
@@ -4460,7 +5896,16 @@
       "https://www.rolandberger.com/en/Join/All-Jobs/Junior-Consultant-2027-REF4503I.html"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 11543,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "rothschild-co--evergreen-2027-global-advisory-graduate-programme-london",
@@ -4474,8 +5919,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Official Rothschild & Co listing read 2026-09-29 states 'we are not currently recruiting for our 2027 UK Graduate Programme'; the Evergreen role only registers interest in case that changes.",
+    "status": "unknown",
+    "status_evidence": "Page shows both open and closed wording: \"vergreen - 2027 Global Advisory Graduate Programme – London Apply Now Rothschild & Co Our businesses Global Advisory Wealth Manag\"",
     "url": "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/evergreen-2027-global-advisory-graduate-programme-london/",
     "apply_url": null,
     "degree_req": "On track for a minimum 2:1 or equivalent",
@@ -4486,7 +5931,17 @@
       "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4908,
+      "note": "closed:\"we are not currently recruiting\" open:\"Apply Now\""
+    },
+    "status_source": "ambiguous",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "royal-london--graduate-programmes-2027-enterprise-leadership-functional-in",
@@ -4513,7 +5968,15 @@
       "https://jobs.royallondon.com/content/Graduates/?locale=en_GB"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 9855
+    },
+    "status_source": "verified"
   },
   {
     "id": "santander-cib--international-graduate-programme-2027-santander-cib",
@@ -4539,7 +6002,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 406,
+      "failures": 0,
+      "note": "HTTP 406",
+      "http_failures": 1
+    }
   },
   {
     "id": "santander-uk--uk-graduate-programmes-2027-retail-banking-corporate-commerc",
@@ -4567,7 +6037,16 @@
       "https://www.santander.com/en/careers/uk-careers/emerging-talent/graduate-programmes"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4827,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "schroders--finance-graduate-programme-2027",
@@ -4596,7 +6075,14 @@
       "https://www.schroders.com/en/global/individual/careers/graduates/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "secretariat--associate-entry-level-london",
@@ -4621,7 +6107,16 @@
       "https://job-boards.greenhouse.io/secretariatadvisorsllc/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4703,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "sia-partners--uk-graduate-scheme-associate-consultant-london",
@@ -4647,7 +6142,16 @@
       "https://jobs.smartrecruiters.com/SiaPartners/743999880224898-sia-partners-uk-graduate-scheme-2023"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 58,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "simon-kucher--consultant-entry-level-london",
@@ -4672,7 +6176,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/simon-kucher-partners/generalist-consulting-summer-internship-london-2026"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "smbc-group--2027-global-graduate-programme-london",
@@ -4699,7 +6212,14 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "societe-generale--graduate-programme-2027-london-global-banking-investor-solut",
@@ -4725,7 +6245,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1609,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "sqw--research-consultant-graduate-programme",
@@ -4753,7 +6282,16 @@
       "https://www.sqw.co.uk/careers/graduate-recruitment"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1614,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "st-james-s-place--graduate-programme-2027-investment",
@@ -4779,7 +6317,16 @@
       "https://www.sjp.co.uk/careers/early-careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "standard-chartered--graduate-programme-2027-london-corporate-investment-banking-",
@@ -4805,7 +6352,16 @@
       "https://www.sc.com/en/global-careers/early-careers/local-programmes-for-students/uk-student-opportunities/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4209,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "starling-bank--graduate-programme-2027",
@@ -4822,8 +6378,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Starling careers page read 2026-09-29 shows no graduate programme details (early-careers page 403); search results indicate a 2027 'register your interest' with opening date TBC.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"ng Skip to main content Personal Business About Help Log in Apply now Start your Starling career We’re on a mission to radically\"",
     "url": "https://www.starlingbank.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -4834,7 +6390,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/starling-bank/starling-bank-graduate-programme-cardiff-2024"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3409
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "state-street--global-markets-professional-development-programme-entry-leve",
@@ -4860,7 +6425,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "steer--graduate-consultant-programme-2027",
@@ -4886,7 +6460,14 @@
       "https://www.steergroup.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "stifel-europe--graduate-analyst-program-2027-london",
@@ -4912,7 +6493,16 @@
       "https://www.stifel.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 648,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "stonex--new-grad-program-2027-london",
@@ -4937,7 +6527,14 @@
       "https://www.stonex.com/en/about/careers/early-talent/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "strategy-pwc--strategy-graduate-programme-2027",
@@ -4964,7 +6561,14 @@
       "https://prosple.com/graduate-employers/pwc-uk/jobs-internships/strategy-consulting-graduate-programme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "t-rowe-price--investment-fellowship-program-london-2-year-rotation",
@@ -4978,8 +6582,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "No 2027 London fellowship posting was found on 2026-09-29; Intervyo tracker lists T. Rowe Price 2027 as TBC.",
+    "status": "closed",
+    "status_evidence": "Employer page returns 404 (removed).",
     "url": "https://www.troweprice.com/corporate/us/en/careers/students-and-recent-graduates/fellowship-detail.html",
     "apply_url": null,
     "degree_req": "Maths, engineering, sciences or similarly quantitative degree",
@@ -4990,7 +6594,13 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 404,
+      "failures": 0
+    },
+    "status_source": "http"
   },
   {
     "id": "the-brattle-group--research-analyst-2027-london",
@@ -5016,7 +6626,16 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/the-brattle-group-inc/research-analyst-competition-economics-london-2023"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5059,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "the-co-operative-bank--graduate-leadership-programme-2027",
@@ -5030,8 +6649,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Official emerging careers page read 2026-09-29 describes the programme (£29,500, 2-3 years, Manchester hybrid) but gives no 2027 application dates or apply link.",
+    "status": "open",
+    "status_evidence": "Employer page says: \"e Date Posted Location Customer Service Assistant - Norwich Closing Date Closing Date: 12 Oct 2026 Location Location: Norwich Locati\"",
     "url": "https://www.co-operativebankjobs.co.uk/emerging-careers.aspx",
     "apply_url": "https://www.co-operativebankjobs.co.uk/vacancies/vacancy-search-results.aspx",
     "degree_req": null,
@@ -5041,7 +6660,16 @@
       "https://www.co-operativebankjobs.co.uk/emerging-careers.aspx"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10713
+    },
+    "status_source": "verified",
+    "status_changed_at": "2026-09-29"
   },
   {
     "id": "tp-icap--early-careers-graduate-programme-2027-london",
@@ -5066,7 +6694,16 @@
       "https://tpicap.com/tpicap/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8150,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "ubs--graduate-talent-program-2027-london-investment-bank-global-m",
@@ -5093,7 +6730,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8364,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "vanguard--uk-graduate-programme-2027",
@@ -5120,7 +6766,16 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8695,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "wavehill--researcher-research-assistant-cardiff",
@@ -5145,7 +6800,16 @@
       "https://www.wavehill.com/careers"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2092,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "wellington-management--business-associate-programme-2027-london",
@@ -5170,7 +6834,16 @@
       "https://www.wellington.com/en-gb/institutional/about-wellington/campus-programmes"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    },
+    "status_source": "unverifiable"
   },
   {
     "id": "wells-fargo--emea-early-careers-graduate-analyst-programme-2027-london",
@@ -5196,7 +6869,14 @@
       "https://www.brightnetwork.co.uk/graduate-jobs/wells-fargo/emea-markets-summer-analyst"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "xps-group--graduate-programme-2027-investment-actuarial",
@@ -5221,7 +6901,16 @@
       "https://www.xpsgroup.com/careers/"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5052,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   },
   {
     "id": "zs-associates--decision-analytics-associate-business-analyst-graduate-entry",
@@ -5247,6 +6936,15 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 626,
+      "note": "no open/closed wording found"
+    },
+    "status_source": "no-signal"
   }
 ]
