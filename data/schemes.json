@@ -278,7 +278,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -305,7 +305,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "analysis-group--analyst-full-time-2027-london",
@@ -366,7 +373,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 757,
+      "note": "open wording (\"Register your interest\") but weak; status kept"
+    }
   },
   {
     "id": "arthur-d-little--business-analyst-london-graduate-entry",
@@ -495,7 +510,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3457,
+      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+    }
   },
   {
     "id": "baillie-gifford--investment-research-programme-2027",
@@ -805,7 +828,7 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 47279,
+      "chars": 47229,
       "note": "no open/closed wording found"
     }
   },
@@ -913,7 +936,7 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 21732,
+      "chars": 21739,
       "note": "no open/closed wording found"
     }
   },
@@ -948,7 +971,7 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 15703,
+      "chars": 15676,
       "note": "no open/closed wording found"
     }
   },
@@ -986,7 +1009,7 @@
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-29",
-      "failures": 1,
+      "failures": 2,
       "last_error": "fetch failed"
     }
   },
@@ -1022,7 +1045,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 48833,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "begbies-traynor-group--early-careers-trainee-2027-insolvency-restructuring-corporat",
@@ -1048,7 +1079,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8290,
+      "note": "open wording (\"Closing date\") but weak; status kept"
+    }
   },
   {
     "id": "berenberg--investment-bank-graduate-programme-london-2027-intake",
@@ -1147,7 +1186,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 5638,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "bishop-fleming--graduate-programme-2027-aca-aca-cta",
@@ -1181,7 +1228,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "bkl-merged-with-wilson-wright--trainee-programme-2027-aca",
@@ -1207,7 +1262,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3544,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "blackrock--2027-full-time-analyst-program-emea",
@@ -1341,11 +1404,11 @@
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-29",
-      "http": 200,
+      "http": 403,
       "failures": 0,
-      "http_failures": 0,
+      "http_failures": 1,
       "chars": 8617,
-      "note": "no open/closed wording found"
+      "note": "HTTP 403"
     }
   },
   {
@@ -1513,7 +1576,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2274,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "cambridge-associates--2027-graduate-programme-investment-associate-london",
@@ -1581,8 +1652,8 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 13759,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "chars": 13470,
+      "note": "no open/closed wording found"
     }
   },
   {
@@ -1852,7 +1923,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -1921,7 +1992,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -1955,7 +2026,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -2226,7 +2297,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 405,
+      "failures": 0,
+      "note": "HTTP 405",
+      "http_failures": 1
+    }
   },
   {
     "id": "cornerstone-research--analyst-2027-united-kingdom",
@@ -2259,7 +2337,7 @@
       "http": 405,
       "failures": 0,
       "note": "HTTP 405",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -2321,7 +2399,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "dc-advisory--2027-graduate-programme-london",
@@ -2386,7 +2471,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    }
   },
   {
     "id": "deloitte--assurance-graduate-programme-september-2027",
@@ -2416,7 +2508,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    }
   },
   {
     "id": "deloitte--business-transformation-consulting-graduate-programme-septem",
@@ -2449,7 +2548,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    }
   },
   {
     "id": "deloitte--consulting-graduate-programme-2027-incl-monitor-deloitte-str",
@@ -2516,7 +2622,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    }
   },
   {
     "id": "deloitte--tax-consulting-graduate-programme-september-2027",
@@ -2556,7 +2669,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 8227
+    }
   },
   {
     "id": "deutsche-bank--graduate-programme-2027-investment-banking-capital-markets-o",
@@ -2621,7 +2741,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 7776,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "economic-insight--analyst-london",
@@ -2789,7 +2917,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 618,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "evelyn-partners--investment-management-financial-planning-graduate-programmes",
@@ -2856,7 +2992,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 618,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "evercore--2027-graduate-programme-restructuring-london",
@@ -2956,7 +3100,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 45175,
+      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+    }
   },
   {
     "id": "ey-parthenon--ey-parthenon-strategy-graduate-programme-2027",
@@ -3126,7 +3278,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "franklin-templeton--futures-associate-2027-investment-management-london",
@@ -3223,7 +3383,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "fti-consulting--economic-financial-consulting-graduate-scheme-2027-london",
@@ -3284,7 +3451,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "goldman-sachs--new-analyst-programme-2027-emea",
@@ -3394,7 +3569,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 11627
+    }
   },
   {
     "id": "guggenheim-securities--2027-investment-banking-analyst-london",
@@ -3424,7 +3606,11 @@
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-29",
-      "failures": 0
+      "failures": 0,
+      "http": 200,
+      "http_failures": 0,
+      "chars": 6103,
+      "note": "open wording (\"apply today\") but no 2027 graduate mention; status kept"
     }
   },
   {
@@ -3454,7 +3640,12 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "failures": 1,
+      "last_error": "fetch failed"
+    }
   },
   {
     "id": "harris-williams--investment-banking-1st-year-analyst-london-summer-2027",
@@ -3514,7 +3705,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3909,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "hazlewoods--graduate-accountancy-programme-2027-aca",
@@ -3542,7 +3741,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1091,
+      "note": "open wording (\"Closing date\") but weak; status kept"
+    }
   },
   {
     "id": "hm-revenue-customs--tax-specialist-programme-tsp-2027",
@@ -3569,7 +3776,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 411,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "hm-treasury--graduate-policy-programme-2027",
@@ -3747,7 +3962,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -3812,7 +4027,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 584,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "icg-intermediate-capital-group--graduate-programme-investment-and-client-relations",
@@ -3946,7 +4169,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -3974,7 +4197,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 37,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "invesco--investment20-20-trainee-programme-2027-henley-on-thames",
@@ -4007,7 +4238,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -4040,7 +4271,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -4213,7 +4444,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -4348,7 +4579,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1572,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "jupiter-asset-management--investment-20-20-trainee-programme-2027",
@@ -4443,7 +4682,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 12635,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "kpmg--consulting-graduate-programmes-2027",
@@ -4509,7 +4756,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4600,
+      "note": "open wording (\"apply here\") but no 2027 graduate mention; status kept"
+    }
   },
   {
     "id": "kpmg--graduate-audit-aca-ca-autumn-2027",
@@ -4553,7 +4808,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 16519
+    }
   },
   {
     "id": "kpmg--graduate-tax-aca-autumn-2027",
@@ -4588,7 +4850,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 16631
+    }
   },
   {
     "id": "kreston-reeves--graduate-trainee-2027-aca-acca-att",
@@ -4616,7 +4885,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 317,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "kroll--uk-graduate-programme-2027-valuation-restructuring-forensic-",
@@ -4643,7 +4920,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 3453,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "l-e-k-consulting--associate-entry-level-generalist-2027-london",
@@ -4708,7 +4993,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2054,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "lazard--2027-london-financial-advisory-full-time-analyst-programme",
@@ -4847,7 +5140,7 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 9230,
+      "chars": 9233,
       "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
     }
   },
@@ -5526,10 +5819,11 @@
     "verify": {
       "last_attempt": "2026-09-29",
       "http": 200,
-      "failures": 0,
+      "failures": 1,
       "http_failures": 0,
       "chars": 1984,
-      "note": "open wording (\"application deadline\") but weak; status kept"
+      "note": "open wording (\"application deadline\") but weak; status kept",
+      "last_error": "This operation was aborted"
     }
   },
   {
@@ -5557,7 +5851,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "metro-dynamics--analyst-graduate-entry",
@@ -5618,7 +5919,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "miller-research--researcher-abergavenny-wales",
@@ -5647,11 +5955,11 @@
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-29",
-      "http": 200,
+      "http": 403,
       "failures": 0,
-      "http_failures": 0,
+      "http_failures": 1,
       "chars": 2161,
-      "note": "no open/closed wording found"
+      "note": "HTTP 403"
     }
   },
   {
@@ -5822,7 +6130,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 541,
+      "note": "open wording (\"Register your interest\") but weak; status kept"
+    }
   },
   {
     "id": "morgan-stanley--2027-full-time-analyst-programmes-london",
@@ -5957,7 +6273,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2847,
+      "note": "open wording (\"applications are open\") but no 2027 graduate mention; status kept"
+    }
   },
   {
     "id": "nationwide-building-society-incl-virgin-money--graduate-development-programmes-2027-risk-governance-finance",
@@ -6035,7 +6359,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6069,7 +6393,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6103,7 +6427,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6137,7 +6461,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6171,7 +6495,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6204,7 +6528,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6237,7 +6561,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6273,7 +6597,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6661,7 +6985,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -6973,7 +7297,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2766,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "pkf-littlejohn--graduate-trainee-2027-aca-acca-att-cta",
@@ -7001,7 +7333,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 10168,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "point72--point72-academy-investment-analyst-program-for-upcoming-grad",
@@ -7067,7 +7407,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 202,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 0,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "pwc--consulting-graduate-programme-2027",
@@ -7102,8 +7450,8 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 8268,
-      "note": "open wording (\"Applications are open\") but no 2027 graduate mention; status kept"
+      "chars": 529,
+      "note": "no open/closed wording found"
     }
   },
   {
@@ -7133,7 +7481,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 508,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "quilter--early-careers-graduate-programme-2027",
@@ -7166,7 +7522,7 @@
       "http": 406,
       "failures": 0,
       "note": "HTTP 406",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -7399,7 +7755,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 157,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "rsm-uk--consulting-graduate-programme-september-2027",
@@ -7425,7 +7789,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 157,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "rsm-uk--tax-graduate-programme-september-2027",
@@ -7451,7 +7823,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 157,
+      "note": "js-rendered"
+    }
   },
   {
     "id": "saffery--graduate-audit-trainee-aca-september-2027",
@@ -7480,7 +7860,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2770,
+      "note": "no open/closed wording found"
+    }
   },
   {
     "id": "santander-cib--international-graduate-programme-2027-santander-cib",
@@ -7513,7 +7901,7 @@
       "http": 406,
       "failures": 0,
       "note": "HTTP 406",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -7587,7 +7975,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -7649,7 +8037,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 4288,
+      "note": "open wording (\"open for applications\") but no 2027 graduate mention; status kept"
+    }
   },
   {
     "id": "sia-partners--uk-graduate-scheme-associate-consultant-london",
@@ -7752,7 +8148,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -8001,7 +8397,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -8069,7 +8465,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -8106,7 +8502,7 @@
       "http": 200,
       "failures": 0,
       "http_failures": 0,
-      "chars": 20171,
+      "chars": 529,
       "note": "no open/closed wording found"
     }
   },
@@ -8134,7 +8530,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 2569,
+      "note": "open wording (\"Register Your Interest\") but weak; status kept"
+    }
   },
   {
     "id": "t-rowe-price--investment-fellowship-program-london-2-year-rotation",
@@ -8192,7 +8596,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "the-brattle-group--research-analyst-2027-london",
@@ -8357,7 +8768,14 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 403,
+      "failures": 0,
+      "note": "HTTP 403",
+      "http_failures": 1
+    }
   },
   {
     "id": "vanguard--uk-graduate-programme-2027",
@@ -8494,7 +8912,7 @@
       "http": 403,
       "failures": 0,
       "note": "HTTP 403",
-      "http_failures": 1
+      "http_failures": 2
     }
   },
   {
@@ -8527,7 +8945,15 @@
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
-    "added_at": "2026-09-29"
+    "added_at": "2026-09-29",
+    "verify": {
+      "last_attempt": "2026-09-29",
+      "http": 200,
+      "failures": 0,
+      "http_failures": 0,
+      "chars": 1158,
+      "note": "open wording (\"Applications Close D\") but weak; status kept"
+    }
   },
   {
     "id": "xps-group--graduate-programme-2027-investment-actuarial",
