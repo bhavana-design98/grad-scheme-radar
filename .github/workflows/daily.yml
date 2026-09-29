@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "15 5 * * *"   # 05:15 UTC every day (06:15 UK in summer, 05:15 in winter)
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths: ["data/schemes.json"]
 
 permissions:
   contents: write
