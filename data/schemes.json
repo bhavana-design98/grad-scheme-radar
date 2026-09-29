@@ -115,6 +115,86 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "admiral-group--graduate-programmes-2027-actuarial-data-science-data-analyti",
+    "employer": "Admiral Group",
+    "programme": "Graduate Programmes 2027 (Actuarial, Data Science, Data Analytics, General, Audit & Finance)",
+    "sector": "insurance-actuarial",
+    "stream": "Various (Cardiff HQ)",
+    "locations": [
+      "Cardiff"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Admiral early-careers page read 29 Sep 2026 lists the graduate programmes but says 'We are sorry but do not currently have any roles in this area'; job search for 'graduate' returned no graduate schemes. The 2026 Data programme closed 26 Oct 2025, so a 2027 opening in October 2026 is plausible.",
+    "url": "https://www.admiraljobs.co.uk/early-careers-jobs",
+    "apply_url": "https://www.admiraljobs.co.uk/jobs?keyword=graduate",
+    "degree_req": "2:1 (STEM incl. Economics for data/actuarial streams; any discipline for general)",
+    "salary": null,
+    "notes": "Cardiff-based, hybrid (1-2 days in Ty Admiral). Previous process: CV + written application, 25-min numerical test, in-person assessment centre mid-November, final virtual interview. Free share allocation up to £3,600/yr after 12 months.",
+    "source_urls": [
+      "https://www.admiraljobs.co.uk/early-careers-jobs",
+      "https://fintechwales.org/news/admiral-group-opens-applications-for-graduate-data-programmes-for-september-2025-intake/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aig--claims-quality-assurance-graduate-2027",
+    "employer": "AIG",
+    "programme": "Claims Quality Assurance Graduate 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Claims",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-11",
+    "status": "open",
+    "status_evidence": "Bright Network deadlines list (29 Sep 2026) shows AIG Claims Quality Assurance Graduate 2027 closing 11 Oct 2026.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/aig/claims-quality-assurance-graduate-london-2027-amxm",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "AIG also lists Claims Fraud & Recovery Performance Graduate 2027 (London), same deadline. Start 13 September 2027.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/aig/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aig--liability-risk-consulting-graduate-2027",
+    "employer": "AIG",
+    "programme": "Liability Risk Consulting Graduate 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Risk Consulting (Commercial Underwriting Office)",
+    "locations": [
+      "Glasgow"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-11",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 29 Sep 2026: 'Deadline: 11th Oct 2026'; 'Join us as a Liability Risk Consulting Graduate on 13 September 2027'.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/aig/liability-risk-consulting-graduate-glasgow-2027-alox",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "AIG Early Career Programme with masterclasses, mentoring circles and a recognised insurance qualification. Official applications via AIG careers site (link from the listing).",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/aig/",
+      "https://www.brightnetwork.co.uk/application-deadlines/jobs/graduate-schemes/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "alixpartners--business-analyst-accelerated-consulting-programme-london",
     "employer": "AlixPartners",
     "programme": "Business Analyst Accelerated Consulting Programme (London)",
@@ -139,6 +219,88 @@
       "https://www.alixpartners.com/careers/"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "allianz-uk--actuarial-graduate-scheme",
+    "employer": "Allianz UK",
+    "programme": "Actuarial Graduate Scheme",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial (reserving, pricing, planning)",
+    "locations": [
+      "Guildford"
+    ],
+    "start": "2027",
+    "opens": "2026-09",
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Scheme listed on Allianz UK graduate schemes page; no live UK 2027 actuarial graduate vacancy visible on 30 Sep 2026.",
+    "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Support through IFoA exams to Fellowship. Pricing graduate scheme (2 years, Guildford, numerate degree) is a separate stream.",
+    "source_urls": [
+      "https://careers.allianz.com/gb/en/graduate-schemes-uk"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "allianz-uk--allianz-rotational-graduate-scheme",
+    "employer": "Allianz UK",
+    "programme": "Allianz Rotational Graduate Scheme",
+    "sector": "insurance-actuarial",
+    "stream": "Rotational (business/leadership)",
+    "locations": [
+      "Guildford",
+      "Glasgow",
+      "Bournemouth",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": "2026-09",
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Allianz UK graduate page says 'You can submit your application between September and December to join us for the following summer', but on 30 Sep 2026 the Allianz job search showed only Ireland graduate programmes and no UK 2027 graduate vacancies.",
+    "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
+    "apply_url": "https://careers.allianz.com/UK/search?searchby=location&createNewAlert=false&q=Graduate&locationsearch=UK",
+    "degree_req": "Any discipline",
+    "salary": null,
+    "notes": "2.5+ years, three 6-month rotations, professional qualifications. Allianz also runs Underwriting, Actuarial, Finance, Pricing, Data and Claims Data graduate schemes. 2026 rotational scheme was advertised on Bright Network/targetjobs.",
+    "source_urls": [
+      "https://careers.allianz.com/gb/en/graduate-schemes-uk",
+      "https://internal-careers.allianz.com/UK/content/Graduate-Schemes-UK/?locale=en_GB"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "allianz-uk--finance-graduate-scheme",
+    "employer": "Allianz UK",
+    "programme": "Finance Graduate Scheme",
+    "sector": "insurance-actuarial",
+    "stream": "Finance (CIMA/ACCA)",
+    "locations": [
+      "Guildford"
+    ],
+    "start": "2027",
+    "opens": "2026-09",
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Scheme described on Allianz UK graduate schemes page (applications 'between September and December'); no live UK 2027 finance graduate vacancy found on 30 Sep 2026.",
+    "url": "https://internal-careers.allianz.com/UK/content/Graduate-Schemes-UK/?locale=en_GB",
+    "apply_url": null,
+    "degree_req": "Any university, highly numerate discipline",
+    "salary": null,
+    "notes": "Three-year programme with CIMA/ACCA support; rotations through Core Accounting, Financial Accounting and other finance areas at Guildford head office.",
+    "source_urls": [
+      "https://internal-careers.allianz.com/UK/content/Graduate-Schemes-UK/?locale=en_GB"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -192,6 +354,32 @@
       "https://alphafmc.com/careers/",
       "https://job-boards.greenhouse.io/alphafmcrolesearlycareers",
       "https://www.brightnetwork.co.uk/graduate-jobs/alpha-fmc/asset-and-wealth-technology-consulting-graduate-analyst-2027"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "alpha-fmc--insurance-consulting-graduate-analyst-2027",
+    "employer": "Alpha FMC",
+    "programme": "Insurance Consulting Graduate Analyst 2027",
+    "sector": "management-tech-consulting",
+    "stream": "Insurance consulting",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-11-01",
+    "status": "open",
+    "status_evidence": "Bright Network 2027 deadlines list (29 Sep 2026): 'Alpha FMC - Insurance Consulting Graduate Analyst 2027' deadline 1 Nov 2026 (marked New).",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/alpha-fmc/insurance-consulting-graduate-analyst-2027",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Alpha FMC also lists Asset and Wealth Management Consulting Graduate Analyst 2027 and Strategy & Deals Graduate Associate 2027 (deadline 18 Oct 2026).",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/application-deadlines/jobs/graduate-schemes/"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -277,6 +465,35 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "american-express--campus-graduate-programmes-2027-finance-risk-strategy-market",
+    "employer": "American Express",
+    "programme": "Campus Graduate Programmes 2027 (Finance, Risk, Strategy, Marketing)",
+    "sector": "fintech-payments",
+    "stream": "Various (12-24 month graduate programmes)",
+    "locations": [
+      "London",
+      "Brighton",
+      "Burgess Hill"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Amex UK student page read 29 Sep 2026 describes graduate programmes (Finance Graduate Program alumni) but only 2027 internships (open 14 Sep - 23 Oct 2026) are live; targetjobs profile says 'We aren't currently hiring' for graduate roles.",
+    "url": "https://www.americanexpress.com/en-gb/careers/student-programs/global-students-page.html",
+    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1",
+    "degree_req": null,
+    "salary": null,
+    "notes": "Amex often fills graduate roles via internship conversion; check the careers portal for 'Campus - Graduate Program' postings.",
+    "source_urls": [
+      "https://www.americanexpress.com/en-gb/careers/student-programs/global-students-page.html",
+      "https://targetjobs.co.uk/organisations/american-express"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "analysis-group--analyst-full-time-2027-london",
     "employer": "Analysis Group",
     "programme": "Analyst (full-time 2027, London)",
@@ -298,6 +515,34 @@
     "source_urls": [
       "https://www.analysisgroup.com/careers/career-path/recruiting-events/analyst-engagement-series/",
       "https://www.brightnetwork.co.uk/graduate-jobs/why-analysis-group/analyst-generalist-london-2025"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aon--uk-graduate-programme-2027-actuarial-pensions-investment-bro",
+    "employer": "Aon",
+    "programme": "UK Graduate Programme 2027 (Actuarial Pensions, Investment, Broking, Reinsurance, Reward)",
+    "sector": "insurance-actuarial",
+    "stream": "Various",
+    "locations": [
+      "London",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": "2026-09",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Aon UK graduates page read 29 Sep 2026: 'Graduate opportunities open in September each year'; jobs.aon.com search for graduate roles in the UK returned no graduate programme listings that day (2026 cycle closed 5 Dec 2025).",
+    "url": "https://www.aon.com/careers/early-careers/uk/graduates",
+    "apply_url": "https://jobs.aon.com/jobs?keywords=graduate&location=United%20Kingdom",
+    "degree_req": "2:1 or above (any degree; some roles have extra requirements)",
+    "salary": null,
+    "notes": "Fully funded professional qualifications (IFoA, CFA, CII). Previous streams: Actuarial Consulting (Pensions), Reward Advisory, Talent Solutions, Broking. Aon has a Cardiff office.",
+    "source_urls": [
+      "https://www.aon.com/careers/early-careers/uk/graduates",
+      "https://www.aon.com/careers/early-careers/uk"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -356,6 +601,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "asda--finance-graduate-programme-2027",
+    "employer": "Asda",
+    "programme": "Finance Graduate Programme 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance (CIMA) - Controllership, Commercial Finance, FP&A, Tax/Treasury/IR",
+    "locations": [
+      "Leeds"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-11-08",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 30 Sep 2026: 'Deadline: 8th Nov 2026', live.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/asda/finance-graduate-programme-2027",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Three-year programme with CIMA via Kaplan; hybrid min 3 days in Leeds home office.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/asda/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "aurora-energy-research--analyst-graduate-analyst-oxford",
     "employer": "Aurora Energy Research",
     "programme": "Analyst / Graduate Analyst (Oxford)",
@@ -376,6 +647,120 @@
     "notes": "Oxford analyst roles are open to strong graduates in economics/quantitative subjects; apply to the individual Analyst postings rather than waiting for a UK graduate programme.",
     "source_urls": [
       "https://auroraer.com/careers/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aviva--accountancy-graduate-pathway",
+    "employer": "Aviva",
+    "programme": "Accountancy Graduate Pathway",
+    "sector": "insurance-actuarial",
+    "stream": "Finance / Accountancy (ACA)",
+    "locations": [
+      "Norwich",
+      "York"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Official pathway page read 29 Sep 2026: 'Applications are now closed' (page still refers to the 2026 intake).",
+    "url": "https://careers.aviva.co.uk/early-careers/graduates/accountancy-graduate-pathway/",
+    "apply_url": null,
+    "degree_req": "Any degree (numerical reasoning test in process)",
+    "salary": "£33,200 plus exam-related pay increases",
+    "notes": "Three-year ACA rotation through Financial Reporting & Controls, Business Partnering, Tax and Investments. Same assessment steps as other Aviva pathways.",
+    "source_urls": [
+      "https://careers.aviva.co.uk/early-careers/graduates/accountancy-graduate-pathway/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aviva--actuarial-graduate-pathway",
+    "employer": "Aviva",
+    "programme": "Actuarial Graduate Pathway",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "Bristol",
+      "Norwich",
+      "York"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Official pathway page read 29 Sep 2026 still describes the September 2026 intake and states 'Applications are now closed'; the 2027 cycle had not opened.",
+    "url": "https://careers.aviva.co.uk/early-careers/graduates/actuarial-graduate-pathway/",
+    "apply_url": null,
+    "degree_req": "Numerical/STEM-related degree; grade B or above in A-level Maths",
+    "salary": "£34,200 plus exam-related pay increases",
+    "notes": "Permanent from day one, 4-5 year IFoA training with 18-month rotations. No visa sponsorship (indefinite right to work required). Process: online application + CV, situational strengths + numerical test, video interview, assessment day. Aviva grads typically open in early autumn; watch the page.",
+    "source_urls": [
+      "https://careers.aviva.co.uk/early-careers/graduates/",
+      "https://careers.aviva.co.uk/early-careers/graduates/actuarial-graduate-pathway/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aviva--corporate-functions-graduate-pathway",
+    "employer": "Aviva",
+    "programme": "Corporate Functions Graduate Pathway",
+    "sector": "insurance-actuarial",
+    "stream": "Brand & Corporate Affairs / corporate functions (strategy, public affairs, sustainability)",
+    "locations": [
+      "London",
+      "Norwich",
+      "York"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Aviva graduate hub and pathway pages read 29 Sep 2026 all still describe the September 2026 intake; sibling pathway pages state 'Applications are now closed'. 2027 cycle not yet open.",
+    "url": "https://careers.aviva.co.uk/early-careers/graduates/corporate-functions-graduate-pathway/",
+    "apply_url": null,
+    "degree_req": "Any degree",
+    "salary": null,
+    "notes": "Permanent role with flexible rotations across External/Employee Comms, Brand, Public Affairs and Sustainability - relevant for economics graduates interested in policy/public affairs.",
+    "source_urls": [
+      "https://careers.aviva.co.uk/early-careers/graduates/corporate-functions-graduate-pathway/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "aviva--wealth-graduate-pathway",
+    "employer": "Aviva",
+    "programme": "Wealth Graduate Pathway",
+    "sector": "wealth-management",
+    "stream": "Wealth (proposition, distribution, investments)",
+    "locations": [
+      "London",
+      "Norwich",
+      "Sheffield",
+      "York"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Official pathway page read 29 Sep 2026: 'Applications are now closed' (2026 intake page).",
+    "url": "https://careers.aviva.co.uk/early-careers/graduates/wealth-graduate-pathway/",
+    "apply_url": null,
+    "degree_req": "Any degree",
+    "salary": "£33,200",
+    "notes": "Permanent role with two-year development programme; rotations in proposition development, sales & distribution, investments. Aviva also runs Corporate Functions, Claims, Data & Analytics, Pricing & Underwriting and Technology pathways from the same hub page (all on the 2026 cycle when checked).",
+    "source_urls": [
+      "https://careers.aviva.co.uk/early-careers/graduates/wealth-graduate-pathway/",
+      "https://careers.aviva.co.uk/early-careers/graduates/"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -409,6 +794,33 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "axa-uk--graduate-programmes-business-leaders-actuarial-finance-it-di",
+    "employer": "AXA UK",
+    "programme": "Graduate Programmes (Business Leaders, Actuarial, Finance, IT & Digital Leaders, Data Science)",
+    "sector": "insurance-actuarial",
+    "stream": "Various",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "AXA UK careers graduate pages could not be read (careers.axa.co.uk early-careers pages returned 404 / navigation blocked on 30 Sep 2026); Bright Network profile confirms five UK programmes but showed no live 2027 listing.",
+    "url": "https://careers.axa.co.uk/",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Check careers.axa.co.uk/careers-uk/jobs for graduate listings; AXA XL runs a separate London graduate programme.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-employer-company/axa/",
+      "https://careers.axa.co.uk/careers-uk/jobs"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "azets--graduate-trainee-programme-2027-aca-acca",
     "employer": "Azets",
     "programme": "Graduate Trainee Programme 2027 (ACA/ACCA)",
@@ -431,6 +843,32 @@
       "https://www.azets.com/en-uk/careers/early-careers/early-careers-faq"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "bae-systems--graduate-programmes-2027-business-finance-streams",
+    "employer": "BAE Systems",
+    "programme": "Graduate Programmes 2027 (Business / Finance streams)",
+    "sector": "accounting-audit-tax",
+    "stream": "Business (finance, commercial, project management)",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs BAE profile read 30 Sep 2026 gives '£34,000... £2,000 welcome bonus' and warns roles 'may close without notice'; only engineering 2027 graduate roles were visible on Bright Network - no finance listing confirmed.",
+    "url": "https://careers.baesystems.com/locations/uk/graduates",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": "£34,000 + £2,000 welcome bonus",
+    "notes": "Non-rotational programmes; check careers.baesystems.com for Finance/Commercial graduate roles.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/bae-systems"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -941,6 +1379,86 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "beazley--actuarial-graduate-programme-2027",
+    "employer": "Beazley",
+    "programme": "Actuarial Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "London",
+      "Birmingham"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Higherin listing (read 29 Sep 2026): 'Applications aren't open for this job yet' - register interest only.",
+    "url": "https://www.beazley.com/en-us/who-we-are/work-us/early-careers-academy/early-careers-academy-uk-programmes/",
+    "apply_url": "https://higherin.com/jobs/42872/beazley/register-your-interest-actuarial-graduate-programme-2027",
+    "degree_req": "1st or 2:1 in any numerical degree; A-level Maths grade A",
+    "salary": "£33,000",
+    "notes": "Permanent from day one; IFoA support; promotion to Assistant Actuary on completion. Beazley also has Underwriting UK Graduate Programme 2027 and Ceded Reinsurance Graduate Programme 2027 (London) and a Data programme (Birmingham), all register-interest.",
+    "source_urls": [
+      "https://higherin.com/jobs/42872/beazley/register-your-interest-actuarial-graduate-programme-2027"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "beazley--finance-uk-graduate-programme-2027",
+    "employer": "Beazley",
+    "programme": "Finance UK Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Finance (CIMA or ACCA)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Beazley UK early careers page (read 29 Sep 2026) gives £33,000 graduate salary but no application dates; Beazley's Higherin listing says 'Applications aren't open for this job yet... register your interest'.",
+    "url": "https://www.beazley.com/en-us/who-we-are/work-us/early-careers-academy/early-careers-academy-uk-programmes/",
+    "apply_url": "https://higherin.com/jobs/42869/beazley/register-your-interest-finance-graduate-programme-2027",
+    "degree_req": "2:2 or above in any discipline; 3 A-levels (A-C), GCSE Maths A and English C",
+    "salary": "£33,000 + annual bonus + completion bonus",
+    "notes": "36-month rotation through Finance; up to £5,250 travel reimbursed, £100/month lifestyle allowance. Process: application, online assessments (behavioural/numerical/verbal), assessment centre.",
+    "source_urls": [
+      "https://higherin.com/jobs/42869/beazley/register-your-interest-finance-graduate-programme-2027",
+      "https://www.beazley.com/en-us/who-we-are/work-us/early-careers-academy/early-careers-academy-uk-programmes/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "beazley--underwriting-uk-graduate-programme-2027",
+    "employer": "Beazley",
+    "programme": "Underwriting UK Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Underwriting",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Listed on Higherin as 'Register Your Interest - Underwriting UK Graduate Programme 2027' (29 Sep 2026); applications not yet open.",
+    "url": "https://www.beazley.com/en-us/who-we-are/work-us/early-careers-academy/early-careers-academy-uk-programmes/",
+    "apply_url": "https://higherin.com/jobs/42869/beazley/register-your-interest-finance-graduate-programme-2027",
+    "degree_req": null,
+    "salary": "£33,000",
+    "notes": "Largest Lloyd's syndicate. Ceded Reinsurance Graduate Programme 2027 (London) also listed as register-interest.",
+    "source_urls": [
+      "https://higherin.com/jobs/42869/beazley/register-your-interest-finance-graduate-programme-2027"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "begbies-traynor-group--early-careers-trainee-2027-insolvency-restructuring-corporat",
     "employer": "Begbies Traynor Group",
     "programme": "Early Careers Trainee 2027 (Insolvency, Restructuring, Corporate Finance)",
@@ -1273,6 +1791,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "bp--graduate-programme-2027-business-incl-finance-and-supply-tra",
+    "employer": "bp",
+    "programme": "Graduate Programme 2027 - Business (incl. Finance) and Supply, Trading & Shipping",
+    "sector": "accounting-audit-tax",
+    "stream": "Business (strategy, finance, HR) / Trading & Shipping",
+    "locations": [
+      "London",
+      "Sunbury",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": "2026-10-14",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Official bp graduates page read 29 Sep 2026: 'Applications open on 14th October 2026'.",
+    "url": "https://careers.bp.com/early-careers/graduates",
+    "apply_url": null,
+    "degree_req": "Bachelor's or integrated master's (GPA 3.0+ equivalent)",
+    "salary": "£37,000 - £50,000 depending on area, + £3-5k settling-in allowance + 20% flexible allowance",
+    "notes": "Trading & Shipping stream is a strong route for economics graduates. Recruitment events 19 Oct, 21 Oct and 11 Nov 2026.",
+    "source_urls": [
+      "https://careers.bp.com/early-careers/graduates"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "brevan-howard--2027-graduate-programme-risk-treasury-london",
     "employer": "Brevan Howard",
     "programme": "2027 Graduate Programme - Risk & Treasury (London)",
@@ -1300,6 +1846,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "british-airways-iag--graduate-programmes-2027",
+    "employer": "British Airways (IAG)",
+    "programme": "Graduate Programmes 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Various (finance, commercial, operations)",
+    "locations": [
+      "Heathrow/London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs BA profile read 30 Sep 2026: 'We aren't currently hiring'; directs to careers.ba.com/emerging-talent.",
+    "url": "https://targetjobs.co.uk/organisations/british-airways",
+    "apply_url": "https://careers.ba.com/emerging-talent",
+    "degree_req": null,
+    "salary": null,
+    "notes": "",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/british-airways"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "british-business-bank--graduate-programme-2027",
     "employer": "British Business Bank",
     "programme": "Graduate Programme 2027",
@@ -1321,6 +1893,58 @@
     "notes": "Government-owned development bank; follow on targetjobs for alerts.",
     "source_urls": [
       "https://targetjobs.co.uk/organisations/british-business-bank"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "broadstone--graduate-programme-actuarial-credit-risk-advisory-investment",
+    "employer": "Broadstone",
+    "programme": "Graduate Programme (Actuarial, Credit Risk Advisory, Investment Consultancy)",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial / investment / credit risk",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": "2026-10",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Official early careers page read 29 Sep 2026: 'graduate and intern vacancies go live... at any point from Autumn (October/November) until Spring (April/May)'.",
+    "url": "https://www.broadstone.co.uk/careers/early-careers/",
+    "apply_url": null,
+    "degree_req": "Strong numerate background",
+    "salary": null,
+    "notes": "Two-year graduate programme.",
+    "source_urls": [
+      "https://www.broadstone.co.uk/careers/early-careers/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "bt-group--graduate-programmes-transformation-delivery-data-ai-engineer",
+    "employer": "BT Group",
+    "programme": "Graduate Programmes (Transformation & Delivery, Data & AI, Engineering, Software)",
+    "sector": "accounting-audit-tax",
+    "stream": "Various (no finance stream listed)",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "BT graduates page read 29 Sep 2026: all four programmes marked 'Applications now closed'; no finance graduate programme shown.",
+    "url": "https://jobs.bt.com/content/Graduates-BT-Group/",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Transformation & Delivery is the closest fit for a non-technical graduate.",
+    "source_urls": [
+      "https://jobs.bt.com/content/Graduates-BT-Group/"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -2716,6 +3340,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "diageo--finance-graduate-programme",
+    "employer": "Diageo",
+    "programme": "Finance Graduate Programme",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance (CIMA)",
+    "locations": [
+      "London",
+      "Scotland"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Official Diageo finance graduate page read 29 Sep 2026: every listed finance programme shows 'Applications are now closed' and no UK 2027 programme is listed; Bright Network shows 'Register your interest'.",
+    "url": "https://www.diageo.com/en/careers/early-careers/graduate-programmes/finance-graduate-programme",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Register interest via Bright Network / Diageo careers for the 2027 UK cycle.",
+    "source_urls": [
+      "https://www.diageo.com/en/careers/early-careers/graduate-programmes/finance-graduate-programme",
+      "https://www.brightnetwork.co.uk/graduate-jobs/diageo/register-your-interest-graduate-programmes"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "duncan-toplis--advanced-pathway-trainee-2027-graduates-aca-acca-cta",
     "employer": "Duncan & Toplis",
     "programme": "Advanced Pathway Trainee 2027 (graduates; ACA/ACCA/CTA)",
@@ -2742,6 +3394,34 @@
       "https://www.duncantoplis.co.uk/careers"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "dwr-cymru-welsh-water--finance-graduate-programme",
+    "employer": "Dwr Cymru Welsh Water",
+    "programme": "Finance Graduate Programme",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance (rotations, chartered accountancy path)",
+    "locations": [
+      "Newport (Coedkernew)",
+      "Cardiff"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "A 'Finance Graduate' vacancy (Coedkernew) was posted ~mid-September 2026 but the LinkedIn listing had expired and jobs.dwrcymru.com showed 'no open positions matching graduate' on 30 Sep 2026.",
+    "url": "https://www.dwrcymru.com/en/careers/early-careers/graduates",
+    "apply_url": "https://jobs.dwrcymru.com/search/?q=graduate&locale=en_GB",
+    "degree_req": "Degree in finance or related (technical graduate programmes)",
+    "salary": null,
+    "notes": "Welsh Water's Technical Graduate Programmes include a finance route based at Newport HQ; the September 2026 advert closed quickly - set a job alert.",
+    "source_urls": [
+      "https://www.dwrcymru.com/en/careers/early-careers/graduates",
+      "https://jobs.dwrcymru.com/search/?q=graduate&locale=en_GB"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -2989,6 +3669,35 @@
     "source_urls": [
       "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
       "https://www.intervyo.co.uk/firms/evercore"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "experian--graduate-programme-2027-analytics-business-product",
+    "employer": "Experian",
+    "programme": "Graduate Programme 2027 (Analytics, Business, Product)",
+    "sector": "fintech-payments",
+    "stream": "Various (2-year development programme)",
+    "locations": [
+      "Nottingham",
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Experian UK graduate schemes page read 29 Sep 2026 has no 2027 vacancies; the 2026 Graduate Data Analyst (Nottingham, £32,000) listing 'has now expired'; targetjobs: 'We aren't currently hiring'.",
+    "url": "https://www.experian.com/careers/early-careers/uk-ireland/graduate-schemes",
+    "apply_url": "https://jobs.experian.com/",
+    "degree_req": "Any degree (2:1 with mathematical content for data roles)",
+    "salary": "£32,000 (£34,000 London weighting)",
+    "notes": "Permanent from day one; no visa sponsorship for graduate roles.",
+    "source_urls": [
+      "https://www.experian.com/careers/early-careers/uk-ireland/graduate-schemes",
+      "https://jobs.experian.com/job/graduate-data-analyst-in-nottingham-england-jid-5249",
+      "https://targetjobs.co.uk/organisations/experian"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -3620,6 +4329,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "government-actuary-s-department-gad--graduate-trainee-actuary",
+    "employer": "Government Actuary's Department (GAD)",
+    "programme": "Graduate Trainee Actuary",
+    "sector": "central-bank-regulator-public",
+    "stream": "Actuarial (public sector)",
+    "locations": [
+      "London",
+      "Edinburgh"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "GAD recruitment page on gov.uk read 29 Sep 2026: 'No current vacancies'; trainee roles are advertised on Civil Service Jobs when open.",
+    "url": "https://www.gov.uk/government/organisations/government-actuarys-department/about/recruitment",
+    "apply_url": "https://www.civilservicejobs.service.gov.uk/",
+    "degree_req": null,
+    "salary": null,
+    "notes": "Rotational trainee programme (technical then consulting teams) with generous study support; ~25 trainees at any time.",
+    "source_urls": [
+      "https://www.gov.uk/government/organisations/government-actuarys-department/about/recruitment",
+      "https://www.actuarialcareers.co.uk/organisations/government-actuarys-department/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "government-economic-service--assistant-economist-graduate-scheme-next-intake",
     "employer": "Government Economic Service",
     "programme": "Assistant Economist Graduate Scheme (next intake)",
@@ -3736,6 +4473,33 @@
       "https://www.grantthornton.co.uk/careers/early-careers-job-search/?page=5"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "gsk--future-leaders-programme-2027-finance",
+    "employer": "GSK",
+    "programme": "Future Leaders Programme 2027 (Finance)",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance",
+    "locations": [
+      "London",
+      "Brentford"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs GSK profile read 30 Sep 2026: 'We aren't currently hiring'; official graduates page not readable.",
+    "url": "https://targetjobs.co.uk/organisations/gsk",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "GSK Future Leaders typically opens in autumn; monitor gsk.com/en-gb/careers.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/gsk"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -3876,6 +4640,35 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "hiscox--uk-graduate-programme-2027-actuarial-underwriting-finance-te",
+    "employer": "Hiscox",
+    "programme": "UK Graduate Programme 2027 (Actuarial, Underwriting, Finance, Technology)",
+    "sector": "insurance-actuarial",
+    "stream": "Various (rotational within chosen specialism)",
+    "locations": [
+      "London",
+      "York",
+      "Colchester"
+    ],
+    "start": "2027",
+    "opens": "2026-12",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Hiscox UK graduate programme page (read 30 Sep 2026) lists specialisms but no live roles; Hiscox's recruitment partner page says 'Come back in the Winter, for Hiscox's Graduate 2027 Opportunities - There are currently no active jobs.'",
+    "url": "https://www.hiscoxgroup.com/uk-graduate-programme",
+    "apply_url": "https://employers.sanctuarygraduates.co.uk/hiscoxearlycareers25-26/",
+    "degree_req": "2:1 (any discipline, but numerate or A-level Maths)",
+    "salary": null,
+    "notes": "Permanent contract, rotational, funded professional qualifications. Previous cycle: online application, recorded video interview, final stage Feb/Mar. Streams historically included Finance, Underwriting, Actuarial, Operations, Risk Analyst, Marketing.",
+    "source_urls": [
+      "https://www.hiscoxgroup.com/uk-graduate-programme",
+      "https://employers.sanctuarygraduates.co.uk/hiscoxearlycareers25-26/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "hm-revenue-customs--tax-specialist-programme-tsp-2027",
     "employer": "HM Revenue & Customs",
     "programme": "Tax Specialist Programme (TSP) 2027",
@@ -3951,6 +4744,65 @@
     "notes": "Strong mid-market M&A and restructuring franchise in London. Check the Campus Workday site for 'Financial Analyst - London 2027'.",
     "source_urls": [
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "howden-formerly-barnett-waddingham--2027-graduate-trainee-actuarial-consultant-actuarial-insuran",
+    "employer": "Howden (formerly Barnett Waddingham)",
+    "programme": "2027 Graduate - Trainee Actuarial Consultant - Actuarial Insurance (London)",
+    "sector": "insurance-actuarial",
+    "stream": "Insurance actuarial consulting",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-31",
+    "status": "open",
+    "status_evidence": "Live listing shown on targetjobs Howden profile and aggregators on 30 Sep 2026 ('Apply Before 10/31/2026'); posted 14 Sep 2026.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/barnett-waddingham/graduate-trainee-actuarial-consultant-actuarial-insurance-london-2027-amdy",
+    "apply_url": "https://fa-evup-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=2027",
+    "degree_req": "2:1 minimum; A at A-level Maths",
+    "salary": "£33,000 - £36,000",
+    "notes": "One application only across BW/Howden trainee programmes.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/howden",
+      "https://builtin.com/job/2027-graduate-trainee-actuarial-consultant-actuarial-insurance-london/11171035"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "howden-formerly-barnett-waddingham--2027-graduate-trainee-actuarial-consultant-retirement",
+    "employer": "Howden (formerly Barnett Waddingham)",
+    "programme": "2027 Graduate - Trainee Actuarial Consultant - Retirement",
+    "sector": "insurance-actuarial",
+    "stream": "Pensions / retirement actuarial",
+    "locations": [
+      "London",
+      "Manchester",
+      "Glasgow",
+      "Amersham",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-31",
+    "status": "open",
+    "status_evidence": "Bright Network 2027 deadlines list (29 Sep 2026) shows 'Barnett Waddingham - Graduate Trainee Actuarial Consultant (Retirement) 2027' closing 31 Oct 2026; targetjobs and Workable show live Retirement (London/Manchester) and Actuarial Insurance (London) listings posted 14 Sep 2026.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/barnett-waddingham/graduate-trainee-actuarial-consultant-actuarial-insurance-london-2027-amdy",
+    "apply_url": "https://fa-evup-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs?keyword=2027",
+    "degree_req": "2:1 minimum; A at A-level Maths; GCSE English 6/B",
+    "salary": "£33,000 - £36,000",
+    "notes": "Barnett Waddingham was acquired by Howden (April 2025). Apply to ONE trainee programme/location only - only the first application is considered. Start September 2027.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/application-deadlines/jobs/graduate-schemes/",
+      "https://www.howdengroup.com/uk-en/barnett-waddingham",
+      "https://jobs.workable.com/view/5JVdhJx1YrFPViRKCXdJZk/2027-graduate---trainee-actuarial-consultant---retirement-(-manchester-)---howden-in-manchester-at-barnett-waddingham"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -4148,6 +5000,36 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "hymans-robertson--actuarial-consulting-analytics-graduate-programme-2027",
+    "employer": "Hymans Robertson",
+    "programme": "Actuarial Consulting & Analytics Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial consulting (private/public pensions, insurance) or Insights & Analytics analyst",
+    "locations": [
+      "London",
+      "Birmingham",
+      "Edinburgh",
+      "Glasgow"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Higherin listing (read 29 Sep 2026) is 'Register Your Interest' - 'Applications aren't open for this job yet'; Hymans vacancy site showed no graduate vacancies.",
+    "url": "https://www.hymans.co.uk/careers/early-career-opportunities",
+    "apply_url": "https://higherin.com/jobs/42906/hymans-robertson/register-your-interest-actuarial-consulting-analytics-graduate-programme-2027",
+    "degree_req": "Any degree with ability to work well with numbers",
+    "salary": "£32,500 - £34,500 (previous cycle)",
+    "notes": "Explicitly welcomes economics graduates. IFoA study support. Hybrid across four offices.",
+    "source_urls": [
+      "https://higherin.com/jobs/42906/hymans-robertson/register-your-interest-actuarial-consulting-analytics-graduate-programme-2027",
+      "https://www.actuarialcareers.co.uk/jobs/hymans-robertson-actuarial-consulting-analytics-graduate-programme-159312/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "hymans-robertson--graduate-programme-2027-investment-actuarial",
     "employer": "Hymans Robertson",
     "programme": "Graduate Programme 2027 (Investment / Actuarial)",
@@ -4173,6 +5055,35 @@
       "https://www.hymans.co.uk/careers"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "hymans-robertson--pensions-governance-investment-consulting-graduate-programme",
+    "employer": "Hymans Robertson",
+    "programme": "Pensions Governance & Investment Consulting Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Investment Analyst / DC Analyst tracks",
+    "locations": [
+      "Edinburgh",
+      "London",
+      "Glasgow",
+      "Birmingham"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "Higherin listing read 30 Sep 2026: 'To be the first to know once applications open, register your interest today!' Deadline 'Ongoing'.",
+    "url": "https://www.hymans.co.uk/careers/early-career-opportunities",
+    "apply_url": "https://higherin.com/jobs/42905/hymans-robertson/register-your-interest-pensions-governance-investment-consulting-graduate-programme-2027",
+    "degree_req": "Any degree; comfortable with numbers",
+    "salary": null,
+    "notes": "CFA study support for investment track. Good fit for economics graduates interested in investment consulting.",
+    "source_urls": [
+      "https://higherin.com/jobs/42905/hymans-robertson/register-your-interest-pensions-governance-investment-consulting-graduate-programme-2027"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -4417,6 +5328,64 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "isio--actuarial-and-consulting-graduate-analyst-2027",
+    "employer": "Isio",
+    "programme": "Actuarial and Consulting Graduate Analyst 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial & pensions consulting",
+    "locations": [
+      "Belfast",
+      "Glasgow",
+      "Birmingham",
+      "Leeds",
+      "Edinburgh",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-11-16",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 29 Sep 2026: 'Deadline: 16th Nov 2026' with live Apply now; multiple office versions listed.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/isio/actuarial-and-consulting-graduate-analyst-2027",
+    "apply_url": "https://www.isio.com/careers/early-careers/",
+    "degree_req": "2:1 (some roles 2:2); any subject, A-level Maths B+ if non-numerate (previous cycle)",
+    "salary": null,
+    "notes": "IFoA study support; no prior experience needed. Isio also lists DC Pensions Investment Advisory Graduate 2027, Employee Benefits Consulting Graduate Analyst 2027, Pensions Insurance Project Management Graduate Analyst 2027 (deadline 16 Nov 2026) and Graduate Business Data Analyst 2027.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/isio/",
+      "https://www.isio.com/careers/early-careers/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "isio--defined-contribution-pensions-investment-advisory-graduate-2",
+    "employer": "Isio",
+    "programme": "Defined Contribution Pensions Investment Advisory Graduate 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Investment advisory (DC pensions)",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "open",
+    "status_evidence": "Listed as a live 2027 graduate role on Isio's Bright Network page on 29 Sep 2026 (two office versions); deadline not captured - sibling Isio roles close 16 Nov 2026.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/isio/defined-contribution-pensions-investment-advisory-graduate-2027",
+    "apply_url": "https://www.isio.com/careers/early-careers/",
+    "degree_req": "2:1",
+    "salary": null,
+    "notes": "Investment-focused route for economics graduates.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/isio/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "isio--investment-advisory-graduate-scheme-2027",
     "employer": "Isio",
     "programme": "Investment Advisory Graduate Scheme 2027",
@@ -4521,6 +5490,34 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "jaguar-land-rover-jlr--graduate-programme-2027-commercial-finance",
+    "employer": "Jaguar Land Rover (JLR)",
+    "programme": "Graduate Programme 2027 (Commercial / Finance)",
+    "sector": "accounting-audit-tax",
+    "stream": "Commercial / finance",
+    "locations": [
+      "Gaydon",
+      "Solihull",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs JLR profile read 30 Sep 2026: 'We aren't currently hiring'.",
+    "url": "https://targetjobs.co.uk/organisations/jaguar-land-rover-ltd",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/jaguar-land-rover-ltd"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -4979,6 +5976,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "kraft-heinz--graduate-trainee-program-2027",
+    "employer": "Kraft Heinz",
+    "programme": "Graduate Trainee Program 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Commercial rotations (sales, business project, functional placement)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-18",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 30 Sep 2026: 'Deadline: 18th Oct 2026'.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/kraft-heinz/trainee-program-2027",
+    "apply_url": null,
+    "degree_req": "Bachelor's or Master's graduated 2025 or later, any subject; max 2 years' experience",
+    "salary": null,
+    "notes": "12-month programme then placement into a function (finance among them). Right to work required.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/kraft-heinz/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "kreston-reeves--graduate-trainee-2027-aca-acca-att",
     "employer": "Kreston Reeves",
     "programme": "Graduate Trainee 2027 (ACA / ACCA / ATT)",
@@ -5128,17 +6151,18 @@
       "Winchester"
     ],
     "start": "2027",
-    "opens": null,
-    "deadline": null,
+    "opens": "2026-10-05",
+    "deadline": "2026-10-23",
     "status": "unknown",
     "status_evidence": "Official careers page read 2026-09-29 refers to internship and graduate programmes and points to careers.lcp.com/early-careers, but no 2027 details were readable.",
     "url": "https://www.lcp.com/en/careers",
     "apply_url": "https://careers.lcp.com/early-careers",
-    "degree_req": null,
+    "degree_req": "See department FAQs (numerate degree typical for actuarial)",
     "salary": null,
     "notes": "LCP's investment consulting graduate scheme is a strong fit for economics graduates.",
     "source_urls": [
-      "https://www.lcp.com/en/careers"
+      "https://www.lcp.com/en/careers",
+      "https://careers.lcp.com/early-careers/graduate-programme"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -5171,6 +6195,62 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "legal-general--global-operations-client-services-graduate-programme-cardiff",
+    "employer": "Legal & General",
+    "programme": "Global Operations & Client Services Graduate Programme - Cardiff 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Operations / Client Services (Cardiff)",
+    "locations": [
+      "Cardiff"
+    ],
+    "start": "2027",
+    "opens": "2026-10",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "2026 Cardiff listing exists on L&G careers site; Future Talent page (29 Sep 2026) says graduate roles open in October and no 2027 roles were listed yet.",
+    "url": "https://careers.legalandgeneral.com/job/graduate-global-operations-and-client-services-cardiff-2026-in-cardiff-jid-6067",
+    "apply_url": null,
+    "degree_req": "2:1",
+    "salary": null,
+    "notes": "Cardiff-based L&G graduate stream (2-4 years, funded professional qualification). Watch careers.legalandgeneral.com from October 2026 for the 2027 version.",
+    "source_urls": [
+      "https://careers.legalandgeneral.com/job/graduate-global-operations-and-client-services-cardiff-2026-in-cardiff-jid-6067",
+      "https://careers.legalandgeneral.com/future-talent"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "legal-general--graduate-scheme-2027-finance-actuarial-investments-corporate",
+    "employer": "Legal & General",
+    "programme": "Graduate Scheme 2027 (Finance & Actuarial, Investments, Corporate Functions, Technology)",
+    "sector": "insurance-actuarial",
+    "stream": "Various",
+    "locations": [
+      "London",
+      "Hove",
+      "Cardiff",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": "2026-10",
+    "deadline": null,
+    "status": "opens-soon",
+    "status_evidence": "L&G Future Talent page read 29 Sep 2026: 'Most of our Graduate roles open to application in October' and 'We intend to open our Graduate applications in October'; job search returned no graduate roles yet.",
+    "url": "https://careers.legalandgeneral.com/future-talent",
+    "apply_url": null,
+    "degree_req": "2:1",
+    "salary": null,
+    "notes": "Schemes last 2-4 years with professional qualification; assessment centres typically December/January. Sponsorship offered for some graduate roles. Previous cycles included Actuarial (London), Accounting (Cardiff) and Global Operations & Client Services (Cardiff).",
+    "source_urls": [
+      "https://careers.legalandgeneral.com/future-talent"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "legal-general-lgim--graduate-scheme-2027-investment-asset-management",
     "employer": "Legal & General (LGIM)",
     "programme": "Graduate Scheme 2027 - Investment (Asset Management)",
@@ -5194,6 +6274,110 @@
     "source_urls": [
       "https://careers.legalandgeneral.com/graduate-scheme",
       "https://careers.legalandgeneral.com/job/graduate-investment-asset-management-london-2026-in-london-jid-6068"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "lloyd-s-of-london--actuarial-graduate-programme",
+    "employer": "Lloyd's of London",
+    "programme": "Actuarial Graduate Programme",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Lloyd's graduates page read 29 Sep 2026: 'For 2026, we are running four core programmes... Applications are now closed.' No 2027 dates given.",
+    "url": "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates",
+    "apply_url": null,
+    "degree_req": "2:1 minimum in any subject",
+    "salary": null,
+    "notes": "Permanent contract; oversight of market reserves and capital. One application per person per season; strengths-based assessment. Applications historically open Sept/Oct.",
+    "source_urls": [
+      "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "lloyd-s-of-london--business-graduate-programme",
+    "employer": "Lloyd's of London",
+    "programme": "Business Graduate Programme",
+    "sector": "insurance-actuarial",
+    "stream": "Business (rotational, non-insurance-specific)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Lloyd's graduates page read 29 Sep 2026: 'Applications are now closed'.",
+    "url": "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates",
+    "apply_url": null,
+    "degree_req": "2:1 minimum in any subject",
+    "salary": null,
+    "notes": "Two-year rounded introduction to different professional areas.",
+    "source_urls": [
+      "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "lloyd-s-of-london--finance-graduate-programme",
+    "employer": "Lloyd's of London",
+    "programme": "Finance Graduate Programme",
+    "sector": "insurance-actuarial",
+    "stream": "Finance",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Lloyd's graduates page read 29 Sep 2026 states 'Applications are now closed' (2026 cycle).",
+    "url": "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates",
+    "apply_url": null,
+    "degree_req": "2:1 minimum in any subject",
+    "salary": null,
+    "notes": "Two-year rotational finance programme. Lloyd's also lists Business, Insurance, Internal Audit and Tax graduate programmes on the same page, all closed when checked.",
+    "source_urls": [
+      "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "lloyd-s-of-london--insurance-graduate-programme",
+    "employer": "Lloyd's of London",
+    "programme": "Insurance Graduate Programme",
+    "sector": "insurance-actuarial",
+    "stream": "Insurance / market",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Lloyd's graduates page read 29 Sep 2026: 'Applications are now closed'.",
+    "url": "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates",
+    "apply_url": null,
+    "degree_req": "2:1 minimum in any subject",
+    "salary": null,
+    "notes": "Two-year programme across Lloyd's and the market.",
+    "source_urls": [
+      "https://www.lloyds.com/about-lloyds/careers/early-careers/graduates"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -5710,6 +6894,60 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "marks-spencer--early-careers-graduate-programmes-2027",
+    "employer": "Marks & Spencer",
+    "programme": "Early Careers Graduate Programmes 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Various (finance among streams)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs M&S profile read 30 Sep 2026: 'Applications are now open... Some programmes close early' but only a register-your-interest link, no programme-level listing.",
+    "url": "https://targetjobs.co.uk/organisations/marks-spencer",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/marks-spencer"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "marsh-mclennan-marsh-guy-carpenter-mercer-oliver-wyman--uk-graduate-programmes-2027",
+    "employer": "Marsh McLennan (Marsh, Guy Carpenter, Mercer, Oliver Wyman)",
+    "programme": "UK Graduate Programmes 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Various (broking, reinsurance, investments/retirement consulting)",
+    "locations": [
+      "London",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Official student opportunities page read 30 Sep 2026 is generic with no live listings; targetjobs profile states 'We aren't currently hiring' as of 30 Sep 2026.",
+    "url": "https://careers.marsh.com/global/en/student-opportunities",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Mercer (retirement/investment) and Oliver Wyman actuarial are relevant for economics graduates; monitor careers.marsh.com and targetjobs.",
+    "source_urls": [
+      "https://careers.marsh.com/global/en/student-opportunities",
+      "https://targetjobs.co.uk/organisations/marsh-mclennan"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "marshall-wace--business-operations-graduate-2027",
     "employer": "Marshall Wace",
     "programme": "Business & Operations Graduate 2027",
@@ -5759,6 +6997,33 @@
     "source_urls": [
       "https://job-boards.greenhouse.io/mw-tech-grad/jobs/8636830002",
       "https://job-boards.greenhouse.io/mw-tech-grad"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "mastercard--launch-graduate-program-2027-uk",
+    "employer": "Mastercard",
+    "programme": "Launch Graduate Program 2027 (UK)",
+    "sector": "fintech-payments",
+    "stream": "Business Development, Consulting, Product, Technology",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Official Launch page read 29 Sep 2026 describes the 18-month global programme but gives no UK dates; Workday campus search could not be read and no UK 2027 listing was found.",
+    "url": "https://careers.mastercard.com/us/en/early-careers/launch",
+    "apply_url": "https://mastercard.wd1.myworkdayjobs.com/Campus",
+    "degree_req": "Bachelor's or Master's, recent or upcoming graduate",
+    "salary": null,
+    "notes": "Previous UK Launch roles (Business Development Associate Analyst, Product) were advertised for London.",
+    "source_urls": [
+      "https://careers.mastercard.com/us/en/early-careers/launch",
+      "https://www.mastercard.wd1.myworkdayjobs.com/Campus/job/London-England-Angel-Lane/Business-Development-Associate-Analyst-Launch-Graduate-Program-2026---London--UK_R-270554/apply/applyManually"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -5972,7 +7237,9 @@
     "notes": "Two-year programme with three eight-month rotations. Explicitly welcomes economics graduates. Check Greenhouse in case the posting reopens.",
     "source_urls": [
       "https://www.canarywharfian.co.uk/jobs/monzo/graduate-credit-analyst/8320ad77-c5fd-4354-b0d4-5b277c66e1b7",
-      "https://job-boards.greenhouse.io/monzo/jobs/8173733"
+      "https://job-boards.greenhouse.io/monzo/jobs/8173733",
+      "https://monzo.com/careers",
+      "https://uk.linkedin.com/jobs/view/graduate-credit-analyst-at-monzo-4463826473"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -6117,6 +7384,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "munich-re--actuarial-analyst-london",
+    "employer": "Munich Re",
+    "programme": "Actuarial Analyst (London)",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Only a 2026 'Actuarial Analyst' listing appears on Munich Re's Bright Network page (30 Sep 2026); no 2027 graduate programme found.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/munich-re/actuarial-analyst-london-2026-amot",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Reinsurers (Munich Re, Swiss Re, SCOR, Hannover Re) recruit small numbers of graduates ad hoc rather than via large schemes.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/munich-re/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "national-audit-office--graduate-accountancy-aca-training-scheme-2027",
     "employer": "National Audit Office",
     "programme": "Graduate Accountancy (ACA) Training Scheme 2027",
@@ -6141,6 +7434,33 @@
       "https://naoaccountancyscheme.co.uk/",
       "https://targetjobs.co.uk/careers-advice/cvs-applications-and-tests/national-audit-office-graduate-scheme-seven-application-and-interview-top-tips",
       "https://www.nao.org.uk/careers/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "nationwide-building-society--graduate-programme-2027",
+    "employer": "Nationwide Building Society",
+    "programme": "Graduate Programme 2027",
+    "sector": "retail-commercial-banking",
+    "stream": "Various",
+    "locations": [
+      "Swindon",
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Nationwide graduate page (nationwide-jobs.co.uk) rendered empty when read 29 Sep 2026; no 2027 listing found on aggregators.",
+    "url": "https://nationwide-jobs.co.uk/business-areas/graduate-entry-talent.aspx",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Swindon HQ is commutable from Bristol/South West.",
+    "source_urls": [
+      "https://nationwide-jobs.co.uk/business-areas/graduate-entry-talent.aspx"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -6427,6 +7747,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "network-rail--finance-graduate-scheme-2027",
+    "employer": "Network Rail",
+    "programme": "Finance Graduate Scheme 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs Network Rail profile read 30 Sep 2026: 'We aren't currently hiring' (graduate intake ~350).",
+    "url": "https://targetjobs.co.uk/organisations/network-rail",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Network Rail's graduate schemes usually open in autumn with a match-me quiz, online tests, video interview and assessment centre.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/network-rail"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "newton--graduate-consultant-programme-2027-operations-consultant-dig",
     "employer": "Newton",
     "programme": "Graduate Consultant Programme 2027 (Operations Consultant / Digital Solutions Consultant)",
@@ -6450,6 +7796,32 @@
       "https://app.the-trackr.com/company/newton"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "nfu-mutual--graduate-scheme-2027",
+    "employer": "NFU Mutual",
+    "programme": "Graduate Scheme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Various",
+    "locations": [
+      "Stratford-upon-Avon"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs NFU Mutual profile read 30 Sep 2026: 'We aren't currently hiring'; official early-careers page not found.",
+    "url": "https://targetjobs.co.uk/organisations/nfu-mutual",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Check nfumutual.co.uk/careers for 2027 openings.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/nfu-mutual"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -6608,6 +7980,32 @@
       "https://www.occstrategy.com/en/applications-now-open-join-our-2026-27-intern-and-graduate-intake/"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "ocado-group--finance-graduate-scheme",
+    "employer": "Ocado Group",
+    "programme": "Finance Graduate Scheme",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance",
+    "locations": [
+      "Hatfield"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs Ocado profile read 30 Sep 2026 lists a Finance Graduate Scheme for a September 2025 start and states 'We aren't currently hiring'.",
+    "url": "https://targetjobs.co.uk/organisations/ocado-group",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Check ocadogroup.com/careers/early-careers/graduates for the 2027 cycle.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/ocado-group"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -7088,6 +8486,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "procter-gamble--finance-accounting-graduate-roles-2027",
+    "employer": "Procter & Gamble",
+    "programme": "Finance & Accounting Graduate Roles 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance & Accounting",
+    "locations": [
+      "Weybridge",
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "P&G early careers page read 29 Sep 2026 lists Finance & Accounting as a career area but no dated 2027 UK graduate listing; targetjobs shows 'Register Your Interest' and a Marketing Graduate role (deadline 29 Sep 2026).",
+    "url": "https://www.pgcareers.com/gb/en/early-careers",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "P&G recruits year-round; check pgcareers.com for Finance roles.",
+    "source_urls": [
+      "https://www.pgcareers.com/gb/en/early-careers",
+      "https://targetjobs.co.uk/organisations/procter-gamble"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "pwc--consulting-graduate-programme-2027",
     "employer": "PwC",
     "programme": "Consulting Graduate Programme 2027",
@@ -7375,6 +8801,33 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "revolut--graduate-programme-2027",
+    "employer": "Revolut",
+    "programme": "Graduate Programme 2027",
+    "sector": "fintech-payments",
+    "stream": "Operations, Product Owner, Data Science, Engineering, Product Design, Information Security",
+    "locations": [
+      "London",
+      "Multiple (Barcelona, Krakow, Madrid, Lisbon, Porto, Dubai)"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Official programme page read 29 Sep 2026 shows 'View openings'; live 2027 listings (e.g. Graduate Programme 2027: Product Owner (UX), Software Engineer) found on revolut.com/careers.",
+    "url": "https://www.revolut.com/graduate-programme/",
+    "apply_url": "https://www.revolut.com/careers/position/graduate-programme-2027-software-engineer-java-3b79c804-b7e0-4b1a-9ef6-2fd69723dc7a/",
+    "degree_req": "Recent or upcoming graduate (up to 1 year after graduation)",
+    "salary": null,
+    "notes": "12-month programme, autumn and spring intakes, hybrid (3+ days in office), relocation and visa support. Operations and Product Owner streams suit economics graduates; very selective.",
+    "source_urls": [
+      "https://www.revolut.com/graduate-programme/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "roland-berger--junior-consultant-2027-london",
     "employer": "Roland Berger",
     "programme": "Junior Consultant 2027 (London)",
@@ -7424,6 +8877,33 @@
       "https://www.rothschildandco.com/en/careers/students-and-graduates/opportunities/"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "royal-london--actuarial-trainee-2027",
+    "employer": "Royal London",
+    "programme": "Actuarial Trainee 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Finance & Actuarial",
+    "locations": [
+      "Alderley Edge",
+      "Edinburgh"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 30 Sep 2026: 'Rolling deadline', live, 'Starting salary of £32,000 per annum plus bonus'.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/royal-london-group/actuarial-trainee-2027-amoo",
+    "apply_url": null,
+    "degree_req": "Strong numerical skills (degree with mathematical content)",
+    "salary": "£32,000 + bonus, increments per exam pass",
+    "notes": "Rotations of 18-24 months (valuation, pricing, climate risk, M&A analysis); IFoA study support; pension up to 14% matched; hybrid.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/royal-london-group/"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -7788,6 +9268,33 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "shell--shell-graduate-programme-2027-uk",
+    "employer": "Shell",
+    "programme": "Shell Graduate Programme 2027 (UK)",
+    "sector": "accounting-audit-tax",
+    "stream": "Commercial / Finance / Trading",
+    "locations": [
+      "London",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Official Shell graduate programme page returned only a title when fetched (JavaScript-only) on 29 Sep 2026; third-party sites claim 2027 applications are open but this was not verified on shell.com.",
+    "url": "https://www.shell.com/careers/about-careers-at-shell/early-careers/shell-graduate-programme.html",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Verify directly on shell.com; the UK assessed graduate programme normally opens in autumn.",
+    "source_urls": [
+      "https://www.shell.com/careers/about-careers-at-shell/early-careers/shell-graduate-programme/details-on-the-graduate-programme-and-how-to-apply.html"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "shorts--graduate-programme-2027-aca",
     "employer": "Shorts",
     "programme": "Graduate Programme 2027 (ACA)",
@@ -8029,6 +9536,35 @@
       "https://www.sc.com/en/global-careers/early-careers/local-programmes-for-students/uk-student-opportunities/"
     ],
     "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "standard-life-phoenix-group--actuarial-trainee-scheme",
+    "employer": "Standard Life (Phoenix Group)",
+    "programme": "Actuarial Trainee Scheme",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "Edinburgh",
+      "Birmingham",
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Official page read 30 Sep 2026 has an 'Apply now' button but states no intake year, closing date or salary; Phoenix job search could not be read (JavaScript-only).",
+    "url": "https://www.standardlifeplc.com/careers/actuarial-trainee-scheme",
+    "apply_url": null,
+    "degree_req": "2:1 or above in an analytically-based subject; A in A-level Maths",
+    "salary": null,
+    "notes": "Rotations across financial reporting, capital & risk, investment operations; full IFoA study package. Process: online application, telephone interview, assessment centre. Phoenix Group = Standard Life, SunLife, ReAssure brands.",
+    "source_urls": [
+      "https://www.standardlifeplc.com/careers/actuarial-trainee-scheme",
+      "https://www.standardlifeplc.com/careers"
+    ],
+    "checked_at": "2026-09-30",
     "status_source": "hand",
     "added_at": "2026-09-29"
   },
@@ -8277,6 +9813,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "tesco-tesco-bank--customer-propositions-graduate-scheme-2027",
+    "employer": "Tesco (Tesco Bank)",
+    "programme": "Customer Propositions Graduate Scheme 2027",
+    "sector": "retail-commercial-banking",
+    "stream": "Customer propositions & marketing (banking)",
+    "locations": [
+      "Edinburgh",
+      "Glasgow"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2027-03-30",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 30 Sep 2026: 'Deadline: 30th Mar 2027', 'Programme start date: 6 September 2027', salary £32,000, 'Recently opened'.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/tesco/customer-propositions-graduate-scheme",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": "£32,000",
+    "notes": "Two-year scheme; also an Operations & Leadership scheme. No Tesco UK Finance graduate scheme was listed at time of check.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/tesco/",
+      "https://www.brightnetwork.co.uk/application-deadlines/jobs/graduate-schemes/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "the-brattle-group--research-analyst-2027-london",
     "employer": "The Brattle Group",
     "programme": "Research Analyst 2027 (London)",
@@ -8356,6 +9920,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "transport-for-wales--future-leaders-graduate-scheme",
+    "employer": "Transport for Wales",
+    "programme": "Future Leaders Graduate Scheme",
+    "sector": "central-bank-regulator-public",
+    "stream": "Various (business, finance, engineering)",
+    "locations": [
+      "Pontypridd",
+      "Cardiff",
+      "Wrexham"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Official TfW graduate scheme page read 29 Sep 2026 still describes the 2026 cohort ('You'll start in September 2026') with no 2027 dates or apply link.",
+    "url": "https://tfw.wales/info-for/job-hunters/graduate-scheme",
+    "apply_url": null,
+    "degree_req": "Relevant degree; graduated within last two years",
+    "salary": "£27,000 year one, £28,000 year two",
+    "notes": "22-month scheme. Welsh public-sector employer HQ'd in Pontypridd.",
+    "source_urls": [
+      "https://tfw.wales/info-for/job-hunters/graduate-scheme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "ubs--graduate-talent-program-2027-london-investment-bank-global-m",
     "employer": "UBS",
     "programme": "Graduate Talent Program 2027 - London (Investment Bank, Global Markets, Global Wealth Management, Asset Management, Group Functions)",
@@ -8410,6 +10002,34 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "unilever--unilever-future-leaders-programme-uflp-finance-uk-2027",
+    "employer": "Unilever",
+    "programme": "Unilever Future Leaders Programme (UFLP) - Finance UK 2027",
+    "sector": "accounting-audit-tax",
+    "stream": "Finance",
+    "locations": [
+      "London",
+      "Kingston upon Thames"
+    ],
+    "start": "2027",
+    "opens": "2026-09-28",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Official Unilever job posting read 30 Sep 2026: start 'September 2027', posted 28 Sep 2026, 'This is a rolling deadline, so we encourage you to apply as soon as possible'; Bright Network shows it as 'Recently opened'.",
+    "url": "https://careers.unilever.com/en/job/united-kingdom/unilever-future-leadership-programme-finance-uk/34155/101254605296",
+    "apply_url": null,
+    "degree_req": "Any degree ('You don't need a finance or economics degree')",
+    "salary": "£35,000 + benefits envelope worth 25% of pensionable earnings",
+    "notes": "36-month rotational programme; apply to ONE function only (first application counts); hybrid min 3 days at Blackfriars or Kingston. Posting window shown as 28 Sep - 12 Oct 2026 so apply fast.",
+    "source_urls": [
+      "https://careers.unilever.com/en/job/united-kingdom/unilever-future-leadership-programme-finance-uk/34155/101254605296",
+      "https://www.brightnetwork.co.uk/graduate-jobs/unilever/finance-unilever-future-leaders-programme-2027"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "vanguard--uk-graduate-programme-2027",
     "employer": "Vanguard",
     "programme": "UK Graduate Programme 2027",
@@ -8432,6 +10052,32 @@
     "source_urls": [
       "https://www.vanguardjobs.com/students/",
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "visa--graduate-programme-london",
+    "employer": "Visa",
+    "programme": "Graduate Programme (London)",
+    "sector": "fintech-payments",
+    "stream": "Various (business, technology)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Visa UK application-process FAQ read 29 Sep 2026: graduate and intern roles 'don't have a fixed opening date for applications'; no 2027 London graduate listing located.",
+    "url": "https://www.visa.co.uk/careers/next-gen-careers/application-process-grads-and-interns.html",
+    "apply_url": null,
+    "degree_req": "Any degree (technology degree not required)",
+    "salary": null,
+    "notes": "Monitor visa.co.uk/careers; roles appear ad hoc.",
+    "source_urls": [
+      "https://www.visa.co.uk/careers/next-gen-careers/application-process-grads-and-interns.html"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
@@ -8517,6 +10163,118 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "welsh-government-academi-wales--all-wales-public-service-graduate-programme",
+    "employer": "Welsh Government / Academi Wales",
+    "programme": "All Wales Public Service Graduate Programme",
+    "sector": "central-bank-regulator-public",
+    "stream": "Public service management (rotations across Welsh public bodies)",
+    "locations": [
+      "Cardiff",
+      "South East Wales",
+      "North Wales",
+      "West and Mid Wales"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Academi Wales page read 29 Sep 2026: 'We will not be running the All Wales Public Service Graduate Programme during FY 2024/2025' with no later intake announced.",
+    "url": "https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme",
+    "apply_url": "https://cymru-wales.tal.net/vx/mobile-0/appcentre-1/brand-2/candidate/so/pm/1/pl/6/opp/4051-All-Wales-Public-Service-Graduate-Programme/en-GB",
+    "degree_req": "2:1 or above in any subject",
+    "salary": null,
+    "notes": "Subscribe to the Academi Wales bulletin for news of any relaunch.",
+    "source_urls": [
+      "https://academiwales.gov.wales/courses-and-events/programmes/all-wales-public-service-graduate-programme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "wise--wisestart-graduate-roles-2027",
+    "employer": "Wise",
+    "programme": "WiseStart Graduate Roles 2027",
+    "sector": "fintech-payments",
+    "stream": "Analytics, Engineering, Data Science, Design",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "Wise early-careers page read 29 Sep 2026 explains graduate roles with a global September start but lists no open 2027 graduate roles; Bright Network shows only 'Register your interest'.",
+    "url": "https://wise.jobs/wisestart-programs",
+    "apply_url": null,
+    "degree_req": "Final-year student or graduated within a year (Bachelors or Masters)",
+    "salary": null,
+    "notes": "Analytics track is the most relevant for economics graduates.",
+    "source_urls": [
+      "https://wise.jobs/wisestart-programs"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "wtw--2027-corporate-risk-broking-actuarial-graduate-analyst",
+    "employer": "WTW",
+    "programme": "2027 Corporate Risk & Broking - Actuarial Graduate Analyst",
+    "sector": "insurance-actuarial",
+    "stream": "Corporate Risk & Broking actuarial",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "open",
+    "status_evidence": "Live listing on careers.wtwco.com found via search on 29 Sep 2026 (two-year programme); this page was not opened directly - the sibling Retirement listing closes 30 Sep 2026 so check the date urgently.",
+    "url": "https://careers.wtwco.com/jobs/2027-corporate-risk-broking-actuarial-graduate-analyst-london-london-england-united-kingdom",
+    "apply_url": null,
+    "degree_req": "2:1 (numerate or A-level Maths B)",
+    "salary": null,
+    "notes": "WTW also lists 2027 Rewards Data & Intelligence Consulting and 2027 Executive Compensation & Board Advisory graduate programmes (London) and Insurance Consulting actuarial roles.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/wtw",
+      "https://www.gradcracker.com/hub/294/wtw/graduate-job/79913/graduate-programmes-2027"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "wtw--2027-retirement-actuarial-graduate-trainee-consultant-progra",
+    "employer": "WTW",
+    "programme": "2027 Retirement Actuarial Graduate Trainee Consultant Programme",
+    "sector": "insurance-actuarial",
+    "stream": "Retirement / pensions actuarial consulting",
+    "locations": [
+      "London",
+      "Manchester",
+      "Edinburgh",
+      "Leeds",
+      "Reigate"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-09-30",
+    "status": "open",
+    "status_evidence": "Official WTW listing read 29 Sep 2026: 'Closing Date: 30th September 2026' with live APPLY NOW form.",
+    "url": "https://careers.wtwco.com/jobs/2027-retirement-actuarial-graduate-trainee-consultant-programme-london-london-england-united-kingdom",
+    "apply_url": null,
+    "degree_req": "2:1 in a numerate discipline, or 2:1 non-numerate plus B at A-level Maths",
+    "salary": null,
+    "notes": "Closes 30 Sep 2026 - apply immediately. Only one WTW programme application per year. Process: online application + CV, online test and video interview, virtual assessment centre. Hybrid, 3+ days in office (4 initially). IFoA study support.",
+    "source_urls": [
+      "https://careers.wtwco.com/jobs/2027-retirement-actuarial-graduate-trainee-consultant-programme-london-london-england-united-kingdom"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "xeinadin--graduate-trainee-accountant-graduate-tax-trainee-2027",
     "employer": "Xeinadin",
     "programme": "Graduate Trainee Accountant / Graduate Tax Trainee 2027",
@@ -8549,6 +10307,33 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "xps-group--actuarial-graduate-programme-2027",
+    "employer": "XPS Group",
+    "programme": "Actuarial Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Pensions actuarial",
+    "locations": [
+      "Multiple UK"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "targetjobs XPS profile read 30 Sep 2026: 'We aren't currently hiring'; no 2027 XPS graduate listing found.",
+    "url": "https://targetjobs.co.uk/organisations/xps-pensions-group",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Previous cycles recruited Graduate Actuarial Assistants UK-wide (incl. Belfast, Leeds) with IFoA apprenticeship route.",
+    "source_urls": [
+      "https://targetjobs.co.uk/organisations/xps-pensions-group",
+      "https://www.actuarialcareers.co.uk/organisations/xps-pensions-group/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "xps-group--graduate-programme-2027-investment-actuarial",
     "employer": "XPS Group",
     "programme": "Graduate Programme 2027 (Investment / Actuarial)",
@@ -8575,6 +10360,32 @@
     "added_at": "2026-09-29"
   },
   {
+    "id": "zopa-bank--2027-graduate-analyst",
+    "employer": "Zopa Bank",
+    "programme": "2027 Graduate Analyst",
+    "sector": "fintech-payments",
+    "stream": "Analyst (product, lending criteria, customer strategy)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-25",
+    "status": "open",
+    "status_evidence": "Bright Network listing read 30 Sep 2026: 'Deadline: 25th Oct 2026', salary £45,000, published ~4 weeks earlier.",
+    "url": "https://www.brightnetwork.co.uk/graduate-jobs/zopa/2027-graduate-analyst",
+    "apply_url": null,
+    "degree_req": "Strong numerical and communication skills",
+    "salary": "£45,000",
+    "notes": "Analysts shape products, lending criteria and target markets - strong fit for economics graduates.",
+    "source_urls": [
+      "https://www.brightnetwork.co.uk/graduate-jobs/zopa/"
+    ],
+    "checked_at": "2026-09-30",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
     "id": "zs-associates--decision-analytics-associate-business-analyst-graduate-entry",
     "employer": "ZS Associates",
     "programme": "Decision Analytics Associate / Business Analyst (graduate entry, London)",
@@ -8596,6 +10407,144 @@
     "source_urls": [
       "https://www.zs.com/careers/find-your-path/recent-graduates",
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "zurich-uk--accounting-graduate-programme-2027",
+    "employer": "Zurich UK",
+    "programme": "Accounting Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Finance / Accounting (ACCA or CIMA)",
+    "locations": [
+      "Swindon",
+      "Whiteley (Fareham)"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-18",
+    "status": "open",
+    "status_evidence": "Official listing read 29 Sep 2026: 'Start Date: September 2027. Closing date for applications: Sunday 18th October 2026'.",
+    "url": "https://www.careers.zurich.com/job/Swindon-Accounting-Graduate-Programme-2027-%28Swindon%29-GB-W/1371739357/",
+    "apply_url": "https://www.careers.zurich.com/job/Fareham-Accounting-Graduate-Programme-2027-%28Whiteley%29-GB-H/1371739057/",
+    "degree_req": "Degree (numerate preferred); see listing",
+    "salary": "£30,600",
+    "notes": "Three one-year rotations across accounting teams; ACCA/CIMA study. Must have indefinite right to work and have lived in UK 3+ years - no sponsorship. Swindon is commutable from the South West.",
+    "source_urls": [
+      "https://www.careers.zurich.com/job/Swindon-Accounting-Graduate-Programme-2027-%28Swindon%29-GB-W/1371739357/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "zurich-uk--actuarial-graduate-scheme-life-and-general-insurance",
+    "employer": "Zurich UK",
+    "programme": "Actuarial Graduate Scheme (Life and General Insurance)",
+    "sector": "insurance-actuarial",
+    "stream": "Actuarial",
+    "locations": [
+      "Swindon",
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "closed",
+    "status_evidence": "Official page read 29 Sep 2026: 'Not available in 2027' and 'Applications for our Zurich actuarial graduate programme is closed for 2027.'",
+    "url": "https://www.zurich.co.uk/careers/graduate-schemes/actuarial-graduate-scheme",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Zurich is not recruiting actuarial graduates for 2027; the Actuarial summer internship 2027 (Swindon, closes 18 Oct 2026) is the route in for the following year.",
+    "source_urls": [
+      "https://www.zurich.co.uk/careers/graduate-schemes/actuarial-graduate-scheme"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "zurich-uk--business-management-graduate-programme-2027",
+    "employer": "Zurich UK",
+    "programme": "Business Management Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Business Management (rotational, claims/underwriting/operations)",
+    "locations": [
+      "London",
+      "Croydon",
+      "Glasgow",
+      "Swindon",
+      "Farnborough"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-10-18",
+    "status": "open",
+    "status_evidence": "Official Zurich listing read 29 Sep 2026: 'Start Date: September 2027... Closing date for applications: Sunday 18th October 2026'; hub page says 'Applications are now open for our 2027 graduate programmes.'",
+    "url": "https://www.careers.zurich.com/job/London-Business-Management-Graduate-Programme-2027-%28London%29-GB-L/1371810657/",
+    "apply_url": "https://www.careers.zurich.com/search/?q=Graduate&optionsFacetsDD_shifttype=Graduate&optionsFacetsDD_customfield3=United+Kingdom",
+    "degree_req": "Degree achieved within last three years or on track (any discipline)",
+    "salary": "£30,600 (+ £3,200 London allowance)",
+    "notes": "27-month rotational programme, Level 6 Senior Insurance Professional apprenticeship incl. ACII; expected to move locations between rotations (relocation support). One location listing per city - apply to one. Indefinite right to work required.",
+    "source_urls": [
+      "https://www.zurich.co.uk/careers/graduate-schemes",
+      "https://www.careers.zurich.com/job/London-Business-Management-Graduate-Programme-2027-%28London%29-GB-L/1371810657/"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "zurich-uk--change-technology-management-graduate-programme-2027",
+    "employer": "Zurich UK",
+    "programme": "Change & Technology Management Graduate Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Change & Technology Management",
+    "locations": [
+      "Swindon",
+      "Whiteley (Fareham)"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "open",
+    "status_evidence": "Listed as a live 2027 graduate vacancy (posted 9 Sep 2026) in Zurich's UK graduate job search on 29 Sep 2026; hub says 2027 applications are open. Individual listing not opened - sibling roles close 18 Oct 2026.",
+    "url": "https://www.careers.zurich.com/job/Swindon-Change-&-Technology-Management-Graduate-Programme-2027-%28Swindon%29-GB-W/1371700057/",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Business-facing change/project role rather than coding. Zurich also lists a Sustainable Energy Graduate Development Programme 2027 (London, Underwriting) and Technology Engineering 2027 (Swindon).",
+    "source_urls": [
+      "https://www.careers.zurich.com/search/?q=Graduate&optionsFacetsDD_shifttype=Graduate&optionsFacetsDD_customfield3=United+Kingdom"
+    ],
+    "checked_at": "2026-09-29",
+    "status_source": "hand",
+    "added_at": "2026-09-29"
+  },
+  {
+    "id": "zurich-uk--sustainable-energy-graduate-development-programme-2027",
+    "employer": "Zurich UK",
+    "programme": "Sustainable Energy Graduate Development Programme 2027",
+    "sector": "insurance-actuarial",
+    "stream": "Underwriting / energy risk (claims and underwriting)",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": null,
+    "status": "open",
+    "status_evidence": "Live 2027 listing (posted 10 Sep 2026) in Zurich UK graduate search on 29 Sep 2026; hub page confirms 2027 applications open.",
+    "url": "https://www.careers.zurich.com/job/London-Sustainable-Energy-Graduate-Development-Programme-2027-GB-L/1371810357/",
+    "apply_url": null,
+    "degree_req": null,
+    "salary": null,
+    "notes": "Works with large energy-sector clients across claims and underwriting; listing not opened directly, check closing date on page (siblings close 18 Oct 2026).",
+    "source_urls": [
+      "https://www.careers.zurich.com/search/?q=Graduate&optionsFacetsDD_shifttype=Graduate&optionsFacetsDD_customfield3=United+Kingdom"
     ],
     "checked_at": "2026-09-29",
     "status_source": "hand",
