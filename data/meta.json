@@ -1,1 +1,21 @@
-{}
+{
+  "last_run": "2026-09-29T21:49:08.234Z",
+  "last_verify": {
+    "date": "2026-09-29",
+    "total": 0,
+    "changed": 0,
+    "counts": {},
+    "seconds": 0
+  },
+  "last_discover": {
+    "date": "2026-09-29",
+    "sources": {
+      "adzuna": false,
+      "reed": false
+    },
+    "candidates": 0,
+    "added": 0,
+    "updated": 0,
+    "skipped": 0
+  }
+}
