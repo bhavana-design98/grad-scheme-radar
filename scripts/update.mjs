@@ -18,6 +18,6 @@ for (const p of pairs) {
   if (k === "status" && !["open", "closed", "opens-soon", "unknown"].includes(v)) { console.error(`bad status ${v}`); process.exit(1); }
   r[k] = v === "" ? null : v;
 }
-r.checked_at = TODAY; r.status_source = "verified"; r.verify = { ...(r.verify || {}), failures: 0, http_failures: 0, note: "checked by Claude " + TODAY };
+r.checked_at = TODAY; r.status_source = "hand"; r.verify = { ...(r.verify || {}), failures: 0, http_failures: 0, note: "checked by Claude " + TODAY };
 await writeFile(DATA, JSON.stringify(schemes, null, 2) + "\n");
 console.log(`${r.employer} — ${r.programme}: status=${r.status} deadline=${r.deadline} opens=${r.opens}`);

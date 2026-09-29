@@ -31,7 +31,8 @@ export function clean(r) {
     salary: r.salary || null,
     notes: r.notes || "",
     source_urls: Array.isArray(r.source_urls) ? r.source_urls : [],
-    checked_at: r.checked_at || TODAY
+    checked_at: r.checked_at || TODAY,
+    status_source: r.status_evidence ? "hand" : "unverified"
   };
   if (out.deadline && /^\d{4}-\d{2}-\d{2}/.test(out.deadline) && out.deadline.slice(0, 10) < TODAY && out.status === "open") out.status = "closed";
   return out;
@@ -57,7 +58,7 @@ export function mergeInto(existing, incoming) {
       // Fill gaps, take a newer deadline/status if the research is more recent than the last verification.
       for (const f of ["deadline", "opens", "degree_req", "salary", "apply_url"]) if (!hit[f] && r[f]) hit[f] = r[f];
       if (!hit.notes && r.notes) hit.notes = r.notes;
-      if ((r.checked_at || "") >= (hit.checked_at || "") && hit.status_source !== "verified") { hit.status = r.status; hit.status_evidence = r.status_evidence || hit.status_evidence; hit.checked_at = r.checked_at; }
+      if ((r.checked_at || "") >= (hit.checked_at || "") && hit.status_source !== "hand") { hit.status = r.status; hit.status_evidence = r.status_evidence || hit.status_evidence; hit.checked_at = r.checked_at; }
       hit.source_urls = [...new Set([...(hit.source_urls || []), ...r.source_urls])].slice(0, 6);
       updated++;
     } else {

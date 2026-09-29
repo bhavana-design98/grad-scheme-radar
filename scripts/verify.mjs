@@ -28,11 +28,18 @@ const CLOSED = [
   /we are not currently recruiting/i,
   /page not found|404 not found|this page doesn.?t exist|page you requested could not be found/i
 ];
-const OPEN = [
+const OPEN_STRONG = [
   /apply now/i, /applications? (?:are|is) (?:now )?open/i, /applications open/i, /apply today/i, /start your application/i,
-  /submit your application/i, /apply here/i, /begin application/i, /register your interest/i, /open for applications/i,
-  /now accepting applications/i, /applications? close(?:s|d)? (?:on )?\d/i, /closing date/i, /application deadline/i
+  /submit your application/i, /apply here/i, /begin (?:your )?application/i, /open for applications/i, /now accepting applications/i
 ];
+const OPEN_WEAK = [/applications? close(?:s|d)? (?:on )?d/i, /closing date/i, /application deadline/i, /register your interest/i];
+const OPEN = [...OPEN_STRONG, ...OPEN_WEAK];
+const GRAD_2027 = (t) => /graduate|analyst program|new analyst|full[- ]time program/i.test(t) && /2027/.test(t);
+const HAND_DAYS = 10;
+function handProtected(r) {
+  if (r.status_source !== "hand" || r.status === "unknown" || !r.checked_at) return false;
+  return (Date.now() - new Date(r.checked_at)) / 86400000 <= HAND_DAYS;
+}
 const NOT_YET = [
   /applications? (?:will )?open(?:s|ing)? (?:in|on|from) /i, /opening soon/i, /coming soon/i, /register (?:your )?interest/i, /not yet open/i
 ];
@@ -119,7 +126,6 @@ export async function verifyOne(r) {
   if (text.length < 400) {
     // JavaScript-rendered page: nothing to read. Keep status, mark unverifiable.
     out.verify.note = "js-rendered";
-    out.status_source = r.status_source === "verified" ? "verified-earlier" : (r.status_source || "unverifiable");
     return out;
   }
 
@@ -127,22 +133,25 @@ export async function verifyOne(r) {
   const openHit = findFirst(OPEN, text);
   const notYetHit = findFirst(NOT_YET, text);
 
-  if (closedHit && !openHit) {
-    out.status = "closed"; out.status_source = "verified";
+  if (closedHit && !openHit && (!handProtected(r) || r.status !== "closed" && CLOSED.slice(0, 12).some((p) => p.test(closedHit)))) {
+    out.status = "closed"; out.status_source = "auto";
     out.status_evidence = `Employer page says: "${snippet(text, closedHit)}"`;
   } else if (closedHit && openHit) {
-    // Both signals: usually a page listing several programmes. Do not flip to closed on ambiguous text; flag it.
-    out.status_source = "ambiguous";
-    out.verify.note = `closed:"${closedHit}" open:"${openHit}"`;
-    if (r.status === "closed") { out.status = "unknown"; out.status_evidence = `Page shows both open and closed wording: "${snippet(text, openHit)}"`; }
+    // Both signals: usually a hub page listing several programmes. Never flip on ambiguous text; just flag it.
+    out.verify.note = `ambiguous closed:"${closedHit}" open:"${openHit}"`;
   } else if (openHit) {
-    if (r.status !== "open") { out.status = "open"; out.status_evidence = `Employer page says: "${snippet(text, openHit)}"`; }
-    out.status_source = "verified";
+    const strong = findFirst(OPEN_STRONG, text);
+    if (r.status !== "open" && strong && GRAD_2027(text) && !handProtected(r)) {
+      out.status = "open"; out.status_source = "auto";
+      out.status_evidence = `Employer page says: "${snippet(text, strong)}"`;
+    } else if (r.status === "open") {
+      out.status_source = r.status_source === "hand" ? "hand" : "auto";
+    } else {
+      out.verify.note = `open wording ("${openHit}") but ${!strong ? "weak" : !GRAD_2027(text) ? "no 2027 graduate mention" : "hand-checked recently"}; status kept`;
+    }
   } else if (notYetHit) {
-    if (r.status !== "open") { out.status = "opens-soon"; out.status_evidence = `Employer page says: "${snippet(text, notYetHit)}"`; }
-    out.status_source = "verified";
+    if (r.status !== "open" && r.status !== "opens-soon" && !handProtected(r)) { out.status = "opens-soon"; out.status_source = "auto"; out.status_evidence = `Employer page says: "${snippet(text, notYetHit)}"`; }
   } else {
-    out.status_source = r.status_source || "no-signal";
     out.verify.note = "no open/closed wording found";
   }
   if (out.status !== prev) out.status_changed_at = TODAY;

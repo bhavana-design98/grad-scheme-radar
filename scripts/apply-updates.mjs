@@ -22,7 +22,7 @@ for (const u of updates) {
   if (u.deadline === null && u.status === "closed") { /* keep old deadline for the record */ }
   if (u.evidence) r.status_evidence = u.evidence;
   if (r.deadline && /^\d{4}-\d{2}-\d{2}$/.test(r.deadline) && r.deadline < TODAY && r.status === "open") r.status = "closed";
-  r.checked_at = TODAY; r.status_source = "verified";
+  r.checked_at = TODAY; r.status_source = "hand";
   r.verify = { ...(r.verify || {}), failures: 0, http_failures: 0, note: "checked by hand " + TODAY };
   if (r.status !== before) { r.status_changed_at = TODAY; changed++; }
   applied++;
