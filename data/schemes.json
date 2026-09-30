@@ -195,8 +195,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Aegon UK's Workday job site lists 9 vacancies and none is a graduate or trainee role (searches for 'graduate' and 'trainee' return 0); there is no formal 2027 graduate scheme. (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No graduate posting on the employer job board yet. Aegon UK's Workday job site lists 9 vacancies and none is a graduate or trainee role (searches for 'graduate' and 'trainee' return 0); there is no formal 2027 graduate scheme. (read 2026-09-30)",
     "url": "https://www.aegon.co.uk/careers/our-departments",
     "apply_url": "https://transamerica.wd5.myworkdayjobs.com/AUK_JobSite",
     "degree_req": null,
@@ -499,7 +499,7 @@
     "opens": "2026-09",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Scheme listed on Allianz UK graduate schemes page; no live UK 2027 actuarial graduate vacancy visible on 30 Sep 2026.",
+    "status_evidence": "Allianz UK's graduate schemes page says applications are taken between September and December for the following summer, but the careers job search returns no readable UK results for 'graduate' in either automated fetch or the browser, so no live 2027 Actuarial vacancy could be confirmed. (read 2026-09-30)",
     "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
     "apply_url": null,
     "degree_req": null,
@@ -517,7 +517,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 23264,
-      "note": "open wording (\"submit your application\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -536,7 +536,7 @@
     "opens": "2026-09",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Allianz UK graduate page says 'You can submit your application between September and December to join us for the following summer', but on 30 Sep 2026 the Allianz job search showed only Ireland graduate programmes and no UK 2027 graduate vacancies.",
+    "status_evidence": "Allianz UK's graduate schemes page says applications are taken between September and December for the following summer, but the careers job search returns no readable UK results for 'graduate', so no live 2027 Rotational vacancy could be confirmed (a search-engine snippet about a 2027 programme closing October 2026 refers to Allianz Ireland). (read 2026-09-30)",
     "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
     "apply_url": "https://careers.allianz.com/UK/search?searchby=location&createNewAlert=false&q=Graduate&locationsearch=UK",
     "degree_req": "Any discipline",
@@ -555,7 +555,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 6849,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -574,7 +574,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Allianz UK graduate schemes page read 2026-09-30 says schemes are advertised between September and December for the following summer intake; no live 2027 postings could be confirmed on the job board.",
+    "status_evidence": "Allianz UK's graduate schemes page says schemes are advertised between September and December for the following summer, but the careers job search returns no readable UK results for 'graduate', so no live 2027 postings could be confirmed. (read 2026-09-30)",
     "url": "https://internal-careers.allianz.com/UK/content/Graduate-Schemes-UK/?locale=en_GB",
     "apply_url": "https://careers.allianz.com/gb/en/home",
     "degree_req": "Varies; Finance and Pricing want a numerate degree, Rotational accepts any degree",
@@ -592,7 +592,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5158,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -608,7 +608,7 @@
     "opens": "2026-09",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Scheme described on Allianz UK graduate schemes page (applications 'between September and December'); no live UK 2027 finance graduate vacancy found on 30 Sep 2026.",
+    "status_evidence": "Allianz UK's graduate schemes page says applications are taken between September and December for the following summer, but the careers job search returns no readable UK results for 'graduate', so no live 2027 Finance vacancy could be confirmed. (read 2026-09-30)",
     "url": "https://internal-careers.allianz.com/UK/content/Graduate-Schemes-UK/?locale=en_GB",
     "apply_url": null,
     "degree_req": "Any university, highly numerate discipline",
@@ -626,7 +626,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 24859,
-      "note": "open wording (\"submit your application\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -919,9 +919,9 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Amex UK student page read 29 Sep 2026 describes graduate programmes (Finance Graduate Program alumni) but only 2027 internships (open 14 Sep - 23 Oct 2026) are live; targetjobs profile says 'We aren't currently hiring' for graduate roles.",
+    "status_evidence": "Amex's careers search for the UK shows only 'Campus - Full Time - Software Engineer - 2027' roles (London and Burgess Hill, posted 14 Sep 2026) and US internships; no UK Finance, Risk, Strategy or Marketing 2027 graduate programme is posted and no opening date is given. (read 2026-09-30)",
     "url": "https://www.americanexpress.com/en-gb/careers/student-programs/global-students-page.html",
-    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1",
+    "apply_url": "https://careers.americanexpress.com/en/sites/CX_1/jobs?keyword=campus&location=United%20Kingdom",
     "degree_req": null,
     "salary": null,
     "notes": "Amex often fills graduate roles via internship conversion; check the careers portal for 'Campus - Graduate Program' postings.",
@@ -938,7 +938,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 16,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -1615,7 +1615,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "AXA UK careers graduate pages could not be read (careers.axa.co.uk early-careers pages returned 404 / navigation blocked on 30 Sep 2026); Bright Network profile confirms five UK programmes but showed no live 2027 listing.",
+    "status_evidence": "AXA UK's careers job search for 'graduate' returns 0 results and the site only offers a Talent Community sign-up; no 2027 graduate programme posting or opening date was found. (read 2026-09-30)",
     "url": "https://careers.axa.co.uk/",
     "apply_url": null,
     "degree_req": null,
@@ -1634,7 +1634,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5284,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -1650,7 +1650,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "azets.com early-careers pages give an 'Apply now' link and FAQ (2:1 usually required) but no 2027 opening status readable. Read 2026-09-29.",
+    "status_evidence": "Azets' early-careers page links to a current-opportunities job list that renders empty in both automated fetch and the browser, so no live 2027 graduate trainee posting or opening date could be read. (read 2026-09-30)",
     "url": "https://www.azets.com/en-uk/careers/early-careers",
     "apply_url": null,
     "degree_req": "Undergraduate degree, usually 2:1",
@@ -1668,7 +1668,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3457,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -1684,7 +1684,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "BAE Systems UK graduates page read 2026-09-30 confirms Business graduate roles including finance and the salary; a 'Graduate Finance 2027' role is listed on Bright Network (22 Sep 2026) but the official posting was not opened.",
+    "status_evidence": "BAE's UK graduate job search (filtered to graduates, United Kingdom) lists 9 roles, none of them Finance; a 'Graduate Finance 2027' posting was reported on Bright Network on 22 Sep 2026 but is not on BAE's own board, so it may already have closed (BAE roles 'may close without notice'). (read 2026-09-30)",
     "url": "https://careers.baesystems.com/locations/uk/graduates",
     "apply_url": "https://jobsearch.baesystems.com/search-and-apply?_international_locations_checkboxes=united-kingdom&_level_of_experience_checkboxes=graduates",
     "degree_req": null,
@@ -1703,7 +1703,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5970,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -1717,11 +1717,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "targetjobs BAE profile read 30 Sep 2026 gives '£34,000... £2,000 welcome bonus' and warns roles 'may close without notice'; only engineering 2027 graduate roles were visible on Bright Network - no finance listing confirmed.",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "BAE's UK graduate job search lists a live 'Graduate Project Management & Control' role (Warton/Samlesbury) with start date 6 September 2027, £34,000 + £2,000 welcome bonus, open to Business/Finance/Project Management degrees, no closing date shown; the other 8 UK graduate roles are engineering. (read 2026-09-30)",
     "url": "https://careers.baesystems.com/locations/uk/graduates",
-    "apply_url": null,
+    "apply_url": "https://jobsearch.baesystems.com/job/graduate-project-management-control-v06256-11426",
     "degree_req": null,
     "salary": "£34,000 + £2,000 welcome bonus",
     "notes": "Non-rotational programmes; check careers.baesystems.com for Finance/Commercial graduate roles.",
@@ -1737,8 +1737,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 84,
-      "note": "js-rendered"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "baillie-gifford--investment-research-programme-2027",
@@ -2693,11 +2694,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "btguk.com has an Early Careers page but only navigation was readable; no 2027 status. Read 2026-09-29.",
+    "deadline": "2026-10-30",
+    "status": "open",
+    "status_evidence": "BTG's Early Careers page lists live 'Trainee Restructuring Administrator' roles (Stockton on Tees, Darlington, Leigh-on-Sea; full-time permanent, salary £DOE, open to recent graduates) closing 30/10/2026, though these are immediate-start trainee jobs rather than a dated 2027 graduate scheme. (read 2026-09-30)",
     "url": "https://www.btguk.com/careers/early-careers",
-    "apply_url": null,
+    "apply_url": "https://www.btguk.com/careers/early-careers",
     "degree_req": null,
     "salary": null,
     "notes": "Has Cardiff and Bristol offices.",
@@ -2713,8 +2714,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 9187,
-      "note": "open wording (\"Closing date\") but weak; status kept"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "berenberg--investment-bank-graduate-programme-london-2027-intake",
@@ -2804,7 +2806,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "bevanbuckland.co.uk/careers/graduate-opportunities describes an annual graduate intake with a full ACA/ACCA study package but gives no 2027 opening date. Read 2026-09-29.",
+    "status_evidence": "Bevan Buckland's graduate-opportunities page describes an annual graduate intake (apply via application form, email vacancies@bevanbuckland.co.uk) but its vacancies page lists no graduate or trainee role and no 2027 opening date. (read 2026-09-30)",
     "url": "https://bevanbuckland.co.uk/careers/graduate-opportunities/",
     "apply_url": null,
     "degree_req": "2:1 and around 300 UCAS tariff points (old tariff); sector work experience preferred",
@@ -2822,7 +2824,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5638,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -2881,7 +2883,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "bishopfleming.co.uk describes a three-year ACA graduate programme and points to a Workday jobs portal that could not be read. Read 2026-09-29.",
+    "status_evidence": "Bishop Fleming's Workday board currently lists only 'School Leaver Trainee Accountant - ACA & ACA/CTA - September 2027 Start' (6 locations) and no graduate 2027 posting; searches for 'graduate' return 0 and no opening date is given. (read 2026-09-30)",
     "url": "https://www.bishopfleming.co.uk/careers/early-careers",
     "apply_url": "https://bishopfleming.wd3.myworkdayjobs.com/BF",
     "degree_req": "No need to have studied accountancy or maths",
@@ -2899,7 +2901,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 0,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -2915,7 +2917,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "wilsonwright.com now redirects to bkl.co.uk; the trainees page says 'Whether you join us from school or from university, we will train you' but vacancies portal not readable. Read 2026-09-29.",
+    "status_evidence": "BKL's Teamtailor careers site lists only experienced roles (Audit Senior, Bookkeeper, etc.) and no trainee or graduate vacancy; the trainees page gives no 2027 opening date. (read 2026-09-30)",
     "url": "https://bkl.co.uk/join-us/trainees/",
     "apply_url": "https://careers.bkl.co.uk/",
     "degree_req": null,
@@ -2933,7 +2935,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3544,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -3195,7 +3197,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Boots early careers page read 2026-09-30 says only that 'direct entry graduate roles and internships [are] available throughout the year, subject to business needs'; no 2027 finance graduate advert found.",
+    "status_evidence": "Boots' early-careers page says only that 'direct entry graduate roles and internships [are] available throughout the year, subject to business needs' and its job search for 'graduate' shows no Finance Graduate posting; no 2027 opening date is given. (read 2026-09-30)",
     "url": "https://www.boots.jobs/early-careers",
     "apply_url": null,
     "degree_req": null,
@@ -3213,7 +3215,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 8888,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -3334,10 +3336,10 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "targetjobs BA profile read 30 Sep 2026: 'We aren't currently hiring'; directs to careers.ba.com/emerging-talent.",
+    "status": "opens-soon",
+    "status_evidence": "BA's Graduates page says 'Our graduate schemes, business placements and internships will open in Autumn 2026 for roles starting in 2027' and invites people to join the Talent Pool; no exact date given. (read 2026-09-30)",
     "url": "https://targetjobs.co.uk/organisations/british-airways",
-    "apply_url": "https://careers.ba.com/emerging-talent",
+    "apply_url": "https://careers.ba.com/graduates-bps-and-interns",
     "degree_req": null,
     "salary": null,
     "notes": "",
@@ -3353,8 +3355,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 16663,
-      "note": "open wording (\"open for applications\") but no 2027 graduate mention; status kept"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "british-business-bank--graduate-programme-2027",
@@ -3573,7 +3576,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "buzzacott.co.uk pages render only 'Loading...' to automated fetch (JavaScript-only) so status could not be read. Read 2026-09-29.",
+    "status_evidence": "Buzzacott's current-opportunities page shows only 'Loading...' where vacancies should appear, in automated fetch, WebFetch and the browser after a 5-second wait, so no 2027 graduate trainee status could be read. (read 2026-09-30)",
     "url": "https://www.buzzacott.co.uk/early-careers",
     "apply_url": "https://www.buzzacott.co.uk/current-opportunities",
     "degree_req": null,
@@ -3591,7 +3594,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 2279,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -3714,7 +3717,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Official page read 2026-09-30 confirms graduate and study schemes exist but gives no intake year, dates or apply link.",
+    "status_evidence": "Canada Life's job search (life-careers.com) for 'graduate' returns only three experienced Dublin roles; the UK graduate and study schemes page gives no intake year, dates or apply link. (read 2026-09-30)",
     "url": "https://www.canadalife.co.uk/our-company/careers/our-graduate-study-schemes/",
     "apply_url": null,
     "degree_req": null,
@@ -3732,7 +3735,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10443,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4092,7 +4095,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Centrica graduates page read 2026-09-30 lists Finance, Commercial Analyst and Business Management schemes but gives no intake year, dates or status; roles are on its jobs page.",
+    "status_evidence": "Centrica's Workday board returns only a 'Demand Forecasting Analyst' role for 'graduate' and the lifeatcentrica.com jobs search for 'graduate' displays 0 results; the Finance Graduate Scheme (R0078517) is not currently live and no opening date is given. (read 2026-09-30)",
     "url": "https://www.lifeatcentrica.com/our-pathways/graduates/",
     "apply_url": "https://www.lifeatcentrica.com/jobs/",
     "degree_req": null,
@@ -4110,7 +4113,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3756,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4126,7 +4129,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Centrica Energy graduate page read 2026-09-30 describes the two-year programme (London is one of 8 locations) with no application dates or deadline.",
+    "status_evidence": "Centrica Energy's graduate programme page describes the two-year programme (three eight-month placements) but has no application dates, deadline or live vacancy link, and its vacancies page lists no graduate role. (read 2026-09-30)",
     "url": "https://centricaenergy.com/career/early-career/graduate-programme/",
     "apply_url": null,
     "degree_req": "2:1 plus a Master's in a highly numerical subject (Applied Economics accepted); programming experience preferred",
@@ -4144,7 +4147,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 8849,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4229,7 +4232,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Checkout.com early careers page read 2026-09-30: 'Application timelines vary by programme, team, and location'; no dated 2027 graduate posting confirmed.",
+    "status_evidence": "Checkout.com's early-careers page says application timelines vary and links to a job list that returns 'Not Found'; the only 'Graduate Scheme 2026/2027 (Operations)' posting found was for Ébène, Mauritius and is marked 'no longer available', so no live UK graduate posting was confirmed. (read 2026-09-30)",
     "url": "https://www.checkout.com/early-careers",
     "apply_url": null,
     "degree_req": null,
@@ -4247,7 +4250,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10771,
-      "note": "open wording (\"applications open\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4571,7 +4574,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Search results read 2026-09-30 show only last cycle's posting (start 5 October 2026, assessment centres January 2026, posted October 2025); no 2027-intake posting found.",
+    "status_evidence": "The only Compass 'Graduate Programme: Finance' posting found (TribePad record 173467) is last cycle's (start 1 October 2025, £28,000-£30,000, Birmingham/London/Surrey) and its job search for 'graduate' renders empty; no 2027-intake posting or opening date is given. (read 2026-09-30)",
     "url": "https://www.compass-group.co.uk/jobs/grads/",
     "apply_url": "https://jobs.compass-group.co.uk/",
     "degree_req": null,
@@ -4589,7 +4592,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1454,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4715,7 +4718,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "cooperparry.com/work-here says school leavers and graduates join via 'Level 7 Apprenticeship' roles; no 2027 dates given and the iCIMS portal could not be read. Read 2026-09-29.",
+    "status_evidence": "Cooper Parry's iCIMS job portal renders no listings in automated fetch, WebFetch or the browser; a third-party board lists an 'Audit Graduate 2027 - September start (Belfast)' role, which suggests roles are live, but this could not be confirmed on the employer's own portal. (read 2026-09-30)",
     "url": "https://www.cooperparry.com/work-here/",
     "apply_url": "https://ecrcareers-cooperparry.icims.com/",
     "degree_req": null,
@@ -4731,8 +4734,8 @@
       "last_attempt": "2026-09-30",
       "http": 405,
       "failures": 0,
-      "note": "HTTP 405",
-      "http_failures": 1
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
     }
   },
   {
@@ -4818,7 +4821,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Covéa graduate programme page read 2026-09-30 describes a structured graduate development scheme and benefits but gives no intake year, dates or apply link.",
+    "status_evidence": "Covéa's Workday careers board returns 0 results for 'graduate' and the graduate programme page gives no intake year or opening date. (read 2026-09-30)",
     "url": "https://www.coveainsurance.co.uk/careers/why-choose-our-graduate-programme/",
     "apply_url": null,
     "degree_req": null,
@@ -4836,7 +4839,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 7889,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4851,11 +4854,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "crowe.com returned HTTP 403 to every automated fetch on 29 Sep 2026, so status could not be read.",
+    "deadline": "2026-10-19",
+    "status": "open",
+    "status_evidence": "Crowe UK's early-careers job search lists live 'Assistant, Audit (Graduate) ... September 2027' roles in Cheltenham, Maidstone, Manchester, Midlands and Thames Valley plus Business Advisory & Accounting (Graduate) Midlands, each with 'Closing Date: 19 October 2026' (one stream closes 9 October 2026). (read 2026-09-30)",
     "url": "https://www.crowe.com/uk/careers/early-careers",
-    "apply_url": null,
+    "apply_url": "https://isw.changeworknow.co.uk/crowe/vms/e/careers/search/new",
     "degree_req": null,
     "salary": null,
     "notes": "Crowe UK offices include London, Cheltenham, Manchester, Midlands, Thames Valley, Kent. Check the site directly.",
@@ -4869,9 +4872,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "ct-accountants-advisers--graduate-programme-2027",
@@ -5389,7 +5393,7 @@
     "opens": "2026-10-05",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Economic Advisory is not named among the Advisory early-careers streams on the official page, and no such vacancy was on the portal on 29 Sep 2026; Advisory roles open 5 October so check then. Read 2026-09-29.",
+    "status_evidence": "Deloitte's Advisory early-careers page does not name Economic Advisory among its programmes and says opening and closing dates differ by programme and location; no Economic Advisory graduate posting was visible on the UK early-careers portal. (read 2026-09-30)",
     "url": "https://www.deloitte.com/uk/en/careers/discover-deloitte/our-business-areas/early-careers-opportunities-in-advisory.html",
     "apply_url": "https://apply.deloitte.co.uk/UKEarlyCareers",
     "degree_req": null,
@@ -5407,7 +5411,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 8227,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -5959,7 +5963,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "duncantoplis.co.uk/careers describes an 'advanced pathway (for graduates or those with the AAT qualification)'; vacancies page showed no trainee roles on 29 Sep 2026.",
+    "status_evidence": "Duncan & Toplis' careers page 'Latest vacancies' lists only experienced roles (IT Service Desk Analyst, Assurance Manager, etc.) and no advanced-pathway trainee posting or 2027 opening date. (read 2026-09-30)",
     "url": "https://www.duncantoplis.co.uk/careers",
     "apply_url": null,
     "degree_req": null,
@@ -5977,7 +5981,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 7776,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -6029,7 +6033,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "easyJet Runway graduate page read 2026-09-30 describes the three-year Finance programme with an apply link but no dates or status for the 2027 intake.",
+    "status_evidence": "easyJet's Runway graduate page describes the three-year Finance programme with a generic 'Apply now' link, but the Taleo job board shows no graduate or Runway vacancy (search for 'graduate' returns one unrelated easyJet holidays role) and no 2027 opening date. (read 2026-09-30)",
     "url": "https://careers.easyjet.com/en/career-areas/early-careers/graduate-programmes",
     "apply_url": null,
     "degree_req": null,
@@ -6047,7 +6051,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 14152,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -6453,7 +6457,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Experian UK&I graduate schemes page read 2026-09-30 describes the two-year programme and links to live vacancies, without intake year, dates or status.",
+    "status_evidence": "Experian's UK graduate schemes page has no intake year or dates, and jobs.experian.com's search for 'graduate' in Nottingham returned no graduate programme titles among 404 roles; only a 'register your interest' route was found. (read 2026-09-30)",
     "url": "https://www.experian.com/careers/early-careers/uk-ireland/graduate-schemes",
     "apply_url": "https://jobs.experian.com/",
     "degree_req": "Any degree for the programme overall; Graduate Data Analyst roles ask for a 2:1/2:2 in a mathematical subject (Economics accepted)",
@@ -6471,7 +6475,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10540,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -6488,7 +6492,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Experian UK graduate schemes page read 29 Sep 2026 has no 2027 vacancies; the 2026 Graduate Data Analyst (Nottingham, £32,000) listing 'has now expired'; targetjobs: 'We aren't currently hiring'.",
+    "status_evidence": "Experian's UK graduate schemes page has no intake year or dates, and jobs.experian.com's search for 'graduate' in Nottingham returned no graduate programme titles; no 2027 opening date is given. (read 2026-09-30)",
     "url": "https://www.experian.com/careers/early-careers/uk-ireland/graduate-schemes",
     "apply_url": "https://jobs.experian.com/",
     "degree_req": "Any degree (2:1 with mathematical content for data roles)",
@@ -6508,7 +6512,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10540,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -7070,12 +7074,12 @@
       "Tonbridge"
     ],
     "start": "2027",
-    "opens": null,
+    "opens": "2026-10-01",
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "First Actuarial students page read 2026-09-30 describes graduate roles and links to available positions, without stating whether the 2027 intake is open.",
+    "status": "opens-soon",
+    "status_evidence": "First Actuarial's careers site says 'Graduates: We are currently not recruiting for graduate roles, however recruitment for these will start in October, so please check back then'. (read 2026-09-30)",
     "url": "https://firstactuarial.co.uk/careers/students/",
-    "apply_url": null,
+    "apply_url": "https://careers.firstactuarial.co.uk/",
     "degree_req": null,
     "salary": null,
     "notes": "Scheme brochure: firstactuarial.co.uk/wp-content/uploads/First-Actuarial-Actuarial-graduate-scheme.pdf. Hybrid after an initial period.",
@@ -7092,8 +7096,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 7055,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "forvis-mazars--advisory-consulting-deals-graduate-programme-september-2027",
@@ -7282,7 +7287,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "frpadvisory.com returned HTTP 403 to automated fetch on 29 Sep 2026.",
+    "status_evidence": "FRP Advisory's SmartRecruiters board lists only an 'Accountancy Graduate Trainee' in Limassol, Cyprus (posted 10 Sep 2026); no UK 2027 graduate posting or opening date was found and frpadvisory.com's early-careers URL returns 'Page not found'. (read 2026-09-30)",
     "url": "https://www.frpadvisory.com/careers/early-careers/",
     "apply_url": null,
     "degree_req": null,
@@ -7298,8 +7303,8 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
     }
   },
   {
@@ -7385,7 +7390,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Gallagher programmes page read 2026-09-30 describes the two-year Futures graduate programme but gives no intake year, dates or status.",
+    "status_evidence": "Gallagher's jobs site search for 'graduate' in the United Kingdom returns only US Workers Compensation Claims Trainee roles; no UK Futures graduate programme posting or opening date was found. (read 2026-09-30)",
     "url": "https://jobs.ajg.com/ajg-programs",
     "apply_url": "https://jobs.ajg.com/ajg-home/jobs?keywords=%23FuturesProgramme1&location=United%20Kingdom",
     "degree_req": null,
@@ -7403,7 +7408,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3843,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -7491,7 +7496,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "On 2026-09-29 higher.gs.com showed 2027 London AWM roles only as summer/off-cycle internships; no 2027 full-time New Analyst AWM London posting was found and the Intervyo tracker lists GS 2027 graduate hiring as TBC.",
+    "status_evidence": "higher.gs.com's student role search loads slowly and, when read, showed only experienced-hire and 2027 Athletes Programme roles for the UK; no 2027 New Analyst Asset & Wealth Management London posting could be confirmed. (read 2026-09-30)",
     "url": "https://higher.gs.com/roles?type=students",
     "apply_url": null,
     "degree_req": null,
@@ -7510,7 +7515,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 29,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -7526,8 +7531,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "GAD recruitment page on gov.uk read 29 Sep 2026: 'No current vacancies'; trainee roles are advertised on Civil Service Jobs when open.",
+    "status": "closed",
+    "status_evidence": "GAD's gov.uk recruitment page says 'Vacancies at GAD: No current vacancies'; trainee actuary roles are advertised on Civil Service Jobs only when a campaign runs and no 2027 opening date is given. (read 2026-09-30)",
     "url": "https://www.gov.uk/government/organisations/government-actuarys-department/about/recruitment",
     "apply_url": "https://www.civilservicejobs.service.gov.uk/",
     "degree_req": null,
@@ -7546,8 +7551,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 411,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "government-economic-service--assistant-economist-graduate-scheme-next-intake",
@@ -8031,7 +8037,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "targetjobs GSK profile read 30 Sep 2026: 'We aren't currently hiring'; official graduates page not readable.",
+    "status_evidence": "GSK's Workday careers board lists UK 2027 graduate programmes only in Chemical Engineering (Irvine, Ware) plus industrial placements; no Finance Future Leaders Programme 2027 posting or opening date was found. (read 2026-09-30)",
     "url": "https://targetjobs.co.uk/organisations/gsk",
     "apply_url": null,
     "degree_req": null,
@@ -8049,7 +8055,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5990,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8104,7 +8110,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "hwca.com/careers links to careers.hwca.com, which did not resolve on 29 Sep 2026; no programme text readable.",
+    "status_evidence": "hwca.com/careers returns a site error page and careers.hwca.com could not be reached from either automated fetch or the browser; search results show only an ad hoc 'Audit and Accounts Trainee' London listing, with no 2027 graduate programme dates. (read 2026-09-30)",
     "url": "https://www.hwca.com/careers/",
     "apply_url": "https://careers.hwca.com/search",
     "degree_req": null,
@@ -8118,8 +8124,10 @@
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-30",
-      "failures": 1,
-      "last_error": "fetch failed"
+      "failures": 0,
+      "last_error": "fetch failed",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8135,7 +8143,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Hannover Re UK careers page read 2026-09-30 describes the four-year UK Graduate programme but gives no intake year, dates or open/closed status; vacancies are on its job portal.",
+    "status_evidence": "Hannover Re's job portal search for 'graduate' in the United Kingdom says 'There are currently no open positions matching your search' and the UK careers page gives no 2027 opening date. (read 2026-09-30)",
     "url": "https://www.hannover-re.com/en/local-offices/europe/united-kingdom/career/",
     "apply_url": "https://jobs.hannover-re.com/?locale=en_US",
     "degree_req": "At least a 2:1 in a mathematical field",
@@ -8153,7 +8161,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3202,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8405,12 +8413,12 @@
       "Cardiff"
     ],
     "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "civil-service-careers.gov.uk/hmrc-tax-specialist-programme exists but the page content was truncated by the fetch tool, so 2027 dates could not be read. Read 2026-09-29.",
+    "opens": "2026-10-09",
+    "deadline": "2026-10-26",
+    "status": "opens-soon",
+    "status_evidence": "The Civil Service Careers TSP page says 'Applications for our 2027 cohort will be open on 9 October 2026 until 26 October 2026' and that applications for 2026 are now closed; entry needs a 2:2 by September 2027, no visa sponsorship. (read 2026-09-30)",
     "url": "https://www.civil-service-careers.gov.uk/hmrc-tax-specialist-programme/",
-    "apply_url": "https://www.civilservicejobs.service.gov.uk/csr/search.cgi?department=183922",
+    "apply_url": "https://www.civil-service-careers.gov.uk/hmrc-tax-specialist-programme/",
     "degree_req": "Usually 2:2 or above in any subject",
     "salary": null,
     "notes": "HMRC has a large Cardiff regional centre; TSP is a multi-year tax professional programme. Check Civil Service Jobs for the 2027 campaign.",
@@ -8426,8 +8434,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 411,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "hm-treasury--graduate-policy-programme-2027",
@@ -8546,25 +8555,28 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Listed on Totaljobs search results; the detail page could not be read (read 2026-09-30).",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Totaljobs listing published 28 Sep 2026 for Howden's Credit and Political Risk Graduate Programme 2027: London, permanent, hybrid, start September 2027, starting salary £40,000, one application per 2027 programme; no closing date stated. (read 2026-09-30)",
     "url": "https://www.totaljobs.com/job/credit-and-political-risk-graduate-programme-2027/howden-group-job108050290",
-    "apply_url": null,
+    "apply_url": "https://www.totaljobs.com/job/credit-and-political-risk-graduate-programme-2027/howden-group-job108050290",
     "degree_req": null,
-    "salary": null,
+    "salary": "£40,000",
     "notes": "url is the aggregator listing; the employer's own careers page was not opened",
     "source_urls": [
       "https://www.totaljobs.com/jobs/finance-graduate-scheme-2027"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "listing",
+    "status_source": "hand",
     "added_at": "2026-09-30",
     "verify": {
       "last_attempt": "2026-09-30",
-      "failures": 1,
-      "last_error": "This operation was aborted"
-    }
+      "failures": 0,
+      "last_error": "This operation was aborted",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "howden--credit-risk-solutions-graduate-programme-2027",
@@ -8854,7 +8866,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "HSBC's official Find a Programme page read 2026-09-29 shows only UK degree apprenticeships (opened 28 Sep 2026) and no UK graduate programmes; it says 'Application opening dates vary by location and programme', while third parties expect an autumn 2026 opening.",
+    "status_evidence": "HSBC's Find a Programme page filtered to graduate programmes lists only Hong Kong, Taiwan and Singapore 2027 programmes (opened Sep 2026, closing Oct/Nov 2026); no UK graduate programme is listed and no UK opening date is given. (read 2026-09-30)",
     "url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme?programme-type=graduate-programme",
     "apply_url": null,
     "degree_req": "Bachelor's or master's degree; skills-based hiring",
@@ -8874,7 +8886,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 14488,
-      "note": "open wording (\"applications open\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8890,7 +8902,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Not listed on HSBC's official UK programme finder on 2026-09-29; Bright Network lists an HSBC Finance Graduate Programme but the page could not be read (403).",
+    "status_evidence": "HSBC's Find a Programme page lists no UK graduate programme (only Hong Kong, Taiwan and Singapore 2027 programmes) and gives no UK opening date. (read 2026-09-30)",
     "url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme?programme-type=graduate-programme",
     "apply_url": null,
     "degree_req": null,
@@ -8909,7 +8921,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 14488,
-      "note": "open wording (\"applications open\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8959,7 +8971,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Not listed on HSBC's official UK programme finder on 2026-09-29; Group Infrastructure named as a graduate business area.",
+    "status_evidence": "HSBC's Find a Programme page lists no UK graduate programme (only Hong Kong, Taiwan and Singapore 2027 programmes) and gives no UK opening date. (read 2026-09-30)",
     "url": "https://www.hsbc.com/careers/students-and-graduates/graduate-programmes",
     "apply_url": null,
     "degree_req": null,
@@ -8977,7 +8989,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10035,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -8993,7 +9005,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Not listed on HSBC's official Find a Programme page for the UK on 2026-09-29; graduatesfirst lists a Transaction Banking Programme 2027 as a September 2026 opener.",
+    "status_evidence": "HSBC's Find a Programme page lists Transaction Banking 2027 graduate programmes only for Singapore (closing 31 Oct 2026); no UK Transaction Banking programme is listed and no UK opening date is given. (read 2026-09-30)",
     "url": "https://www.hsbc.com/careers/students-and-graduates/find-a-programme?programme-type=graduate-programme",
     "apply_url": null,
     "degree_req": null,
@@ -9012,7 +9024,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 14488,
-      "note": "open wording (\"applications open\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
