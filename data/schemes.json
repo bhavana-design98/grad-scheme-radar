@@ -12211,14 +12211,14 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": "2026-09-21",
+    "deadline": null,
     "status": "open",
     "status_evidence": "Posting states applications closed 21 Sep 2026, but the careers page still says the 2027 UK Graduate Programme is open and the Apply button is live. Apply immediately if interested (read 2026-09-30)",
     "url": "https://www.marex.com/careers/",
     "apply_url": "https://marex.breezy.hr/p/86dc2823d7d601",
     "degree_req": null,
     "salary": null,
-    "notes": "Check current opportunities or email recruitment@marex.com.",
+    "notes": "Stated deadline was 21 Sep 2026 but the apply button was still live on 30 Sep.",
     "source_urls": [
       "https://www.marex.com/careers/"
     ],
