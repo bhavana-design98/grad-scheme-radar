@@ -60,14 +60,17 @@ function guessSector(t, fallback) {
 const decode = (s) => String(s || "").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;|&rsquo;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
 
 async function linkedin() {
-  const out = []; let blocked = false, pages = 0;
+  const out = []; let blocked = false, pages = 0, strikes = 0;
   for (const [q, sector] of QUERIES) {
     if (blocked) break;
     for (const start of [0, 10, 20, 30, 40]) {
       const url = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodeURIComponent(q)}&location=United%20Kingdom&start=${start}`;
       let res;
       try { res = await fetch(url, { headers: { "user-agent": UA, "accept-language": "en-GB,en;q=0.9" }, signal: AbortSignal.timeout(20000) }); } catch { break; }
-      if (res.status === 429 || res.status === 999 || res.status === 403) { blocked = true; break; }
+      if (res.status === 429 || res.status === 999 || res.status === 403) {
+        // Rate limited: wait once and move on to the next search; give up after three strikes.
+        strikes++; if (strikes >= 3) { blocked = true; } await sleep(20000); break;
+      }
       if (!res.ok) break;
       const html = await res.text(); pages++;
       const cards = html.split(/<li[ >]/).slice(1);
@@ -81,7 +84,7 @@ async function linkedin() {
         out.push({ employer: company, programme: title, sector: guessSector(title, sector), stream: "Various", locations: [loc.split(",")[0] || "UK"], start: "2027", opens: null, deadline: null, status: "open", status_evidence: `Listed on LinkedIn, seen ${TODAY}. Employer page not checked yet.`, url: href.replace("://uk.linkedin.com", "://www.linkedin.com"), apply_url: null, degree_req: null, salary: null, notes: "", source_urls: ["https://www.linkedin.com/jobs/"], checked_at: TODAY });
       }
       if (cards.length < 10) break;
-      await sleep(1500);
+      await sleep(2500);
     }
   }
   return { out, blocked, pages };
