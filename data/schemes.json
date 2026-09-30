@@ -48,7 +48,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Accenture UK graduate page (read 2026-09-29) lists the Consulting pathway and offices but the Pinpoint job listings are JavaScript-only; 2027 dates listed as TBC on trackers.",
+    "status_evidence": "Accenture's UK Pinpoint board lists only a 'Register Your Interest - Undergraduate & Graduate Programmes 2027' form (plus Dublin FY28 graduate roles closing 25 Oct 2026); no UK 2027 graduate vacancy or opening date is posted. (read 2026-09-30)",
     "url": "https://www.accenture.com/gb-en/careers/local/graduates",
     "apply_url": "https://accenture.pinpointhq.com/united-kingdom",
     "degree_req": "Any degree; predicted 2:1",
@@ -67,7 +67,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1730,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -90,7 +90,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "accenture.com/gb-en graduates page lists the tracks and offices; the Pinpoint UK board references an 'Early Talent Programme 2026/2027' but showed no readable vacancies on 29 Sep 2026.",
+    "status_evidence": "Accenture's UK Pinpoint board lists only a 'Register Your Interest - Undergraduate & Graduate Programmes 2027' form; no UK Strategy & Consulting 2027 graduate vacancy or opening date is posted. (read 2026-09-30)",
     "url": "https://www.accenture.com/gb-en/careers/local/graduates",
     "apply_url": "https://accenture.pinpointhq.com/united-kingdom",
     "degree_req": null,
@@ -108,7 +108,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1730,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -160,7 +160,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Admiral early-careers page read 29 Sep 2026 lists the graduate programmes but says 'We are sorry but do not currently have any roles in this area'; job search for 'graduate' returned no graduate schemes. The 2026 Data programme closed 26 Oct 2025, so a 2027 opening in October 2026 is plausible.",
+    "status_evidence": "Admiral's early-careers jobs page says 'We are sorry but do not currently have any roles in this area' and a job search for 'graduate' returns nothing; no opening date is given. (read 2026-09-30)",
     "url": "https://www.admiraljobs.co.uk/early-careers-jobs",
     "apply_url": "https://www.admiraljobs.co.uk/jobs?keyword=graduate",
     "degree_req": "2:1 (STEM incl. Economics for data/actuarial streams; any discipline for general)",
@@ -179,7 +179,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 30936,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -195,8 +195,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Aegon UK careers page read 2026-09-30 describes 'graduate and trainee roles' advertised as individual vacancies on its Workday site; no 2027 scheme dates given.",
+    "status": "closed",
+    "status_evidence": "Aegon UK's Workday job site lists 9 vacancies and none is a graduate or trainee role (searches for 'graduate' and 'trainee' return 0); there is no formal 2027 graduate scheme. (read 2026-09-30)",
     "url": "https://www.aegon.co.uk/careers/our-departments",
     "apply_url": "https://transamerica.wd5.myworkdayjobs.com/AUK_JobSite",
     "degree_req": null,
@@ -214,8 +214,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 0,
-      "note": "js-rendered"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "aib-ni--aib-uk-graduate-programme-2027",
@@ -880,11 +881,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "alvarezandmarsal.com returned HTTP 403 to automated fetch on 29 Sep 2026.",
+    "deadline": "2026-12-31",
+    "status": "open",
+    "status_evidence": "A&M's careers site lists 9 live UK graduate roles, all in Tax (London, Manchester, Glasgow; posted 24 Sep 2026, 'Closing Date: 31st December 2026', start January 2027); no Restructuring, Transaction Advisory, Valuations or Disputes graduate roles are posted yet. (read 2026-09-30)",
     "url": "https://www.alvarezandmarsal.com/careers/students",
-    "apply_url": null,
+    "apply_url": "https://careers.alvarezandmarsal.com/search/jobs?q=graduate&location=United%20Kingdom",
     "degree_req": null,
     "salary": null,
     "notes": "Check site directly.",
@@ -898,9 +899,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "american-express--campus-graduate-programmes-2027-finance-risk-strategy-market",
@@ -1128,11 +1130,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "armstrongwatson.co.uk describes a three-year graduate programme with 'Current opportunities - Apply today', but the Pinpoint early-careers board showed no vacancies on 29 Sep 2026.",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Armstrong Watson's Pinpoint board has live 'Graduate / Chartered Accountant or Chartered Tax Adviser' postings with Apply Now for a September 2027 start in Carlisle, Glasgow, Newcastle, Leeds, Skipton and Manchester; no closing date shown. (read 2026-09-30)",
     "url": "https://www.armstrongwatson.co.uk/careers/graduate-programme",
-    "apply_url": "https://armstrongwatson.pinpointhq.com/-earlycareers",
+    "apply_url": "https://armstrongwatson.pinpointhq.com/en/postings/543797c7-36cf-4697-837d-319af678b0fd",
     "degree_req": "2:1 any discipline (or AAT Level 4); 96 UCAS points; 7 GCSEs grade 5+ incl. Maths, English and a science; full UK driving licence",
     "salary": null,
     "notes": "19 offices across northern England and Scotland; 200 trainees.",
@@ -1148,8 +1150,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 757,
-      "note": "open wording (\"Register your interest\") but weak; status kept"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "arthur-d-little--business-analyst-london-graduate-entry",
@@ -1819,8 +1822,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Bank of America's campus job-board feed (149 programmes) lists 2027 Full-time Analyst roles only for Frankfurt and Stockholm (IB, Global Corporate Banking) plus 'Financial Management Full Time 2027 Analyst - Chester' and 'Chief People Organization Full Time 2027 Analyst - Chester'; every London 2027 IB/Global Markets/GCIB/Research role is a Summer, Off-Cycle or Placement Analyst (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Bank of America's campus job-board feed (149 programmes) lists 2027 Full-time Analyst roles only for Frankfurt and Stockholm (IB, Global Corporate Banking) plus 'Financial Management Full Time 2027 Analyst - Chester' and 'Chief People Organization Full Time 2027 Analyst - Chester'; every London 2027 IB/Global Markets/GCIB/Research role is a Summer, Off-Cycle or Placement Analyst (read 2026-09-30)",
     "url": "https://bankcampuscareers.tal.net/vx/mobile-0/brand-0/candidate/jobboard/vacancy/1/adv/",
     "apply_url": null,
     "degree_req": "On track for a minimum 2:1, strong A-levels; final year or recent graduate",
@@ -2725,8 +2728,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Berenberg's 'Search our jobs' page shows 36 jobs in total with 'Graduate Programmes 0' and 'Investment Bank 0' (London has 5 jobs, none in those areas), consistent with the programme page statement that graduates are sourced from the summer internship (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Berenberg's 'Search our jobs' page shows 36 jobs in total with 'Graduate Programmes 0' and 'Investment Bank 0' (London has 5 jobs, none in those areas), consistent with the programme page statement that graduates are sourced from the summer internship (read 2026-09-30)",
     "url": "https://careers.berenberg.com/early-careers/graduate-programmes/investment-bank-graduate-programme",
     "apply_url": "https://careers.berenberg.com/search-our-jobs",
     "degree_req": null,
@@ -3117,8 +3120,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "BNP Paribas' official 'Graduate Programme' job-offer list shows '29 job offers in 12 locations' (2027 APAC Graduate Programme roles, Stockholm, Warsaw, Tokyo, Jersey City) and the only United Kingdom entry is 'Strutt & Parker - Graduate Rural Opportunities'; no 2027 London CIB graduate programme vacancy is posted (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. BNP Paribas' official 'Graduate Programme' job-offer list shows '29 job offers in 12 locations' (2027 APAC Graduate Programme roles, Stockholm, Warsaw, Tokyo, Jersey City) and the only United Kingdom entry is 'Strutt & Parker - Graduate Rural Opportunities'; no 2027 London CIB graduate programme vacancy is posted (read 2026-09-30)",
     "url": "https://careers.cib.bnpparibas/graduate-programmes/",
     "apply_url": "https://group.bnpparibas/en/careers/all-job-offers/graduate-programme",
     "degree_req": "Minimum 2:1 or equivalent",
@@ -3367,7 +3370,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "targetjobs employer profile read 2026-09-29 lists a 2027 Graduate Programme with details TBC and states 'We aren't currently hiring'; official careers page could not be fetched (403).",
+    "status_evidence": "British Business Bank's official 'Early career' page describes development support and links to current vacancies but makes no mention of a graduate programme or 2027 dates, and the careers site landing page shows no graduate or intern vacancy (read 2026-09-30)",
     "url": "https://targetjobs.co.uk/organisations/british-business-bank",
     "apply_url": null,
     "degree_req": null,
@@ -3385,7 +3388,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5301,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -3985,7 +3988,7 @@
     "opens": null,
     "deadline": null,
     "status": "closed",
-    "status_evidence": "Cavendish's current vacancies are 'Analyst, M&A – Technology', 'Analyst, M&A – Financial Services', 'Senior Associate, M&A (Consumer)' and 'Data Engineer Associate'; the Analyst posting requires 'Minimum 1 years' transaction experience gained within M&A, Corporate Finance or Transaction Services', so these are experienced hires and no 2027 graduate scheme is advertised (read 2026-09-30)",
+    "status_evidence": "Current analyst vacancies require at least one year of transaction experience, so there is no graduate entry for 2027 (read 2026-09-30)",
     "url": "https://www.cavendish.com/current-vacancies/",
     "apply_url": null,
     "degree_req": null,
@@ -4004,7 +4007,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1682,
-      "note": "checked by hand 2026-09-30"
+      "note": "checked by Claude 2026-09-30"
     },
     "status_changed_at": "2026-09-30"
   },
@@ -4642,7 +4645,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "CMA blog read 2026-09-29 shows the last announced intake (September 2024) opened in January 2024; no 2027 announcement found and the recruitment page only points to Civil Service Jobs.",
+    "status_evidence": "The CMA blog's graduate scheme tag still shows its latest post as 17 January 2024 ('Applications for our Delivery Graduate Scheme are open for September 2024!') with no 2027 announcement, and Civil Service Jobs shows a 'Quick check needed' bot screen so a live vacancy could not be searched (read 2026-09-30)",
     "url": "https://competitionandmarkets.blog.gov.uk/tag/graduatescheme",
     "apply_url": "https://www.civilservicejobs.service.gov.uk/",
     "degree_req": null,
@@ -4661,7 +4664,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 411,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -6271,7 +6274,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Programme page describes the cohort (locations from the 2025 intake) but the SmartRecruiters early-careers board says 'No job postings are currently available'. Read 2026-09-29.",
+    "status_evidence": "Evelyn Partners' SmartRecruiters early-careers board says 'No job postings are currently available' and the programme page gives no opening date. (read 2026-09-30)",
     "url": "https://www.evelyn.com/careers/early-careers/financial-planning/",
     "apply_url": "https://careers.smartrecruiters.com/EvelynPartners/early-careers",
     "degree_req": null,
@@ -6289,7 +6292,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 618,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -6346,7 +6349,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Programme page lists these locations; SmartRecruiters early-careers board shows no live postings on 29 Sep 2026.",
+    "status_evidence": "Evelyn Partners' SmartRecruiters early-careers board says 'No job postings are currently available' and the programme page gives no opening date. (read 2026-09-30)",
     "url": "https://www.evelyn.com/careers/early-careers/investment-management/",
     "apply_url": "https://careers.smartrecruiters.com/EvelynPartners/early-careers",
     "degree_req": null,
@@ -6364,7 +6367,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 618,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -7347,7 +7350,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "fticonsulting.com/careers points to a Workday job board ('Explore Opportunities') that could not be read; no UK 2027 graduate status on the page. Read 2026-09-29.",
+    "status_evidence": "FTI's Workday board shows 2027 graduate roles only for Paris and Singapore; searches for graduate roles in London/UK return no 2027 graduate posting and no opening date is given. (read 2026-09-30)",
     "url": "https://www.fticonsulting.com/careers",
     "apply_url": "https://fticonsulting.wd108.myworkdayjobs.com/FTIConsultingCareers/",
     "degree_req": null,
@@ -7365,7 +7368,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 0,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -7451,8 +7454,8 @@
     "start": "2027",
     "opens": "2026-08-15",
     "deadline": "rolling",
-    "status": "closed",
-    "status_evidence": "higher.gs.com filtered to London and searched for '2027' returns only '2027 - Athletes Programme', 'Veterans Integration Programme' and 'Returnship Programme'; no 2027 New Analyst London posting is live even though the programme page says to check the application page from 15 August (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. higher.gs.com filtered to London and searched for '2027' returns only '2027 - Athletes Programme', 'Veterans Integration Programme' and 'Returnship Programme'; no 2027 New Analyst London posting is live even though the programme page says to check the application page from 15 August (read 2026-09-30)",
     "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/new-analyst-programme",
     "apply_url": "https://higher.gs.com/roles",
     "degree_req": "Final-year undergraduate or graduate degree, any discipline",
@@ -8061,8 +8064,8 @@
     "start": "2027",
     "opens": null,
     "deadline": "2026-07-29",
-    "status": "closed",
-    "status_evidence": "Guggenheim Securities' campus Workday board lists 13 jobs; the only London roles are three '2027 Investment Banking Analyst Intern – Digital Infrastructure (London)' internships, and the only 2027 full-time analyst posting is 'Investment Banking Analyst – Los Angeles Industrials' (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Guggenheim Securities' campus Workday board lists 13 jobs; the only London roles are three '2027 Investment Banking Analyst Intern – Digital Infrastructure (London)' internships, and the only 2027 full-time analyst posting is 'Investment Banking Analyst – Los Angeles Industrials' (read 2026-09-30)",
     "url": "https://www.guggenheimpartners.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -8166,7 +8169,7 @@
     "opens": "2026-08-28",
     "deadline": null,
     "status": "closed",
-    "status_evidence": "The Workday posting R233022 now returns 'The page you are looking for doesn't exist' and a search of the Harris Williams board for London finds only 'Harris Williams Capital Solutions Associate, London' (R228538) (read 2026-09-30)",
+    "status_evidence": "The Workday posting has been removed and no replacement is listed (read 2026-09-30)",
     "url": "https://pnc.wd5.myworkdayjobs.com/en-US/HarrisWilliams/job/Investment-Banking-1st-Year-Analyst--London---Summer-2027_R233022",
     "apply_url": null,
     "degree_req": null,
@@ -8181,7 +8184,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "checked by hand 2026-09-30",
+      "note": "checked by Claude 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -9175,7 +9178,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "ibm.com/uk-en early-careers page gives only generic 'Explore Entry Level Opportunities' links; no UK 2027 graduate details readable. Read 2026-09-29.",
+    "status_evidence": "IBM job search filtered to Entry Level + United Kingdom shows a single role (Graduate Back-end Software Developer, Hursley); no Consulting graduate role is advertised and no dates are published (read 2026-09-30)",
     "url": "https://www.ibm.com/uk-en/careers/early-careers",
     "apply_url": "https://www.ibm.com/careers/search",
     "degree_req": null,
@@ -9193,7 +9196,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 584,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -9243,7 +9246,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Read 2026-09-30: site says registrations are open for the 'Class '26' fellowship; no dates shown for the following class.",
+    "status_evidence": "Included VC homepage still shows 'Class '26 registrations open' with a registration form but no deadline or dates for the next class; it is a part-time fellowship rather than a graduate job (read 2026-09-30)",
     "url": "https://www.included.vc/",
     "apply_url": null,
     "degree_req": null,
@@ -9261,7 +9264,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 21628,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -9383,7 +9386,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "interpath.com/careers lists open roles via a Workable portal with no structured graduate scheme text visible; early-careers URL returned 404. Read 2026-09-29.",
+    "status_evidence": "Interpath's Workable job board has no UK graduate or 2027 roles (search for 'graduate' returns only Algiers/Gurugram roles; '2027' returns none); last cycle's graduate associate roles were posted around January-February (read 2026-09-30)",
     "url": "https://interpath.com/careers/",
     "apply_url": "https://apply.workable.com/interpath-advisory/",
     "degree_req": null,
@@ -9401,7 +9404,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 37,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -9451,7 +9454,7 @@
     "opens": null,
     "deadline": null,
     "status": "closed",
-    "status_evidence": "Investec's UK graduate opportunities page says 'While we redefine our early career offerings in the UK, we've decided to pause our rotational graduate programmes for now. Summer internships remain as usual... All opportunities will be advertised on our career portal' (read 2026-09-30)",
+    "status_evidence": "Investec's page says its rotational graduate programmes are paused while it redefines early careers (read 2026-09-30)",
     "url": "https://www.investec.com/en_gb/careers/early-careers.html",
     "apply_url": null,
     "degree_req": null,
@@ -9466,7 +9469,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "checked by hand 2026-09-30",
+      "note": "checked by Claude 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -9734,8 +9737,8 @@
     "start": "2027",
     "opens": "2026-08-31",
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Searching the JPMC Oracle portal for '2027 Markets Full-Time Analyst London' lists London 2027 full-time programmes for Global IB, Global Payments, Data & AI, CIB Innovation Development, Corporate Analyst Development, Global Finance & Business Management and Private Bank, but no Markets Full-Time Analyst London posting; only a US '2027 Markets Summer Analyst Program' appears (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Searching the JPMC Oracle portal for '2027 Markets Full-Time Analyst London' lists London 2027 full-time programmes for Global IB, Global Payments, Data & AI, CIB Innovation Development, Corporate Analyst Development, Global Finance & Business Management and Private Bank, but no Markets Full-Time Analyst London posting; only a US '2027 Markets Summer Analyst Program' appears (read 2026-09-30)",
     "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/markets-fulltime-analyst",
     "apply_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
     "degree_req": null,
@@ -9840,14 +9843,14 @@
       "Multiple UK"
     ],
     "start": "2027",
-    "opens": null,
+    "opens": "2027-01-01",
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "targetjobs JLR profile read 30 Sep 2026: 'We aren't currently hiring'.",
+    "status": "opens-soon",
+    "status_evidence": "JLR graduates page says applications for the September 2027 start 'open in stages across January'; currently closed, and no dedicated finance track is listed among current graduate programmes (read 2026-09-30)",
     "url": "https://targetjobs.co.uk/organisations/jaguar-land-rover-ltd",
-    "apply_url": null,
+    "apply_url": "https://careers.jaguarlandrover.com/early-careers/graduates",
     "degree_req": null,
-    "salary": null,
+    "salary": "£32,000 plus £2,000 joining bonus",
     "notes": "",
     "source_urls": [
       "https://targetjobs.co.uk/organisations/jaguar-land-rover-ltd"
@@ -9861,8 +9864,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 13239,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "jane-street--quantitative-trader-london-new-graduate-2027-start",
@@ -9945,8 +9949,8 @@
     "start": "2027",
     "opens": "2026-08-31",
     "deadline": "2027-01-31",
-    "status": "closed",
-    "status_evidence": "Jefferies' campus job-board feed lists London 2027 Investment Banking only as Summer Internship, Spring Week and Off-Cycle Internship programmes; the only London full-time 2027 analyst programmes listed are Equity Research, Private Credit Investment, Finance Controllers and Quant Fulltime (Masters), and the board pages sit behind a 'Quick Check Needed' bot screen (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Jefferies' campus job-board feed lists London 2027 Investment Banking only as Summer Internship, Spring Week and Off-Cycle Internship programmes; the only London full-time 2027 analyst programmes listed are Equity Research, Private Credit Investment, Finance Controllers and Quant Fulltime (Masters), and the board pages sit behind a 'Quick Check Needed' bot screen (read 2026-09-30)",
     "url": "https://www.jefferies.com/careers/students-and-graduates/",
     "apply_url": "https://jefferies.tal.net/vx/lang-en-GB/mobile-0/appcentre-ext/brand-4/candidate/jobboard/vacancy/2/adv/",
     "degree_req": "Bachelor's degree (any discipline)",
@@ -10482,7 +10486,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "kilsbywilliams.com/careers: 'Graduates and school leavers join us ... Most of our trainees qualify as ACA accountants but we also offer ATT and CTA routes'; no 2027 dates or apply link. Read 2026-09-29.",
+    "status_evidence": "Kilsby Williams careers page lists only two tax manager vacancies and no graduate trainee advert or dates; it asks candidates to contact HR directly (read 2026-09-30)",
     "url": "https://www.kilsbywilliams.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -10500,7 +10504,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 12635,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -10551,7 +10555,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Consulting programme page lists Actuarial (three to five years to qualify) but vacancy search for 'Actuarial' returned 'No search results' on 29 Sep 2026.",
+    "status_evidence": "KPMG graduate vacancy list shows only Audit, Tax and Technology Autumn 2027 roles; no Actuarial vacancy is live and the Consulting programme page gives no status or dates (read 2026-09-30)",
     "url": "https://www.kpmgcareers.co.uk/graduate/consulting/",
     "apply_url": "https://www.kpmgcareers.co.uk/search/vacancies/?experienceLevels%5B0%5D=Graduate&intakeType=Student&searchText=Actuarial",
     "degree_req": "Honours or postgraduate degree in a numerical or analytical subject, e.g. Actuarial Science, Maths, Statistics, Data Science, Economics, Engineering or Physics",
@@ -10569,7 +10573,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 2125,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -10585,7 +10589,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "KPMG says its 2027 Apprenticeship & Graduate Programmes are open, but the graduate vacancy search returned no Consulting, Forensic or Risk graduate roles on 29 Sep 2026 (only Audit, Tax and Technology); the Consulting programme page gives no status text.",
+    "status_evidence": "KPMG graduate vacancy search for 'Consulting' shows only a Technology Consulting in Tax (Glasgow) Autumn 2027 role; no Consulting graduate vacancy is live and the programme page gives no status or dates (read 2026-09-30)",
     "url": "https://www.kpmgcareers.co.uk/graduate/consulting/",
     "apply_url": "https://www.kpmgcareers.co.uk/search/vacancies/?searchText=Consulting&intakeType=Student",
     "degree_req": "2:1 typical (2:2 for some technology roles)",
@@ -10604,7 +10608,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 4218,
-      "note": "open wording (\"apply here\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -10656,7 +10660,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "The Deal Advisory graduate URLs now serve the Consulting programme page, and vacancy searches for 'deal advisory' returned no Deal Advisory roles on 29 Sep 2026; KPMG's careers site says 2027 programmes are open across 'Audit, Tax & Law, Deal Advisory, Consulting, Technology and Business Services'.",
+    "status_evidence": "KPMG graduate vacancy search for 'Deal' returns no results and the graduate menu now lists only Audit, Consulting, Tax & Law and Technology & Engineering (Deal Advisory appears only under experienced hires); no statement on whether it will open (read 2026-09-30)",
     "url": "https://www.kpmgcareers.co.uk/graduate/deal-advisory/",
     "apply_url": "https://www.kpmgcareers.co.uk/search/vacancies/?experienceLevels%5B0%5D=Graduate&intakeType=Student&searchText=deal+advisory+intensive",
     "degree_req": "2:1; Economics, Maths & Statistics, Computer Science, Business & Management listed as accepted fields",
@@ -10675,7 +10679,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 4600,
-      "note": "open wording (\"apply here\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -11062,13 +11066,13 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "careers.larking-gowen.co.uk has a 'Trainees - starting your career in accountancy' section but the trainee page URL could not be resolved. Read 2026-09-29.",
+    "deadline": "2026-10-12",
+    "status": "open",
+    "status_evidence": "Larking Gowen's 'Graduate Trainee 2027' vacancy is live with an Apply now button, a September 2027 start, £26,000 starting salary and a stated closing date of 12 October (read 2026-09-30)",
     "url": "https://careers.larking-gowen.co.uk/",
-    "apply_url": null,
+    "apply_url": "https://careers.larking-gowen.co.uk/job-details/?id=541fe4ce-2564-4c16-892c-b49f6d468ac3",
     "degree_req": null,
-    "salary": null,
+    "salary": "£26,000",
     "notes": "East Anglia only. Contact recruitment@larking-gowen.co.uk.",
     "source_urls": [
       "https://careers.larking-gowen.co.uk/"
@@ -11082,8 +11086,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 2054,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "latham-watkins--global-finance-graduate-scheme",
@@ -12207,8 +12212,8 @@
     "start": "2027",
     "opens": null,
     "deadline": "2026-09-21",
-    "status": "closed",
-    "status_evidence": "The posting 'Marex UK Graduate Programme 2027' (London, roles start September 2027) states 'Applications close on 21 September 2026... applications may close sooner if we receive a high volume', a date that has passed, although the 'Apply To Position' button is still live and Marex's graduate careers page still says '2027 UK Graduate Program is now open!' (read 2026-09-30)",
+    "status": "open",
+    "status_evidence": "Posting states applications closed 21 Sep 2026, but the careers page still says the 2027 UK Graduate Programme is open and the Apply button is live. Apply immediately if interested (read 2026-09-30)",
     "url": "https://www.marex.com/careers/",
     "apply_url": "https://marex.breezy.hr/p/86dc2823d7d601",
     "degree_req": null,
@@ -12226,7 +12231,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 2990,
-      "note": "checked by hand 2026-09-30"
+      "note": "checked by Claude 2026-09-30"
     },
     "status_changed_at": "2026-09-30"
   },
@@ -12593,11 +12598,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "menzies.co.uk early-careers pages returned only a page title to automated fetch (JavaScript-rendered). Read 2026-09-29.",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "Menzies' job board lists around 20 live 'Graduate Programme 2027' postings (ACA Audit & Assurance and ATT-CTA Tax across London, Cardiff, Woking, Gatwick, Heathrow, Manchester and others) with no closing dates set (read 2026-09-30)",
     "url": "https://www.menzies.co.uk/careers/early-careers/",
-    "apply_url": null,
+    "apply_url": "https://menzies.pinpointhq.com/en",
     "degree_req": null,
     "salary": null,
     "notes": "Offices in London and the South East (Surrey, Hampshire, Hertfordshire); verify current office list.",
@@ -12611,9 +12616,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "menzies-llp--graduate-programme-2027-aca-audit-assurance",
@@ -12900,11 +12906,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "mha.co.uk returned HTTP 403 to automated fetch on 29 Sep 2026.",
+    "deadline": "2027-01-11",
+    "status": "open",
+    "status_evidence": "MHA vacancies page lists live 'ACA (Graduate Scheme) - September 2027' roles posted 14 Sept with Apply now buttons; the Swansea audit role states 'Application deadline: 11 January 2027', reviewed only after the deadline (read 2026-09-30)",
     "url": "https://www.mha.co.uk/careers/early-careers",
-    "apply_url": null,
+    "apply_url": "https://www.mha.co.uk/careers/vacancies?type=graduates",
     "degree_req": null,
     "salary": null,
     "notes": "MHA is a top-15 UK firm (Baker Tilly International); check site directly.",
@@ -12918,9 +12924,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "mha--private-client-tax-aca-cta-graduate-scheme-london-september-",
@@ -13068,8 +13075,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "careers.mizuhoemea.com job search says 'There are currently no open positions matching \"graduate\"' and the same for \"2027\"; its Early Career Opportunities link goes only to the internship programme page, whose interns feed the following year's graduate programme (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. careers.mizuhoemea.com job search says 'There are currently no open positions matching \"graduate\"' and the same for \"2027\"; its Early Career Opportunities link goes only to the internship programme page, whose interns feed the following year's graduate programme (read 2026-09-30)",
     "url": "https://www.mizuhogroup.com/emea/careers/internship-programme",
     "apply_url": "https://careers.mizuhoemea.com/",
     "degree_req": "Minimum 2:1; permanent right to work in the UK",
@@ -13105,8 +13112,8 @@
     "start": "2027",
     "opens": "2026-09-08",
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Moelis' Students & Graduates board (moelis-careers.tal.net campus feed) lists only 2027 Summer Analyst roles in Dallas and Hong Kong and 2027 US Summer Associate roles; no London 2027 full-time analyst programme is posted and the Experienced-Hires Workday search for 'analyst 2027' returns 0 jobs (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. Moelis' Students & Graduates board (moelis-careers.tal.net campus feed) lists only 2027 Summer Analyst roles in Dallas and Hong Kong and 2027 US Summer Associate roles; no London 2027 full-time analyst programme is posted and the Experienced-Hires Workday search for 'analyst 2027' returns 0 jobs (read 2026-09-30)",
     "url": "https://moelis.wd1.myworkdayjobs.com/en-US/Experienced-Hires",
     "apply_url": null,
     "degree_req": null,
@@ -13254,7 +13261,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Careers page routes early-talent applicants to mooreks.pinpointhq.com, which showed no vacancies and invited candidates to register interest on 29 Sep 2026.",
+    "status_evidence": "Moore Kingston Smith's Pinpoint board lists 21 roles but no ACA graduate trainee 2027 posting (only AAT apprenticeships for March 2027 and a Graduate Financial Planning Administrator); no opening date is given (read 2026-09-30)",
     "url": "https://mooreks.co.uk/careers/",
     "apply_url": "https://mooreks.pinpointhq.com/",
     "degree_req": null,
@@ -13272,7 +13279,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 541,
-      "note": "open wording (\"Register your interest\") but weak; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -14855,7 +14862,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "ONS careers page read 2026-09-29 says it offers graduate schemes and directs to Civil Service Jobs, but no 2027 vacancy or dates were readable.",
+    "status_evidence": "ONS's careers page says only 'We offer internships, graduate schemes, apprenticeships' and links to 'View jobs at ONS' on the Civil Service careers site; no 2027 graduate scheme dates are given and Civil Service Jobs shows a 'Quick check needed' bot screen (read 2026-09-30)",
     "url": "https://www.ons.gov.uk/aboutus/careers/",
     "apply_url": "https://www.civil-service-careers.gov.uk/departments/working-for-the-office-for-national-statistics/",
     "degree_req": null,
@@ -14873,7 +14880,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 7271,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -14927,7 +14934,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Official Ofwat grads page returned 403 on 2026-09-29; a search summary of that page says there is no graduate intake planned for 2026 and to check back for updates, with no 2027 decision published.",
+    "status_evidence": "Ofwat's Graduate Development Programme page says 'Please note that there is currently no Graduate scheme intake planned for 2026. We encourage you to explore the details of our past programmes and check back for future updates', with nothing stated about a 2027 intake (read 2026-09-30)",
     "url": "https://www.ofwat.gov.uk/early-careers/grads/",
     "apply_url": null,
     "degree_req": "2:2 in economics or a subject with significant microeconomics (economics stream)",
@@ -14945,8 +14952,8 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
     }
   },
   {
@@ -15238,8 +15245,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "PWP's recruitment page says 'We recruit for Advisory Full-Time Analysts, Summer Analysts and Off-Cycle Interns across London, Munich and Paris in autumn', but its open-positions job board feed lists only '2027 Advisory Summer Analyst Programme - Munich, London', 2027 Off-Cycle Internship Programmes (Paris/London, Munich) and US Summer Associate roles, with no full-time analyst posting (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. PWP's recruitment page says 'We recruit for Advisory Full-Time Analysts, Summer Analysts and Off-Cycle Interns across London, Munich and Paris in autumn', but its open-positions job board feed lists only '2027 Advisory Summer Analyst Programme - Munich, London', 2027 Off-Cycle Internship Programmes (Paris/London, Munich) and US Summer Associate roles, with no full-time analyst posting (read 2026-09-30)",
     "url": "https://pwpartners.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -17305,8 +17312,8 @@
     "start": "2027",
     "opens": "2026-08-01",
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "jobs.standardchartered.com search for 'graduate 2027' in London lists only 'Markets Intern UK 2027', 'Global Banking Intern UK 2027', 'Coverage Banking Intern UK 2027', 'Strategic Advisory & Solutions Intern UK 2027' and 'Transaction Services Intern UK 2027' (posting end date 31/12/2026); no UK graduate programme vacancy is posted although the programme page says applications open August - September (read 2026-09-30)",
+    "status": "unknown",
+    "status_evidence": "No London 2027 full-time graduate posting on the employer job board yet. jobs.standardchartered.com search for 'graduate 2027' in London lists only 'Markets Intern UK 2027', 'Global Banking Intern UK 2027', 'Coverage Banking Intern UK 2027', 'Strategic Advisory & Solutions Intern UK 2027' and 'Transaction Services Intern UK 2027' (posting end date 31/12/2026); no UK graduate programme vacancy is posted although the programme page says applications open August - September (read 2026-09-30)",
     "url": "https://www.sc.com/en/global-careers/early-careers/our-programmes/graduates/",
     "apply_url": "https://jobs.standardchartered.com/",
     "degree_req": null,
@@ -17987,7 +17994,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Official emerging careers page read 2026-09-29 describes the programme (£29,500, 2-3 years, Manchester hybrid) but gives no 2027 application dates or apply link.",
+    "status_evidence": "The Co-operative Bank's emerging careers page describes the graduate programme with 'a starting salary of £29,500 per annum' but gives no 2027 dates or apply link, and the vacancy search shows '15 Jobs' with none titled graduate, trainee or emerging careers (read 2026-09-30)",
     "url": "https://www.co-operativebankjobs.co.uk/emerging-careers.aspx",
     "apply_url": "https://www.co-operativebankjobs.co.uk/vacancies/vacancy-search-results.aspx",
     "degree_req": null,
@@ -18005,7 +18012,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10636,
-      "note": "open wording (\"Closing Date\") but weak; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
