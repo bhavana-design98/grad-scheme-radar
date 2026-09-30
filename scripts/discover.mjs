@@ -13,11 +13,11 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const QUERIES = [
   "graduate scheme 2027 finance", "graduate programme 2027 banking", "graduate analyst programme 2027",
   "graduate scheme consulting 2027", "graduate scheme investment", "graduate programme audit 2027",
-  "graduate economist", "graduate scheme insurance 2027", "graduate trainee accountant 2027", "graduate scheme actuarial"
+  "graduate economist", "graduate scheme insurance 2027", "graduate trainee accountant 2027", "graduate scheme actuarial", "startup graduate programme", "graduate scheme scale-up commercial"
 ];
 const MUST = /\bgraduate\b/i;
 const YEAR = /\b2027\b|\bsept(?:ember)? 2027\b/i;
-const FIN = /\b(finance|financial|bank|banking|invest|consult|econom|audit|tax|actuar|insur|asset|wealth|trading|markets|treasury|accountan|risk|fintech|payments|private equity|m&a|deal)/i;
+const FIN = /\b(finance|financial|bank|banking|invest|consult|econom|audit|tax|actuar|insur|asset|wealth|trading|markets|treasury|accountan|risk|fintech|payments|private equity|m&a|deal|start-?up|scale-?up|venture|founder)/i;
 const JUNK = /\b(intern|internship|placement|apprentice|summer|spring week|insight|senior|manager|experienced|lecturer|nurse|teacher|engineer(?!ing finance)|software|developer)\b/i;
 
 function guessSector(t) {
@@ -32,6 +32,7 @@ function guessSector(t) {
   if (/consult/.test(t)) return "management-tech-consulting";
   if (/audit|tax|accountan|acca|aca|cima/.test(t)) return "accounting-audit-tax";
   if (/actuar|insur|underwrit/.test(t)) return "insurance-actuarial";
+  if (/start-?up|scale-?up|venture|founder/.test(t)) return "startups-venture";
   if (/fintech|payment/.test(t)) return "fintech-payments";
   if (/bank/.test(t)) return "retail-commercial-banking";
   return "accounting-audit-tax";
