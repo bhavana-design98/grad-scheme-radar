@@ -95,3 +95,17 @@ async function main() {
 }
 
 if (process.argv[1] && /merge\.mjs$/.test(process.argv[1])) main().catch((e) => { console.error(e); process.exit(1); });
+
+// Fuzzy lookup used by discovery: is there already a record for this employer with a similar programme name?
+const toks = (s) => new Set(norm(s).split(" ").filter((w) => w.length > 2));
+function jaccard(a, b) { const A = toks(a), B = toks(b); if (!A.size || !B.size) return 0; let i = 0; for (const x of A) if (B.has(x)) i++; return i / (A.size + B.size - i); }
+const empKey = (e) => norm(e).replace(/^j p /, "jp ").replace(/^jpmorganchase/, "jp").replace(/^jpmorgan/, "jp").split(" ")[0];
+export function findSimilar(existing, r, threshold = 0.5) {
+  let best = null, score = 0;
+  for (const e of existing) {
+    if (empKey(e.employer) !== empKey(r.employer)) continue;
+    const s = Math.max(jaccard(e.programme, r.programme), jaccard(e.programme + " " + (e.stream || ""), r.programme));
+    if (s > score) { score = s; best = e; }
+  }
+  return score >= threshold ? best : null;
+}
