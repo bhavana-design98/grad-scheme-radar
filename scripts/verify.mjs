@@ -108,10 +108,15 @@ export async function verifyOne(r) {
   out.verify.http = res.status; out.verify.failures = 0; delete out.verify.last_error;
 
   if (res.status === 404 || res.status === 410) {
-    out.status = "closed"; out.status_source = "http";
-    out.status_evidence = `Employer page returns ${res.status} (removed).`;
+    // A recently hand-checked scheme needs the page to be gone two days running before it is closed (some sites send 404 to scripts).
+    out.verify.gone = (r.verify?.gone || 0) + 1;
+    if (!handProtected(r) || out.verify.gone >= 2 || r.status !== "open") {
+      out.status = "closed"; out.status_source = "http";
+      out.status_evidence = `Employer page returns ${res.status} (removed).`;
+    } else out.verify.note = `HTTP ${res.status} once; will close if still gone tomorrow`;
     return out;
   }
+  out.verify.gone = 0;
   if (res.status >= 400) {
     // 403/429/5xx: bot-blocking or outage. Keep the previous status, flag it.
     out.verify.note = `HTTP ${res.status}`;

@@ -200,7 +200,7 @@ footer p { margin: 6px 0; }
     </div>
     <div class="rail-row">
       <label class="toggle"><input type="checkbox" id="show-soon" checked> Opening soon</label>
-      <label class="toggle"><input type="checkbox" id="show-unknown" checked> Status unclear</label>
+      <label class="toggle"><input type="checkbox" id="show-unknown" checked> Not confirmed open</label>
       <label class="toggle"><input type="checkbox" id="show-closed"> Show closed</label>
       <label class="toggle"><input type="checkbox" id="hide-applied"> Hide ones I've applied to</label>
       <span class="count" id="count"></span>
@@ -213,7 +213,7 @@ footer p { margin: 6px 0; }
 
   <footer>
     <p><strong>How it stays fresh.</strong> A script runs every morning, opens every employer page in this list, and reads whether applications are still open. Anything marked closed, expired or removed drops out of the default view. A separate search pass looks for new schemes and adds them with a purple "new" tag.</p>
-    <p><strong>Trust, but verify.</strong> Some employer pages are built so that a script cannot read them. Those keep their last known status and show as "status unclear" until a person checks. Always confirm the deadline on the employer's page before you plan around it.</p>
+    <p><strong>Trust, but verify.</strong> Some employer pages are built so that a script cannot read them. Those show as "not confirmed open" until the daily hand-check reaches them. The same label covers employers that have not posted their 2027 scheme yet. Always confirm the deadline on the employer's page before you plan around it.</p>
     <p>Saved and applied marks live only in this browser.</p>
   </footer>
 </div>
@@ -346,7 +346,7 @@ footer p { margin: 6px 0; }
       led.innerHTML = rows.map((r) => {
         const st = effectiveStatus(r);
         const mk = state.marks[r.id] || {};
-        const label = { open: "Open", "opens-soon": "Opens soon", closed: "Closed", unknown: "Status unclear" }[st];
+        const label = { open: "Open", "opens-soon": "Opens soon", closed: "Closed", unknown: "Not confirmed open" }[st];
         const ev = r.status_evidence ? `<div class="evidence">${esc(r.status_evidence)}${r.checked_at ? ` (checked ${fmtDate(r.checked_at)})` : ""}</div>` : "";
         return `<article class="row${mk.applied ? " applied" : ""}" data-status="${st}" data-id="${esc(r.id)}">
           <div class="stripe" aria-hidden="true"></div>

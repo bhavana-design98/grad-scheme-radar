@@ -39,6 +39,10 @@ const QUERIES = [
 const GRAD = /\b(graduate|grad|new analyst|analyst program(?:me)?|full[- ]time analyst|trainee|associate consultant|business analyst)\b/i;
 const YEAR = /\b2027\b/;
 const JUNK = /\b(intern|internship|placement|apprentice|apprenticeship|summer|spring|insight|off[- ]cycle|industrial|senior|manager|director|lecturer|teacher|nurse|phd|postdoc|recruitment consultant|software engineer|developer|mechanical|civil engineer|electrical)\b/i;
+// Job boards reposting other employers' adverts, intakes that start before a June 2027 graduation, and engineering-style consultancies.
+const REPOSTER = /targetjobs|bright network|milkround|gradcracker|prospects|higherin|ratemyplacement|jobs via|efinancialcareers|reed.co|totaljobs|indeed|hays|michael page|robert walters|recruit/i;
+const EARLY = /(jan(?:uary)?|feb(?:ruary)?|march|april|spring)s+2027/i;
+const OFFTOPIC = /(waste|nuclear|radioactive|geow+|water|planning|historic|townscape|transport|acousticw*|ecologw*|environmentw*|building|structurw+|highways?|rail|surveyor|surveying|quantity|architectw*|mechanical|civil|electrical|chemical|laboratorw+|clinical|pharmaw*|legal|solicitor|paralegal|marketing|hr|human resources|supply chain|procurement|software|cyber|data engineer)/i;
 const FIN = /\b(financ\w*|bank\w*|invest\w*|consult\w*|econom\w*|audit\w*|tax\w*|actuar\w*|insur\w*|asset|wealth|trading|markets|treasury|accountan\w*|risk|fintech|payments|private equity|m&a|deals?|analyst|commercial|strategy|business|advisory|capital|pensions?|underwrit\w*|credit|ventures?)\b/i;
 
 function guessSector(t, fallback) {
@@ -80,7 +84,7 @@ async function linkedin() {
         const loc = decode((c.match(/job-search-card__location[^>]*>([\s\S]*?)<\/span>/) || [])[1]);
         const href = ((c.match(/base-card__full-link[^>]*href="([^"]+)"/) || [])[1] || "").replace(/&amp;/g, "&").split("?")[0];
         if (!title || !company || !href) continue;
-        if (!GRAD.test(title) || !YEAR.test(title) || JUNK.test(title) || !FIN.test(title + " " + company + " " + q)) continue;
+        if (!GRAD.test(title) || !YEAR.test(title) || JUNK.test(title) || EARLY.test(title) || OFFTOPIC.test(title) || REPOSTER.test(company) || !FIN.test(title + " " + company + " " + q)) continue;
         out.push({ employer: company, programme: title, sector: guessSector(title, sector), stream: "Various", locations: [loc.split(",")[0] || "UK"], start: "2027", opens: null, deadline: null, status: "open", status_evidence: `Listed on LinkedIn, seen ${TODAY}. Employer page not checked yet.`, url: href.replace("://uk.linkedin.com", "://www.linkedin.com"), apply_url: null, degree_req: null, salary: null, notes: "", source_urls: ["https://www.linkedin.com/jobs/"], checked_at: TODAY });
       }
       if (cards.length < 10) break;

@@ -29,7 +29,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 2601
@@ -140,7 +140,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Apply Now\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1946
@@ -181,32 +181,6 @@
       "chars": 30936,
       "note": "no open/closed wording found"
     }
-  },
-  {
-    "id": "aecom--graduate-waste-consultant-nuclear-manchester-start-june-2027",
-    "employer": "AECOM",
-    "programme": "Graduate Waste Consultant (Nuclear) - Manchester - start June 2027 onwards",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "Manchester"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/graduate-waste-consultant-nuclear-manchester-start-june-2027-onwards-at-aecom-4471536775",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
   },
   {
     "id": "aegon-uk--graduate-and-trainee-roles",
@@ -505,7 +479,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 6217
@@ -855,8 +829,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     }
@@ -994,8 +968,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 405",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 405
     },
@@ -1204,8 +1178,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 405",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 405
     }
@@ -1407,7 +1381,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Register Your Interest\") but weak; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 2454
@@ -1862,7 +1836,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 14123
@@ -2768,7 +2742,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 3074
@@ -2803,7 +2777,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -3159,8 +3133,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -3681,7 +3655,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -3786,7 +3760,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1498
@@ -3821,7 +3795,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1929
@@ -4010,8 +3984,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Cavendish's current vacancies page read 2026-09-29 lists 'Analyst, M&A - Technology' and 'Analyst, M&A - Financial Services' but no 2027 graduate programme, deadlines or eligibility.",
+    "status": "closed",
+    "status_evidence": "Cavendish's current vacancies are 'Analyst, M&A – Technology', 'Analyst, M&A – Financial Services', 'Senior Associate, M&A (Consumer)' and 'Data Engineer Associate'; the Analyst posting requires 'Minimum 1 years' transaction experience gained within M&A, Corporate Finance or Transaction Services', so these are experienced hires and no 2027 graduate scheme is advertised (read 2026-09-30)",
     "url": "https://www.cavendish.com/current-vacancies/",
     "apply_url": null,
     "degree_req": null,
@@ -4030,8 +4004,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1682,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "cebr-centre-for-economics-and-business-research--economist-graduate-entry-london",
@@ -4046,7 +4021,7 @@
     "opens": null,
     "deadline": null,
     "status": "closed",
-    "status_evidence": "Employer page returns 404 (removed).",
+    "status_evidence": "Cebr's 'Join the team - Current vacancies' page (cebr.com/join-the-team/) says 'Cebr is not currently recruiting.' (read 2026-09-30).",
     "url": "https://cebr.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -4056,7 +4031,7 @@
       "https://cebr.com/careers/"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "http",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
@@ -4094,8 +4069,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     }
@@ -4334,8 +4309,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -4369,8 +4344,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -4522,7 +4497,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Close Brothers' careers page read 2026-09-29 mentions an 'Early Careers Programme' and current entry-level roles but gives no 2027 scheme details, dates or status.",
+    "status_evidence": "Close Brothers' careers page renders only 'Early careers - Find out how you can start your journey with us and see our current entry-level roles' and 'Apply for a job'; the links behind those tiles could not be reached in the browser (guessed early-careers URL returns 'Page not found'), so no 2027 scheme, dates or vacancy could be confirmed (read 2026-09-30)",
     "url": "https://www.closebrothers.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -4540,7 +4515,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 67,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -4572,7 +4547,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -4643,7 +4618,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -4819,7 +4794,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Register your interest\") but weak; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1200
@@ -5056,7 +5031,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 14
@@ -6134,7 +6109,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 4218
@@ -6346,7 +6321,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 618
@@ -7353,7 +7328,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1892
@@ -7493,7 +7468,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 29
@@ -8040,32 +8015,6 @@
     "added_at": "2026-09-30"
   },
   {
-    "id": "gravita--graduate-audit-training-programme-aca-oxford-january-2027",
-    "employer": "Gravita",
-    "programme": "Graduate Audit Training Programme (ACA) - Oxford - January 2027",
-    "sector": "accounting-audit-tax",
-    "stream": "Various",
-    "locations": [
-      "Oxford"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/graduate-audit-training-programme-aca-oxford-january-2027-at-gravita-4463369671",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
     "id": "gsk--future-leaders-programme-2027-finance",
     "employer": "GSK",
     "programme": "Future Leaders Programme 2027 (Finance)",
@@ -8129,7 +8078,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"apply today\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 6103
@@ -8232,7 +8181,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -8577,7 +8526,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -8883,7 +8832,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 3174
@@ -8988,7 +8937,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"applications open\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 14488
@@ -9074,11 +9023,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "HRT's careers page filtered for London + New Grad read 2026-09-29 shows 'There are no jobs that fit these filter criteria'; candidates are invited to join the Campus Talent Community.",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "HRT's careers page filtered to London lists 'Algorithm Developer (Quant Research & Trading) – 2027 Grads' with locations 'New York Singapore London' (plus 'Software Engineer (C++ or Python) – 2027 Grads' and a 2027 PhDs role); no closing date is shown (read 2026-09-30)",
     "url": "https://www.hudsonrivertrading.com/careers/",
-    "apply_url": null,
+    "apply_url": "https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-research-trading-2027-grads/",
     "degree_req": null,
     "salary": null,
     "notes": "No London new-grad postings live on 29 Sep 2026. Other proprietary trading firms checked had no UK graduate roles: Optiver London lists only Graduate Software Engineer; IMC, Flow Traders (Graduate Trader, rolling, four intakes a year) and Da Vinci recruit graduate traders in Amsterdam; SIG (Dublin), DRW and Tower Research pages gave no readable UK listings.",
@@ -9094,9 +9043,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "hymans-robertson--actuarial-consulting-analytics-graduate-programme-2027",
@@ -9167,7 +9117,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 537
@@ -9343,7 +9293,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 12803
@@ -9362,8 +9312,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Employer page returns 404 (removed).",
+    "status": "unknown",
+    "status_evidence": "insightinvestment.com/careers/ and /uk/about-us/careers/ both render a '404 Error page' in the browser and the UK home page has no careers or graduate link, so the 2027 programme status could not be read (read 2026-09-30).",
     "url": "https://www.insightinvestment.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -9374,7 +9324,7 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "http",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
@@ -9382,7 +9332,8 @@
       "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 404
-    }
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "institute-for-fiscal-studies--research-economist-graduate-recruitment",
@@ -9411,8 +9362,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -9481,8 +9432,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     }
@@ -9514,8 +9465,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -9727,7 +9678,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 9817
@@ -9764,7 +9715,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 30
@@ -9800,7 +9751,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 30
@@ -10012,7 +9963,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 350
@@ -10443,7 +10394,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -11089,7 +11040,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 350
@@ -11234,7 +11185,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Applications open\") but no 2027 graduate mention; status kept",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 6559
@@ -11664,7 +11615,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -12238,7 +12189,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 4289
@@ -12255,11 +12206,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Marex's careers page read 2026-09-29 says 'Our graduate opportunities are designed to develop your skills' and points to current openings, but gives no 2027 programme dates or status.",
+    "deadline": "2026-09-21",
+    "status": "closed",
+    "status_evidence": "The posting 'Marex UK Graduate Programme 2027' (London, roles start September 2027) states 'Applications close on 21 September 2026... applications may close sooner if we receive a high volume', a date that has passed, although the 'Apply To Position' button is still live and Marex's graduate careers page still says '2027 UK Graduate Program is now open!' (read 2026-09-30)",
     "url": "https://www.marex.com/careers/",
-    "apply_url": null,
+    "apply_url": "https://marex.breezy.hr/p/86dc2823d7d601",
     "degree_req": null,
     "salary": null,
     "notes": "Check current opportunities or email recruitment@marex.com.",
@@ -12275,8 +12226,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 2990,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "markel--uk-graduate-programmes",
@@ -12621,7 +12573,7 @@
     "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
-      "failures": 1,
+      "failures": 0,
       "http_failures": 0,
       "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
@@ -13134,7 +13086,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 3279
@@ -13169,7 +13121,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -13211,32 +13163,6 @@
       "chars": 0,
       "note": "js-rendered"
     }
-  },
-  {
-    "id": "montagu-evans--2027-graduate-historic-environment-townscape-adviser",
-    "employer": "Montagu Evans",
-    "programme": "2027 Graduate Historic Environment & Townscape Adviser",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-graduate-historic-environment-townscape-adviser-at-montagu-evans-4469425608",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
   },
   {
     "id": "monzo--graduate-credit-analyst-september-2027-start",
@@ -13379,7 +13305,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 9543
@@ -13454,32 +13380,6 @@
     }
   },
   {
-    "id": "mott-macdonald--2027-uk-graduate-radioactive-waste-consulting-career-path",
-    "employer": "Mott MacDonald",
-    "programme": "2027 UK Graduate Radioactive Waste Consulting Career Path",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "Bristol"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-uk-graduate-radioactive-waste-consulting-career-path-at-mott-macdonald-4469814981",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
     "id": "mufg--2027-analyst-programme-london-global-corporate-investment-ba",
     "employer": "MUFG",
     "programme": "2027 Analyst Programme - London (Global Corporate & Investment Banking / Global Markets / Corporate Functions)",
@@ -13509,7 +13409,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -13792,7 +13692,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 18
@@ -13900,8 +13800,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -13935,8 +13835,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -13970,8 +13870,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -14004,8 +13904,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -14038,8 +13938,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -14075,8 +13975,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     },
@@ -14111,7 +14011,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 910
@@ -14185,32 +14085,6 @@
       "chars": 10522,
       "note": "no open/closed wording found"
     }
-  },
-  {
-    "id": "newmark--assistant-planning-consultant-2027-graduate-programme",
-    "employer": "Newmark",
-    "programme": "Assistant Planning Consultant - 2027 Graduate Programme",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/assistant-planning-consultant-2027-graduate-programme-at-newmark-4462310809",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
   },
   {
     "id": "newton--graduate-consultant-programme-2027-operations-consultant-dig",
@@ -14886,7 +14760,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 18966
@@ -15173,7 +15047,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 5276
@@ -15381,7 +15255,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 2347
@@ -15416,7 +15290,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -15499,32 +15373,6 @@
     }
   },
   {
-    "id": "pkf-littlejohn--audit-associate-graduate-january-2027-ccm-chinese-speaker-lo",
-    "employer": "PKF Littlejohn",
-    "programme": "Audit Associate – Graduate – January 2027 – CCM Chinese Speaker - London",
-    "sector": "accounting-audit-tax",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/audit-associate-%E2%80%93-graduate-%E2%80%93-january-2027-%E2%80%93-ccm-chinese-speaker-london-at-pkf-littlejohn-4459960527",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
     "id": "pkf-littlejohn--graduate-trainee-2027-aca-acca-att-cta",
     "employer": "PKF Littlejohn",
     "programme": "Graduate Trainee 2027 (ACA/ACCA; ATT-CTA)",
@@ -15559,32 +15407,6 @@
       "chars": 10168,
       "note": "no open/closed wording found"
     }
-  },
-  {
-    "id": "pkf-littlejohn--institutional-donor-grant-audit-associate-graduate-january-2",
-    "employer": "PKF Littlejohn",
-    "programme": "Institutional Donor Grant Audit Associate – Graduate – January 2027 – London",
-    "sector": "accounting-audit-tax",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/institutional-donor-grant-audit-associate-%E2%80%93-graduate-%E2%80%93-january-2027-%E2%80%93-london-at-pkf-littlejohn-4459964444",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
   },
   {
     "id": "plural-strategy--graduate-strategy-consultant-analyst",
@@ -15758,7 +15580,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 785
@@ -15988,8 +15810,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 406",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 406
     }
@@ -16006,8 +15828,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Employer page returns 404 (removed).",
+    "status": "unknown",
+    "status_evidence": "The RAND Europe careers page (and two alternative RAND careers URLs) return 'PAGE NOT AVAILABLE (Error 404)', and RAND's Workday board returns 0 results for 'Europe' and only three US-based results for 'Analyst' (read 2026-09-30).",
     "url": "https://www.rand.org/randeurope/about/careers.html",
     "apply_url": null,
     "degree_req": null,
@@ -16017,7 +15839,7 @@
       "https://www.rand.org/randeurope/about/careers.html"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "http",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
@@ -16025,7 +15847,8 @@
       "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 404
-    }
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "rbb-economics--associate-entry-level-london",
@@ -16092,7 +15915,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 2177
@@ -17038,7 +16861,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 4692
@@ -17164,8 +16987,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "open",
-    "status_evidence": "Employer-posted LinkedIn listing live; no closing date stated (read 2026-09-30).",
+    "status": "unknown",
+    "status_evidence": "SmartRecruiters' public postings feed for SiaPartners returns 0 postings for country=gb and 0 for 'London', so no UK Graduate Scheme or Associate Consultant posting could be found on the board linked from Sia's site (read 2026-09-30).",
     "url": "https://www.sia-partners.com/en/career/consultant",
     "apply_url": "https://jobs.smartrecruiters.com/SiaPartners",
     "degree_req": null,
@@ -17177,7 +17000,7 @@
       "https://www.linkedin.com/jobs/view/4471860283"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "listing",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-30",
@@ -17185,8 +17008,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 58,
-      "note": "js-rendered"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "simon-kucher--consultant-entry-level-london",
@@ -17201,7 +17025,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Simon-Kucher UK page read 2026-09-29 only links to a JavaScript careers portal; Bright Network says Simon-Kucher uses internships as the main route to entry-level Consultant roles in London and no direct 2027 graduate posting was found.",
+    "status_evidence": "Simon-Kucher's careers portal shows only three London openings (Personal Assistant; Managers & Directors - TMT; Manager/Senior Manager/Director - Financial Services); 'Associate Consultant (Sept 2027)' postings exist for Madrid and Barcelona but not London (read 2026-09-30).",
     "url": "https://www.simon-kucher.com/en/country/united-kingdom",
     "apply_url": "https://simon-kucher.csod.com/ux/ats/careersite/6/home?c=simon-kucher",
     "degree_req": null,
@@ -17219,7 +17043,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 0,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -17286,7 +17110,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 1609
@@ -17308,7 +17132,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Official graduate-recruitment page read 2026-09-29 says all graduates join as Research Consultants and directs to careers.sqw.co.uk for current opportunities, which was not readable.",
+    "status_evidence": "SQW's careers site lists no vacancies ('We couldn't find any results ... Can't find the role for you? Send us your CV or sign up for job alerts'), so no Research Consultant graduate role is currently advertised (read 2026-09-30).",
     "url": "https://www.sqw.co.uk/careers/graduate-recruitment",
     "apply_url": "https://careers.sqw.co.uk/",
     "degree_req": null,
@@ -17326,7 +17150,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1614,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -17498,7 +17322,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 4209
@@ -17543,58 +17367,6 @@
     }
   },
   {
-    "id": "stantec--graduate-geoenvironmental-consultant-water-2027-reading-or-h",
-    "employer": "Stantec",
-    "programme": "Graduate Geoenvironmental Consultant - Water - 2027 (Reading or High Wycombe)",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "Reading"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/graduate-geoenvironmental-consultant-water-2027-reading-or-high-wycombe-at-stantec-4447910518",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
-    "id": "stantec--graduate-water-resources-consultant-water-2027-birmingham",
-    "employer": "Stantec",
-    "programme": "Graduate Water Resources Consultant - Water - 2027 (Birmingham)",
-    "sector": "management-tech-consulting",
-    "stream": "Various",
-    "locations": [
-      "Birmingham"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/graduate-water-resources-consultant-water-2027-birmingham-at-stantec-4447906621",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
     "id": "starling-bank--graduate-programme-2027",
     "employer": "Starling Bank",
     "programme": "Graduate Programme 2027",
@@ -17610,7 +17382,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Starling careers page read 2026-09-29 shows no graduate programme details (early-careers page 403); search results indicate a 2027 'register your interest' with opening date TBC.",
+    "status_evidence": "Starling's careers page lists 45 live job postings and none has graduate, intern, trainee, early careers or 2027 in its title; the early-careers page returns 'Page not found', so no 2027 graduate programme or opening date is published (read 2026-09-30)",
     "url": "https://www.starlingbank.com/careers/",
     "apply_url": null,
     "degree_req": null,
@@ -17629,7 +17401,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3409,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -17680,11 +17452,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "Steer careers pages returned HTTP 403 on 2026-09-29 so status could not be read.",
+    "deadline": "2026-10-22",
+    "status": "open",
+    "status_evidence": "Steer's graduates page says 'Applications now open - Applications are now open for our Steer Consultant Programme. Join us as an Assistant Consultant ... Applications close on Thursday 22 October', with 'apply now' links for London, Leeds, Birmingham and Manchester (read 2026-09-30).",
     "url": "https://www.steergroup.com/careers",
-    "apply_url": null,
+    "apply_url": "https://apply.workable.com/steer-group/j/B4839EFE71/",
     "degree_req": null,
     "salary": null,
     "notes": "Steer runs an annual graduate intake in transport planning and economics (London, Leeds, Manchester, Bristol offices). Check the page directly.",
@@ -17698,9 +17470,10 @@
       "last_attempt": "2026-09-30",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 1
-    }
+      "note": "checked by hand 2026-09-30",
+      "http_failures": 0
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "step--graduate-placements-with-small-businesses",
@@ -17764,7 +17537,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 648
@@ -17797,8 +17570,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     }
@@ -17833,7 +17606,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 755
@@ -17972,8 +17745,8 @@
     "start": "2027",
     "opens": null,
     "deadline": null,
-    "status": "closed",
-    "status_evidence": "Employer page returns 404 (removed).",
+    "status": "unknown",
+    "status_evidence": "T. Rowe Price's Workday board (137 jobs) returns no results for 'Investment Fellowship', 'Fellowship London' or 'graduate London', and the official fellowship-detail page now returns 'Page Not Found', so no 2027 London fellowship posting exists (read 2026-09-30).",
     "url": "https://www.troweprice.com/corporate/us/en/careers/students-and-recent-graduates/fellowship-detail.html",
     "apply_url": null,
     "degree_req": "Maths, engineering, sciences or similarly quantitative degree",
@@ -17984,7 +17757,7 @@
       "https://www.intervyo.co.uk/tracker/finance-graduate-scheme"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "http",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
@@ -17992,111 +17765,8 @@
       "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 404
-    }
-  },
-  {
-    "id": "targetjobs-uk--2027-client-and-product-graduate-rotational-program",
-    "employer": "targetjobs UK",
-    "programme": "2027 Client and Product Graduate Rotational Program",
-    "sector": "retail-commercial-banking",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-client-and-product-graduate-rotational-program-at-targetjobs-uk-4438315868",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
-    "id": "targetjobs-uk--2027-commodities-and-global-markets-graduate-programme",
-    "employer": "targetjobs UK",
-    "programme": "2027 Commodities and Global Markets Graduate Programme",
-    "sector": "markets-trading",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-commodities-and-global-markets-graduate-programme-at-targetjobs-uk-4468436196",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
-    "id": "targetjobs-uk--2027-finance-analyst-graduate-programme",
-    "employer": "targetjobs UK",
-    "programme": "2027 Finance Analyst Graduate Programme",
-    "sector": "investment-banking",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-finance-analyst-graduate-programme-at-targetjobs-uk-4467837344",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
-  },
-  {
-    "id": "targetjobs-uk--2027-wealth-management-wealth-planning-graduate-programme",
-    "employer": "targetjobs UK",
-    "programme": "2027 Wealth Management (Wealth Planning) Graduate Programme",
-    "sector": "wealth-management",
-    "stream": "Various",
-    "locations": [
-      "London"
-    ],
-    "start": "2027",
-    "opens": null,
-    "deadline": null,
-    "status": "open",
-    "status_evidence": "Listed on LinkedIn, seen 2026-09-30. Employer page not checked yet.",
-    "url": "https://www.linkedin.com/jobs/view/2027-wealth-management-wealth-planning-graduate-programme-at-targetjobs-uk-4464890029",
-    "apply_url": null,
-    "degree_req": null,
-    "salary": null,
-    "notes": "",
-    "source_urls": [
-      "https://www.linkedin.com/jobs/"
-    ],
-    "checked_at": "2026-09-30",
-    "status_source": "listing",
-    "added_at": "2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "teneo--financial-advisory-management-consulting-graduate-programme-",
@@ -18298,7 +17968,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 5059
@@ -18453,7 +18123,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "TP ICAP's careers page read 2026-09-29 references an 'Early Careers' section offering 'structured training' but the early-careers page itself returned HTTP 403 and no 2027 details were visible.",
+    "status_evidence": "TP ICAP's opportunities page filtered to Early Careers shows a single result, 'Global Broking Off-Cycle Internship 2026, Paris - Equity Derivatives'; no London graduate programme is posted and no 2027 dates are given (the early-careers page itself returns 'Page not found') (read 2026-09-30)",
     "url": "https://tpicap.com/tpicap/careers",
     "apply_url": null,
     "degree_req": null,
@@ -18471,7 +18141,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 8150,
-      "note": "no open/closed wording found"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -18722,8 +18392,8 @@
     "start": "2027",
     "opens": "2026-09-28",
     "deadline": "rolling",
-    "status": "closed",
-    "status_evidence": "Employer page returns 404 (removed).",
+    "status": "open",
+    "status_evidence": "Official posting read 2026-09-30: UFLP Finance UK 2027 opened 28 Sep 2026, application window 28 Sep to 12 Oct. (The page returned 404 to the automatic checker.)",
     "url": "https://careers.unilever.com/en/job/united-kingdom/unilever-future-leadership-programme-finance-uk/34155/101254605296",
     "apply_url": null,
     "degree_req": "Any degree ('You don't need a finance or economics degree')",
@@ -18736,7 +18406,7 @@
       "https://careers.unilever.com/en/uk-and-ireland-early-careers"
     ],
     "checked_at": "2026-09-30",
-    "status_source": "http",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-09-30",
@@ -18774,7 +18444,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 8695
@@ -18895,7 +18565,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Wavehill's vacancies page returned 404 and the about page read 2026-09-29 shows no job listings; status could not be determined.",
+    "status_evidence": "wavehill.com/careers redirects to the About page, which contains no careers, vacancies or recruitment links or text, so no Researcher or Research Assistant opening could be found (read 2026-09-30).",
     "url": "https://www.wavehill.com/careers",
     "apply_url": null,
     "degree_req": null,
@@ -18913,7 +18583,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 0,
-      "note": "js-rendered"
+      "note": "checked by hand 2026-09-30"
     }
   },
   {
@@ -18944,7 +18614,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 0
@@ -18978,8 +18648,8 @@
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
-      "http_failures": 1,
-      "note": "HTTP 403",
+      "http_failures": 0,
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 403
     }
@@ -19530,7 +19200,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "js-rendered",
+      "note": "checked by hand 2026-09-30",
       "last_attempt": "2026-09-30",
       "http": 200,
       "chars": 249
@@ -19617,11 +19287,11 @@
     ],
     "start": "2027",
     "opens": null,
-    "deadline": null,
-    "status": "unknown",
-    "status_evidence": "ZS recent-graduates page read 2026-09-29 gives no London-specific 2027 posting, status or deadline; jobs.zs.com must be searched directly.",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "jobs.zs.com lists 'Decision Analytics Associate - London 2027' (and 'Strategy Insights & Planning Associate - London 2027', Req ID 63313) with live 'Apply now' buttons; the posting asks for 'a Bachelors, Masters or PhD in any discipline with strong academic performance in quantitative and analytic coursework' and states no closing date (read 2026-09-30).",
     "url": "https://www.zs.com/careers/find-your-path/recent-graduates",
-    "apply_url": "https://jobs.zs.com/",
+    "apply_url": "https://jobs.zs.com/jobs/67391",
     "degree_req": "Final-year undergraduate or master's; quantitative background preferred for Decision Analytics",
     "salary": null,
     "notes": "Decision Analytics Associate uses R, Tableau, SAS, Excel - a good fit for econometrics skills. Intervyo lists ZS 2027 as TBC.",
@@ -19638,8 +19308,9 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 626,
-      "note": "no open/closed wording found"
-    }
+      "note": "checked by hand 2026-09-30"
+    },
+    "status_changed_at": "2026-09-30"
   },
   {
     "id": "zurich-uk--accounting-graduate-programme-2027",
