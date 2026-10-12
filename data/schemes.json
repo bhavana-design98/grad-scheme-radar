@@ -13,7 +13,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Aberdeen's graduates-and-internships page describes the Graduate Programme as 'a cohesive journey' and the internship as 'a clear pathway into the graduate programme' but its 'How to apply' tab contains no dates, vacancy links or apply button (read 2026-09-30).",
+    "status_evidence": "Could not verify 2026-10-12: page gives no status or deadline",
     "url": "https://www.aberdeenplc.com/en-gb/careers/early-careers/summer-internships-and-graduate-programmes",
     "apply_url": null,
     "degree_req": null,
@@ -29,7 +29,7 @@
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "no open/closed wording found",
+      "note": "checked by Claude 2026-10-12",
       "last_attempt": "2026-10-12",
       "http": 200,
       "chars": 2601,
@@ -49,7 +49,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Accenture's UK Pinpoint board lists only a 'Register Your Interest - Undergraduate & Graduate Programmes 2027' form (plus Dublin FY28 graduate roles closing 25 Oct 2026); no UK 2027 graduate vacancy or opening date is posted. (read 2026-09-30)",
+    "status_evidence": "Could not verify 2026-10-12 on official page; Gradcracker/Higherin list it as register interest, no open date",
     "url": "https://www.accenture.com/gb-en/careers/local/graduates",
     "apply_url": "https://accenture.pinpointhq.com/united-kingdom",
     "degree_req": "Any degree; predicted 2:1",
@@ -68,7 +68,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 1721,
-      "note": "no open/closed wording found",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -625,7 +625,7 @@
     "opens": "2026-09",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Allianz UK's graduate schemes page says applications are taken between September and December for the following summer, but the careers job search returns no readable UK results for 'graduate' in either automated fetch or the browser, so no live 2027 Actuarial vacancy could be confirmed. (read 2026-09-30)",
+    "status_evidence": "Could not verify 2026-10-12: page says apply Sept-Dec for following summer but no 2027 status or deadline",
     "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
     "apply_url": null,
     "degree_req": null,
@@ -643,7 +643,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 23264,
-      "note": "open wording (\"submit your application\") but no 2027 graduate mention; status kept",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -940,7 +940,7 @@
     "opens": null,
     "deadline": "2026-11-01",
     "status": "unknown",
-    "status_evidence": "Employer page returns HTTP 403; cannot verify automatically.",
+    "status_evidence": "Could not verify 2026-10-12: Bright Network returned 403",
     "url": "https://www.brightnetwork.co.uk/graduate-jobs/alpha-fmc/insurance-consulting-graduate-analyst-2027",
     "apply_url": null,
     "degree_req": null,
@@ -951,14 +951,14 @@
       "https://www.brightnetwork.co.uk/search/?content_types=jobs&job_types=Graduate+job&sort_by=recent&s=insurance+2027"
     ],
     "checked_at": "2026-10-12",
-    "status_source": "blocked",
+    "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "last_attempt": "2026-10-12",
       "http": 403,
       "failures": 0,
-      "note": "HTTP 403",
-      "http_failures": 13,
+      "note": "checked by Claude 2026-10-12",
+      "http_failures": 0,
       "gone": 0
     }
   },
@@ -975,7 +975,7 @@
     "opens": null,
     "deadline": "2026-10-18",
     "status": "open",
-    "status_evidence": "Official Greenhouse posting read 2026-09-29: 'Applications will close on Sunday 18th October 2026'; start 'September 2027'.",
+    "status_evidence": "Greenhouse page: applications close Sunday 18 October 2026, Class of 2027 Sept start (read 2026-10-12)",
     "url": "https://job-boards.greenhouse.io/alphafmcrolesearlycareers/jobs/8789041002",
     "apply_url": null,
     "degree_req": "Predicted or achieved 2:1 in any discipline",
@@ -994,7 +994,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 7544,
-      "note": "no open/closed wording found",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -1907,7 +1907,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "AXA UK's careers job search for 'graduate' returns 0 results and the site only offers a Talent Community sign-up; no 2027 graduate programme posting or opening date was found. (read 2026-09-30)",
+    "status_evidence": "Could not verify 2026-10-12: no 2027 dates found; AXA UK reportedly moving towards apprenticeships",
     "url": "https://careers.axa.co.uk/",
     "apply_url": null,
     "degree_req": null,
@@ -1926,7 +1926,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5284,
-      "note": "no open/closed wording found",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -1943,7 +1943,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Azets' early-careers page links to a current-opportunities job list that renders empty in both automated fetch and the browser, so no live 2027 graduate trainee posting or opening date could be read. (read 2026-09-30)",
+    "status_evidence": "Could not verify 2026-10-12: page shows no status or deadline, only link to current opportunities",
     "url": "https://www.azets.com/en-uk/careers/early-careers",
     "apply_url": null,
     "degree_req": "Undergraduate degree, usually 2:1",
@@ -1961,7 +1961,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 3457,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -1978,7 +1978,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "BAE's UK graduate job search (filtered to graduates, United Kingdom) lists 9 roles, none of them Finance; a 'Graduate Finance 2027' posting was reported on Bright Network on 22 Sep 2026 but is not on BAE's own board, so it may already have closed (BAE roles 'may close without notice'). (read 2026-09-30)",
+    "status_evidence": "Could not verify 2026-10-12: listings describe scheme but give no close date",
     "url": "https://careers.baesystems.com/locations/uk/graduates",
     "apply_url": "https://jobsearch.baesystems.com/search-and-apply?_international_locations_checkboxes=united-kingdom&_level_of_experience_checkboxes=graduates",
     "degree_req": null,
@@ -1997,7 +1997,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 5768,
-      "note": "no open/closed wording found",
+      "note": "checked by Claude 2026-10-12",
       "gone": 0
     }
   },
@@ -2086,7 +2086,7 @@
     "opens": "2026-09-01",
     "deadline": "2026-10-15",
     "status": "open",
-    "status_evidence": "Official Bain London recruiting page read 2026-09-29: 'Applications for the Associate Consultant role in the London office are now open and will close on October 15th 23:59 BST'.",
+    "status_evidence": "Page shows live Apply now button; deadline varies by office, London date not stated (read 2026-10-12)",
     "url": "https://www.bain.com/careers/recruiting/london-recruiting/",
     "apply_url": "https://www.bain.com/careers/find-a-role/position/?jobid=10397",
     "degree_req": "Any degree, any university; final-year students or under two years' work experience since graduation",
@@ -2106,7 +2106,8 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 10350,
-      "gone": 0
+      "gone": 0,
+      "note": "checked by Claude 2026-10-12"
     }
   },
   {
@@ -3533,6 +3534,32 @@
       "note": "js-rendered",
       "gone": 0
     }
+  },
+  {
+    "id": "bloomberg--2027-analytics-sales-italian-speakers",
+    "employer": "Bloomberg",
+    "programme": "2027 Analytics & Sales (Italian speakers)",
+    "sector": "exchanges-data-ratings",
+    "stream": "Analytics & Sales",
+    "locations": [
+      "London"
+    ],
+    "start": "2027",
+    "opens": null,
+    "deadline": "2026-11-30",
+    "status": "open",
+    "status_evidence": "TARGETjobs listing shows an active Apply button and closing date 30 November 2026. Read 2026-10-12.",
+    "url": "https://targetjobs.co.uk/jobs/2027-analytics-sales-italian-speakers-239507",
+    "apply_url": null,
+    "degree_req": "Bachelor's degree or relevant work experience",
+    "salary": null,
+    "notes": "Language-specific London role; similar 2027 Analytics & Sales listings exist for German and French speakers. Employer page returned 403 so listing is via TARGETjobs. Sponsorship available per listing.",
+    "source_urls": [
+      "https://targetjobs.co.uk/jobs/2027-analytics-sales-italian-speakers-239507"
+    ],
+    "checked_at": "2026-10-12",
+    "status_source": "hand",
+    "added_at": "2026-10-12"
   },
   {
     "id": "bmo-capital-markets--new-graduate-programmes-2027-bmo-capital-markets-london",
@@ -18255,6 +18282,36 @@
       "gone": 12
     },
     "status_changed_at": "2026-09-30"
+  },
+  {
+    "id": "rathbones--graduate-wealth-manager-programme-2027",
+    "employer": "Rathbones",
+    "programme": "Graduate Wealth Manager Programme 2027",
+    "sector": "wealth-management",
+    "stream": "Wealth (investments, portfolio management, financial planning, wealth planning)",
+    "locations": [
+      "London",
+      "Bristol",
+      "Glasgow",
+      "Edinburgh",
+      "Leeds"
+    ],
+    "start": "September 2027",
+    "opens": "2026-09-14",
+    "deadline": null,
+    "status": "unknown",
+    "status_evidence": "GRB listing (run for Rathbones) says applications opened 14 September 2026, may close early, and marks the listing closed; Rathbones' own page returned 404. Read 2026-10-12.",
+    "url": "https://www.grb.uk.com/graduate-jobs/rathbones-group-graduate-wealth-manager-programme-register-your-interest-london-bristol-leeds-glasgow-edinburgh-37853/",
+    "apply_url": null,
+    "degree_req": "2:1 in any discipline",
+    "salary": "Competitive",
+    "notes": "Two-year rotation; no CV or cover letter; assessment centres 24 Nov-8 Dec 2026. Listing inconsistent on Leeds vs Liverpool and shows a closing date of 13 Sep 2026, so check status on Rathbones' site.",
+    "source_urls": [
+      "https://www.grb.uk.com/graduate-jobs/rathbones-group-graduate-wealth-manager-programme-register-your-interest-london-bristol-leeds-glasgow-edinburgh-37853/"
+    ],
+    "checked_at": "2026-10-12",
+    "status_source": "hand",
+    "added_at": "2026-10-12"
   },
   {
     "id": "rbb-economics--associate-entry-level-london",
