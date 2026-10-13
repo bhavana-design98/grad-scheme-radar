@@ -588,7 +588,7 @@
     "opens": null,
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "AlixPartners' Business Analyst Accelerated Consulting Programme page shows no 2027 dates and its 'Apply now' button leads to the general job search, whose listings did not render in the browser, so no London 2027 posting could be confirmed (read 2026-09-30).",
+    "status_evidence": "Could not verify 2026-10-13: page has Apply now buttons but no dates",
     "url": "https://www.alixpartners.com/careers/students-and-recent-graduates/",
     "apply_url": "https://features.alixpartners.com/business-analyst-programme/",
     "degree_req": "Master's degree in finance, economics, business, maths, engineering, statistics or computer science",
@@ -599,13 +599,13 @@
       "https://www.intervyo.co.uk/tracker/consulting-graduate-scheme",
       "https://www.alixpartners.com/careers/"
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-10-13",
     "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
       "failures": 0,
       "http_failures": 0,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by Claude 2026-10-13",
       "last_attempt": "2026-10-12",
       "http": 200,
       "chars": 6217,
@@ -625,7 +625,7 @@
     "opens": "2026-09",
     "deadline": null,
     "status": "unknown",
-    "status_evidence": "Could not verify 2026-10-12: page says apply Sept-Dec for following summer but no 2027 status or deadline",
+    "status_evidence": "Could not verify 2026-10-13: page only says applications run Sept-Dec for following summer",
     "url": "https://careers.allianz.com/gb/en/graduate-schemes-uk",
     "apply_url": null,
     "degree_req": null,
@@ -634,7 +634,7 @@
     "source_urls": [
       "https://careers.allianz.com/gb/en/graduate-schemes-uk"
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-10-13",
     "status_source": "hand",
     "added_at": "2026-09-29",
     "verify": {
@@ -643,7 +643,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 23264,
-      "note": "checked by Claude 2026-10-12",
+      "note": "checked by Claude 2026-10-13",
       "gone": 0
     }
   },
@@ -7314,9 +7314,9 @@
     ],
     "start": "2027-04",
     "opens": null,
-    "deadline": null,
-    "status": "opens-soon",
-    "status_evidence": "Read 2026-09-30: 'We're now taking Registrations of Interest for our forthcoming Spring cohort in 2027. Formal applications will open soon.'",
+    "deadline": "rolling",
+    "status": "open",
+    "status_evidence": "EF portal lists London Spring 2027 (April start), rolling review, no deadline published (read 2026-10-13)",
     "url": "https://apply.joinef.com/",
     "apply_url": "https://www.joinef.com/register-your-interest-london/",
     "degree_req": null,
@@ -7326,7 +7326,7 @@
       "https://apply.joinef.com/",
       "https://www.joinef.com/register-your-interest-london/"
     ],
-    "checked_at": "2026-10-12",
+    "checked_at": "2026-10-13",
     "status_source": "hand",
     "added_at": "2026-09-30",
     "verify": {
@@ -7335,7 +7335,7 @@
       "failures": 0,
       "http_failures": 0,
       "chars": 597,
-      "note": "open wording (\"Apply now\") but no 2027 graduate mention; status kept",
+      "note": "checked by Claude 2026-10-13",
       "gone": 0
     }
   },

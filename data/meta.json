@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-12T14:09:50.689Z",
+  "last_run": "2026-10-13T08:53:21.270Z",
   "last_verify": {
     "date": "2026-10-12",
     "total": 620,
@@ -26,9 +26,9 @@
   },
   "launched": "2026-09-30",
   "last_claude": {
-    "date": "2026-10-12",
-    "verified": 10,
-    "added": 2,
-    "notes": "Most employer pages unreadable or undated; added Rathbones and Bloomberg"
+    "date": "2026-10-13",
+    "verified": 3,
+    "added": 0,
+    "notes": "Light run: 1 status change (EF London Spring 2027 now open, rolling); no new schemes confirmed"
   }
 }
