@@ -1,26 +1,26 @@
 {
-  "last_run": "2026-11-23T16:03:25.340Z",
+  "last_run": "2026-11-25T15:41:19.795Z",
   "last_verify": {
-    "date": "2026-11-23",
+    "date": "2026-11-25",
     "total": 698,
-    "changed": 4,
+    "changed": 14,
     "counts": {
-      "unknown": 201,
+      "unknown": 198,
       "opens-soon": 53,
-      "open": 123,
-      "closed": 321
+      "open": 115,
+      "closed": 332
     },
-    "seconds": 112
+    "seconds": 120
   },
   "last_discover": {
-    "date": "2026-11-23",
+    "date": "2026-11-25",
     "sources": {
       "linkedin": "blocked",
       "adzuna": false,
       "reed": false
     },
-    "candidates": 10,
-    "added": 0,
+    "candidates": 38,
+    "added": 1,
     "updated": 0,
     "skipped": 0
   },
